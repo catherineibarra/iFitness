@@ -1,25 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
-    <head>
-        <title>Login Page</title>
-    </head>
-    <body>
-
-<!--nav menu-->>
-<a herf="index.html"></a>
-<a herf="Shop.html"></a>
-<a herf="login.html"></a>
-<a herf="register.html"></a>
-<a herf="Search.html"></a>
-<a herf="cart.html"></a>
-
-
-
-
-
-
-
-
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!--nav menu-->
+    <div class="nav">
+      <a href="index.html">Home Page</a>
+      <a href="shop.html">Shop</a>
+      <input type="text" placeholder="Search...">    
+      <button type="submit"><i class="fa fa-search"></i></button> 
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </div>
+    <div>
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+      /><br />
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input
+        type="text"
+        name="password"
+        id="password"
+        placeholder="Password"
+      /><br />
+    </div>
+    <div>
+      <input type="submit" value="Sign in" />
+    </div>
+  </body>
 </html>
