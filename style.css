@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-nav {
+  overflow: hidden;
+  background-color: #BCCBD3;
+  padding: 0px;
+}
+
+.main-nav a {
+    float: left;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #BCCBD3;
+    color: black;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
