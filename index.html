@@ -1,19 +1,28 @@
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home Page</title>
+    <title> Home | iFitness </title>
   </head>
+
+
   <body>
     <!--nav menu-->
-    <div class="nav">
-      <a href="index.html">Home Page</a>
-      <a href="shop.html">Shop</a>
-      <input type="text" placeholder="Search..."> 
-      <button type="submit"><i class="fa fa-search"></i></button>
-      <a href="cart.html">Cart</a>
-      <a href="login.html">Login</a>
-      <a href="register.html">Register</a>
+    <div class="main-nav">
+        <a href="index.html"> HOME </a>
+        <a href="shop.html"> SHOP </a>
+
+      <form action="search.php" method="GET">
+        <input type="text" name="query" />
+        <input type="submit" value="Search" />
+      </form>
+
+      <a href="cart.html"> CART </a>
+      <a href="login.html"> LOGIN </a>
+      <a href="register.html"> REGISTER </a>
     </div>
+
   </body>
 </html>
