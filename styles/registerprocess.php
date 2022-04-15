@@ -64,14 +64,14 @@
 
 
             if (!$table_exists) {
-                echo "checking database";
+                
                 //creating table in database
-                $create_table = "CREATE TABLE $sql_table (firstname VARCHAR(40) PRIMARY KEY,lastname VARCHAR(40), email VARCHAR(50),username VARCHAR(20),password VARCHAR(255))";
+                $create_table = "CREATE TABLE $sql_table (f_name VARCHAR(40),l_name VARCHAR(40), email VARCHAR(50),u_name VARCHAR(20),p_word VARCHAR(255))";
                 mysqli_query($conn, $create_table);
             }
-            echo "database found";
+            
             //checks if status code is already inside the database
-            $code_query = "SELECT username FROM $sql_table WHERE username = '$username';";
+            $code_query = "SELECT u_name FROM $sql_table WHERE u_name = '$username';";
             $code_results = mysqli_query($conn, $code_query);
 
             //this checks inside the row if there is a results that matches.
@@ -81,7 +81,7 @@
             } else {
 
                 //insert user inputs into database
-                $insert_query = "INSERT INTO `$sql_table` (`firstname`, `lastname`, `email`, `username`, `password`) VALUES ('$firstname','$lastname','$email','$username','$encrypt');";
+                $insert_query = "INSERT INTO `$sql_table` (`f_name`, `l_name`, `email`, `u_name`, `p_word`) VALUES ('$firstname','$lastname','$email','$username','$encrypt');";
                 $insert_results = mysqli_query($conn, $insert_query);
 
                 //checks if query is inserted into the database.

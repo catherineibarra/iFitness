@@ -15,25 +15,33 @@
       <a href="login.html">Login</a>
       <a href="register.html">Register</a>
     </div>
+    
     <div>
-      <form action="loginprocess.php" method="post">
-      <label for="username">Username:</label>
+      <form action="loginprocess.php" method="get">
+      <label>Username:</label>
       <input
         type="text"
         name="username"
         id="username"
+        pattern="[a-zA-Z0-9]"
         placeholder="Username"
+        onkeyup="ucheck.updateUrl(this.value)"
+        required
       /><br />
     </div>
+    
     <div>
-      <label for="password">Password:</label>
+      <label>Password:</label>
       <input
         type="text"
         name="password"
         id="password"
         placeholder="Password"
+        onkeyup="ucheck.updateUrl(this.value)"
+        required
       /><br />
     </div>
+
     <div>
       <input type="submit" value="Sign in" />
     </div>
