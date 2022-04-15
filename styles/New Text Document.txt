@@ -1,0 +1,7 @@
+Help:
+code to get picture
+:
+img src="images/______________"width="___" height="___">
+
+link pages
+<a href=_____________________________>
