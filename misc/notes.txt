@@ -1,0 +1,11 @@
+Help:
+code to get picture
+:
+img src="images/______________"width="___" height="___">
+
+link pages
+<a href=_____________________________>
+
+
+login and passwords check 
+https://www.codeproject.com/Questions/1176623/Checking-username-and-password-in-PHP
