@@ -19,34 +19,39 @@
     </div>
 
     <?php
+
+    //initialize variable from register.html
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
     $username = $_POST["username"];
-    $password = $_POST["password"];
-    $rep_pass = $_POST["pass-reapeat"];
+    $password = ($_POST["password"]);
+    $rep_pass = ($_POST["passreapeat"]);
 
+    //error message
     $error_message = "";
 
-    if ($password === $rep_pass) {
-        $error_message .= "<p>Password does not match. Please enter a new password</p>";
+    //checks if password is the same
+    if ($password != $rep_pass) {
+        $error_message .= "<p>Password does not match. Please enter the same password</p>";
     }
 
-
-    $secure_pass = password_hash($password, PASSWORD_BCRYPT);
+    //encrypting password
+    $encrypt = hash('sha256',$password);
 
     //prints error message before entering into database
     if (!empty($error_message)) {
         echo $error_message;
     } else {
-
-        require_once('../../conf/account.inc.php');
-        $conn = @mysqli_connect(
-            $sql_host,
-            $sql_user,
-            $sql_pass,
-            $sql_db
-        );
+        
+            //login details for database
+            require_once('../../conf/sdp.inc.php');
+            $conn = @mysqli_connect(
+                $sql_host,
+                $sql_user,
+                $sql_pass,
+                $sql_db
+            );
 
         if (!$conn) {
             //database error message
@@ -56,15 +61,17 @@
 
             //checking for database 
             $table_exists = mysqli_query($conn, "SELECT * FROM $sql_table;");
-            if (!$table_exists) {
 
+
+            if (!$table_exists) {
+                
                 //creating table in database
-                $create_table = "CREATE TABLE accountdetails (firstname VARCHAR(40) PRIMARY KEY,lastname VARCHAR(40), email VARCHAR(50),username VARCHAR(20),password VARCHAR(255))";
+                $create_table = "CREATE TABLE $sql_table (f_name VARCHAR(40),l_name VARCHAR(40), email VARCHAR(50),u_name VARCHAR(20),p_word VARCHAR(255))";
                 mysqli_query($conn, $create_table);
             }
-
+            
             //checks if status code is already inside the database
-            $code_query = "SELECT username FROM $sql_table WHERE username = '$username';";
+            $code_query = "SELECT u_name FROM $sql_table WHERE u_name = '$username';";
             $code_results = mysqli_query($conn, $code_query);
 
             //this checks inside the row if there is a results that matches.
@@ -74,9 +81,8 @@
             } else {
 
                 //insert user inputs into database
-                $insert_query = "INSERT INTO `$sql_table` (`firstname`, `lastname`, `email`, `username`, `password`,) VALUES ('$firstname','$lastname','$email','$username','$secure_pass);";
+                $insert_query = "INSERT INTO `$sql_table` (`f_name`, `l_name`, `email`, `u_name`, `p_word`) VALUES ('$firstname','$lastname','$email','$username','$encrypt');";
                 $insert_results = mysqli_query($conn, $insert_query);
-
 
                 //checks if query is inserted into the database.
                 if (!$insert_results) {
@@ -87,17 +93,10 @@
                     echo "<p>Account has been registered</p>";
                 }
             }
-
-            //close results and connections
-            mysqli_free_result($code_results);
-            mysqli_free_result($insert_results);
-            mysqli_close($conn);
         }
     }
 
     ?>
-    </form>
-    </div>
 </body>
 
 </html>

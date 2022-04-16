@@ -1,4 +1,185 @@
+
+/* color pallet for header and footer bar */
+:root{
+  --primary-color: grey;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+/*everything*/
+*{
+  box-sizing:  border-box;
+  padding: 0;
+  margin: 0;
+}
+/*inside body features*/
 body {
+  font-family:'Courier New', Courier, monospace;
+  color: #000;
+  line-height: 2;
+}
+
+
+/*listing styles*/
+ul{
+  list-style-type: none;
+}
+/*hyper links remove bottom lines*/
+a{
+  text-decoration: none;
+}
+/*header types */
+h1, h2{
+  font-weight: 300;
+  line-height: 2;
+  margin: 10px 0;
+}
+/*text pages gaps*/
+p{
+  margin: 10px 0;
+}
+/*image sizes*/
+img{
+  width: 100%;
+}
+
+/*navbar style*/
+.navbar{
+  background-color: var(--primary-color);
+  color: #000;
+  height: 100px;
+
+}
+.space{
+  display:inline;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar a{
+  color:aliceblue;
+  padding: 30px;
+  margin:  5px;
+}
+.navbar a:hover{
+  border-bottom: 1px white solid;
+}
+/*nav bar flex*/
+.navbar .flex{
+  justify-content: space-between;
+}
+
+/* Showcase center part*/
+.showcase{
+  height: 600px;
+  background: white;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.showcase h1{
+  font-size: 40px;
+}
+
+.showcase p{
+  margin: 20px 0;
+}
+.showcase .grid{
+  overflow: visible;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+}
+
+.showcase-form{
+ position: relative;
+ top: 60px;
+ height: 350px;
+width: 400px;
+padding: 40px;
+z-index: 100px;
+justify-self: flex-end;
+}
+
+.showcase-form .form-control{
+  margin: 30px 0;
+}
+
+.showcase-form input[type='text'],
+.showcase-form input[type='password']{
+  border: 0;
+  border-bottom: 2px solid grey;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.showcase-form input:focus{
+  outline: none;
+}
+
+
+/* Footer bar*/
+
+.footer{
+  background-color: var(--primary-color);
+  color: #000;
+  height: 170px;
+}
+
+.nothing{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+
+}
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-facebook:hover {
+  color: #1773EA;
+}
+
+.fa-instagram:hover {
+  color: #B32E87;
+}
+
+.fa-twitter:hover {
+  color: #1C9CEA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -24,4 +205,4 @@ footer {
   padding: 30px 30px 30px 30px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-}
+}*/

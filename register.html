@@ -1,82 +1,104 @@
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Login Page</title>
   </head>
   <body>
-    <!--nav menu-->
-    <div class="nav">
-      <a href="index.html">Home Page</a>
-      <a href="shop.html">Shop</a>
-      <input type="text" placeholder="Search..."> 
-      <button type="submit"><i class="fa fa-search"></i></button>     
-      <a href="cart.html">Cart</a>
-      <a href="login.html">Login</a>
-      <a href="register.html">Register</a>
+    <!--header bar-->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">IFitness</h1>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>  
+                <li><input type="text" placeholder="Search..."></li>
+                <li><button type="submit"><i class="fa fa-search"></i></button></li>      
+              </ul>
+            </nav>
+            <nav>
+            <ul>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    <!-- Center screen-->
+
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>testing pages</h1>
+            <p>word test if this works 
+          </p>
+        </div>
+        <div class="showcase-form card">
+          <h2>register</h2>
+            <form action="registerprocess.php" method="POST">
+              <div class="form-control"> 
+                <input type="text" placeholder="First name" name="firstname" id="firstname"requred/>
+              </div>
+              <div class="form-control"> 
+                <input type="text" placeholder="Last name" name="lastname" id="lastname"requred/>
+              </div>
+              <div class="form-control"> 
+                <input type="text" placeholder="Example@mail.com" name="email" id="email" requred/>
+              </div>
+              <div class="form-control"> 
+                <input type="text" placeholder="Username" name="username" id="username" requred/>
+              </div>
+              <div class="form-control"> 
+                <input type="password" placeholder="Password" name="password" id="password" required/>
+              </div>
+              <div class="form-control"> 
+                <input type="password" placeholder="Password" name="passreapeat" id="passreapeat" required/>
+              </div>
+                <div>
+                  <p>By creating an account you agree to our terms and conditions.</p>
+                  <input type="submit" value="Submit" class="btn btn-secondary" />
+                  <input type="reset" value="Reset" class="btn btn-secondary" />
+                </div>
+          </div>
+      </form>
     </div>
+          </section>
 
-
-<form action="registerprocess.php" method="POST">
-  <div>
-    <label for="firstname"><b>First Name</b></label>
-    <input type="text" 
-    placeholder="First name" 
-    name="firstname"
-    id="firstname"
-    requred/>
-  </div>
-  <div>
-    <label for="lastname"><b>Last Name</b></label>
-    <input type="text" 
-    placeholder="Last name" 
-    name="lastname"
-    id="lastname"
-    requred/>
-  </div>
-
-
-    <div>
-      <label for="email"><b>Email</b></label>
-      <input type="text" 
-      placeholder="Example@mail.com" 
-      name="email"
-      id="email"
-      requred/>
-    </div>
-
-    <div>
-      <label for="username"><b>username</b></label>
-      <input type="text" 
-      placeholder="Username" 
-      name="username"
-      id="username"
-      requred/>
-    </div>
-
-    <div>
-      <label for="pass"><b>Password:</b></label>
-      <input type="password"
-      placeholder="Password"
-      name="pass"
-      id="pass"
-      required/>
-    </div>
-
-    <div>
-      <label for="pass-reapeat"><b>Repeat Password</b></label>
-      <input type="password"
-      placeholder="Password"
-      name="pass-reapeat"
-      id="pass-reapeat"
-      required/>
-    <div>
-
-      <p>By creating an accout you agree to our </p>
-      <input type="submit" value="Submit" class="button" />
-      <input type="reset" value="Reset" class="button" />
-    </div>
-    </form>
-    </div>
+      <!--Footer bar-->    
+      <footer class="footer bg-primary py-3">
+        <div class="container grid grid-3">
+          <!--Social media parts-->
+          <div class="social">
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+          <div>
+                <ul>
+                  <li>
+                    Copyright &copy; IFitness. All Rights reserved. 2022
+                  </li>
+                </ul>
+                </div>
+            <nav>
+              <!--pages for like others, more about us etc.-->
+                <ul>
+                    <li><a href="#"># links 1 </a></li>
+                    <li><a href="#"># links 2</a></li>
+                    <li><a href="#"># links 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
   </body>
 </html>

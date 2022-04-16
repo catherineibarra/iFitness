@@ -1,19 +1,70 @@
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="utilities.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Shop Page</title>
   </head>
   <body>
-    <!--nav menu-->
-    <div class="nav">
-      <a href="index.html">Home Page</a>
-      <a href="shop.html">Shop</a>
-      <input type="text" placeholder="Search..."> 
-      <button type="submit"><i class="fa fa-search"></i></button>
-      <a href="cart.html">Cart</a>
-      <a href="login.html">Login</a>
-      <a href="register.html">Register</a>
+    <!--header bar-->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">IFitness</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><input type="text" placeholder="Search..." /></li>
+            <li>
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
+    <!-- Center screen-->
+
+    <!--Footer bar-->
+    <footer class="footer nothing bg-primary py-3">
+      <div class="container grid grid-3">
+        <!--Social media parts-->
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div>
+          <ul>
+            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+          </ul>
+        </div>
+        <nav>
+          <!--pages for like others, more about us etc.-->
+          <ul>
+            <li><a href="#"># links 1 </a></li>
+            <li><a href="#"># links 2</a></li>
+            <li><a href="#"># links 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
