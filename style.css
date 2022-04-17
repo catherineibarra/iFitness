@@ -305,10 +305,11 @@ justify-self: flex-end;
 }
 
 .product-detail .form .addCart {
-  background: var(--green);
+  background:#666;
   padding: 0.8rem 4rem;
   color: #fff;
   border-radius: 3rem;
+  font-size:large;
 }
 
 .product-detail h3 {
