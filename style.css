@@ -74,7 +74,7 @@ img{
   justify-content: space-between;
 }
 
-/* Showcase center part*/
+/* login and signup layout*/
 .showcase{
   height: 600px;
   background: white;
@@ -120,6 +120,61 @@ justify-self: flex-end;
 
 .showcase-form input:focus{
   outline: none;
+}
+
+/*Shop page layout*/
+
+.section {
+  padding: 10rem 0 5rem 0;
+  overflow: hidden;
+}
+
+.cat-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 114rem;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+.cat-center .cat {
+  max-width: 37rem;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cat-center .cat:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.cat-center .cat img {
+  width: 95%;
+  height: 75%;
+  margin: auto;
+  object-fit: scale-down;
+  transition: all 2s ease;
+}
+
+.cat-center .cat:hover img {
+  transform: scale(1.1);
+}
+
+.cat-center .cat div {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  width: 18rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 
