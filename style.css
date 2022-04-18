@@ -20,6 +20,12 @@ body {
   font-family:'Courier New', Courier, monospace;
   color: #000;
   line-height: 2;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+section{
+  padding: 1;
 }
 
 
@@ -71,11 +77,63 @@ img{
 }
 /*nav bar flex*/
 .navbar .flex{
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-/* login and signup layout*/
-.showcase{
+/*login layout*/
+.register-form {
+  padding: 5rem 0;
+  max-width: 50rem;
+  margin: 5rem auto;
+}
+
+.center {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.register-form .form-control{
+  margin: 30px 0;
+}
+
+.register-form h1{
+  font-size: 40px;
+}
+
+.register-form p{
+  margin: 20px 0;
+}
+.register-form .grid{
+  overflow: visible;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+}
+
+.register-form{
+ position: relative;
+ top: 60px;
+padding: 40px;
+}
+
+.register-form .form-control{
+  margin: 30px 0;
+}
+
+.register-form input[type='text'],
+.register-form input[type='password']{
+  border: 0;
+  border-bottom: 2px solid grey;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.register-form input:focus{
+  outline: none;
+}
+
+/*.showcase{
   height: 600px;
   background: white;
   color: rgb(0, 0, 0);
@@ -98,11 +156,8 @@ img{
 .showcase-form{
  position: relative;
  top: 60px;
- height: 350px;
 width: 400px;
 padding: 40px;
-z-index: 100px;
-justify-self: flex-end;
 }
 
 .showcase-form .form-control{
@@ -120,7 +175,62 @@ justify-self: flex-end;
 
 .showcase-form input:focus{
   outline: none;
+}*/
+
+/*signup layout*/
+
+.login-form {
+  padding: 5rem 0;
+  max-width: 50rem;
+  margin: 5rem auto;
 }
+
+.center {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.login-form .form-control{
+  margin: 30px 0;
+}
+
+.login-form h1{
+  font-size: 40px;
+}
+
+.login-form p{
+  margin: 20px 0;
+}
+.login-form .grid{
+  overflow: visible;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+}
+
+.login-form{
+ position: relative;
+ top: 60px;
+padding: 40px;
+}
+
+.login-form .form-control{
+  margin: 30px 0;
+}
+
+.login-form input[type='text'],
+.login-form input[type='password']{
+  border: 0;
+  border-bottom: 2px solid grey;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.login-form input:focus{
+  outline: none;
+}
+
 
 /*Shop page layout*/
 
@@ -183,7 +293,12 @@ justify-self: flex-end;
 .footer{
   background-color: var(--primary-color);
   color: #000;
+  bottom: 0;
+  left: 0;
   height: 170px;
+  width: 100%;
+  position: relative;
+  margin-top: auto;
 }
 
 .nothing{

@@ -35,30 +35,24 @@
 
       
     <!-- Center screen-->
-<section class="showcase">
-  <div class="container grid">
-    <div class="showcase-text">
-      <h1>testing pages</h1>
-        <p>word test if this works 
-      </p>
+    <section class="center">
+      <div class="register-form">
+          <h2>Login</h2>
+            <form action="loginprocess.php" method="Get">
+              <div class="form-control"> 
+                <input type="text" name="username" id="username" placeholder="Username" required/><br />
+              </div>
+              <div class="form-control"> 
+                <input type="password" name="password" id="myInput" placeholder="Password" required/><br />
+                <input type="checkbox" onclick="myFunction()">Show Password
+              </div>
+                <div>
+                  <input type="submit" value="Sign in" class="btn btn-secondary"/>
+                </div>
+          </div>
+      </form>
     </div>
-    <div class="showcase-form card">
-      <h2>Login</h2>
-        <form>
-          <div class="form-control"> 
-            <input type="text" name="username" id="username" placeholder="Username" required/><br />
-          </div>
-          <div class="form-control"> 
-            <input type="password" name="password" id="password" placeholder="Password" required/><br />
-            <input type="checkbox" onclick="myFunction()">Show Password
-          </div>
-            <div>
-              <input type="submit" value="Signin" class="btn btn-secondary"/>
-            </div>
-      </div>
-  </form>
-</div>
-      </section>
+          </section>
 
     <!--Footer bar-->    
     <footer class="footer bg-primary py-3">
