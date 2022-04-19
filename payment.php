@@ -57,14 +57,18 @@ include ('acess.php');
     <div class="container">
       <form action="/action_page.php">
           <div class="col-50">
-            <h3>Enter your payment details</h3>
+          <h3>Enter your payment details</h3>
             <label for="ccnum">Card number</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September">
-
-            <div class="row">
+            
+            
+            
+              <div class="row">
               <div class="col-50">
+              <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            </div>
+                <div class="col-50">
                 <label for="expyear">Exp Year</label>
                 <input type="text" id="expyear" name="expyear" placeholder="2018">
               </div>
@@ -72,7 +76,10 @@ include ('acess.php');
                 <label for="cvv">CVV</label>
                 <input type="text" id="cvv" name="cvv" placeholder="352">
               </div>
+            </div>
+          </div>
 
+               
           <div class="col-50">
             <label for="adr"><i class="fa fa-address-card-o"></i> Street Address</label>
             <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
