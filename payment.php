@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'acess.php'
+include ('acess.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
