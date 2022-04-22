@@ -1,8 +1,8 @@
 <?php
  session_start();
- include('/../access.php');
+ include('./../access.php');
  $isLoggedIn = isset($_SESSION['_reg']);
- include('./logout.php');
+ include('./location.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -42,9 +42,7 @@
           <ul>
             <li><a href="../cart.php">Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <a herf="../profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+              <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>

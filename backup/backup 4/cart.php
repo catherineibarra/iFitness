@@ -1,7 +1,6 @@
 <?php
  session_start();
  include('access.php');
- $name = $_SESSION["_reg"];
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -33,9 +32,7 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <li><a herf="profile.php">
-                    Welcome <?php echo($name); ?>
-                </a></li>
+                <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -47,34 +44,32 @@
           </nav>
         </div>
       </div>
-      <!--center part -->
+    <!-- Center screen-->
 
-            <!--Footer bar-->    
-            <footer class="footer nothing bg-primary py-3">
-        <div class="container grid grid-3">
-          <!--Social media parts-->
-          <div class="social">
-            <a href="#"><i class="fab fa-github fa-2x"></i></a>
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+    <!--Footer bar-->
+    <footer class="footer nothing bg-primary py-3">
+      <div class="container grid grid-3">
+        <!--Social media parts-->
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
         </div>
-          <div>
-                <ul>
-                  <li>
-                    Copyright &copy; IFitness. All Rights reserved. 2022
-                  </li>
-                </ul>
-                </div>
-            <nav>
-              <!--pages for like others, more about us etc.-->
-                <ul>
-                    <li><a href="#"># links 1 </a></li>
-                    <li><a href="#"># links 2</a></li>
-                    <li><a href="#"># links 3</a></li>
-                </ul>
-            </nav>
+        <div>
+          <ul>
+            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+          </ul>
         </div>
+        <nav>
+          <!--pages for like others, more about us etc.-->
+          <ul>
+            <li><a href="#"># links 1 </a></li>
+            <li><a href="#"># links 2</a></li>
+            <li><a href="#"># links 3</a></li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
