@@ -27,7 +27,9 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-              <li>Welcome <?= $_SESSION["_reg"] ?></li>
+                <a herf="profile.php">
+                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
+                </a>  
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -42,12 +44,19 @@
     <?php
 
     //initialize variable from register.php
-    $firstname = $_POST["firstname"];
-    $lastname = $_POST["lastname"];
-    $email = $_POST["email"];
-    $username = $_POST["username"];
-    $password = ($_POST["password"]);
-    $rep_pass = ($_POST["passreapeat"]);
+    if(isset($_POST["submit"])){
+
+      $firstname = $_POST["firstname"];
+      $lastname = $_POST["lastname"];
+      $email = $_POST["email"];
+      $username = $_POST["username"];
+      $password = ($_POST["password"]);
+      $rep_pass = ($_POST["passreapeat"]);
+      $question = $_POST["question"];
+      $answer = $_POST["answer"];
+    }else{
+      echo"something not set";
+    }
 
     //error message
     $error_message = "";
@@ -66,7 +75,7 @@
     } else {
         
             //login details for database
-            require_once('../../conf/sdp.inc.php');
+            require_once('../../conf/sqlinfo.inc.php');
             $conn = @mysqli_connect(
                 $sql_host,
                 $sql_user,
@@ -87,7 +96,7 @@
             if (!$table_exists) {
                 
                 //creating table in database
-                $create_table = "CREATE TABLE $sql_table (f_name VARCHAR(40),l_name VARCHAR(40), email VARCHAR(50),u_name VARCHAR(20),p_word VARCHAR(255))";
+                $create_table = "CREATE TABLE $sql_table (f_name VARCHAR(40),l_name VARCHAR(40), email VARCHAR(50),u_name VARCHAR(20),p_word VARCHAR(255),question VARCHAR(50), answer VARCHAR(50))";
                 mysqli_query($conn, $create_table);
             }
             
@@ -102,7 +111,7 @@
             } else {
 
                 //insert user inputs into database
-                $insert_query = "INSERT INTO `$sql_table` (`f_name`, `l_name`, `email`, `u_name`, `p_word`) VALUES ('$firstname','$lastname','$email','$username','$encrypt');";
+                $insert_query = "INSERT INTO `$sql_table` (`f_name`, `l_name`, `email`, `u_name`, `p_word`, `question`, `answer`) VALUES ('$firstname','$lastname','$email','$username','$encrypt','$question','$answer');";
                 $insert_results = mysqli_query($conn, $insert_query);
 
                 //checks if query is inserted into the database.

@@ -46,64 +46,10 @@
           </nav>
         </div>
       </div>
+      <!--center part -->
 
-    <!-- Center screen-->
-
-    <div class="center">
-      <div class="login-form">
-        <h2>Register</h2>
-          <p>
-            Please fill in this form to create an account. or
-            <a href="login.php">Login</a>
-          </p>
-        <form action="register.php" method="POST">
-          <div class="form-control"> 
-            <input type="text" placeholder="First name" name="firstname" id="firstname"requred/>
-          </div>
-          <div class="form-control"> 
-            <input type="text" placeholder="Last name" name="lastname" id="lastname"requred/>
-          </div>
-          <div class="form-control"> 
-            <input type="text" placeholder="Example@email.com" name="email" id="email" requred/>
-          </div>
-          <div class="form-control"> 
-            <input type="text" placeholder="Username" name="username" id="username" requred/>
-          </div>
-          <div class="form-control"> 
-            <input type="password" placeholder="Password" name="password" id="password" required/>
-          </div>
-          <div class="form-control"> 
-            <input type="password" placeholder="Repeat Password" name="passreapeat" id="passreapeat" required/>
-          </div>
-          <div class="form-control">
-            <select>
-              <option value="1">In what city were you born?</option>
-              <option value="2">What is the name of your favourite pet?</option>
-              <option value="3">what is your mother's maiden name</option>
-              <option value="4">what high school did you attend?</option>
-              <option value="5">what is the name of your first school?</option>
-              <option value="5">what was the make of your first car?</option>
-              <option value="5">what was your favorite food as a child?</option>
-              <option value="5">where did you meet your spouse?</option>
-            </select>
-          </div>
-          <div class="form-control"> 
-            <input type="text" placeholder="Answer" name="answer" id="answer" requred/>
-          </div>
-
-            <div>
-              <p>By creating an account you agree to our 
-                <a href="#">terms and conditions.</a></p>
-              <input type="submit" value="Submit" class="btn btn-secondary" />
-              <input type="reset" value="Reset" class="btn btn-secondary" />
-            </div>
-      </div>
-  </form>
-      </div>
-    </div>
-
-      <!--Footer bar-->    
-      <footer class="footer bg-primary py-3">
+            <!--Footer bar-->    
+            <footer class="footer bg-primary py-3">
         <div class="container grid grid-3">
           <!--Social media parts-->
           <div class="social">

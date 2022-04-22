@@ -80,6 +80,8 @@ img{
   justify-content: space-evenly;
 }
 
+
+
 /*login layout*/
 .register-form {
   padding: 5rem 0;
@@ -131,6 +133,10 @@ padding: 40px;
 
 .register-form input:focus{
   outline: none;
+}
+
+.register-form .flex {
+  justify-content: space-evenly;
 }
 
 /*.showcase{

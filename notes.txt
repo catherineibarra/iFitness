@@ -9,3 +9,25 @@ link pages
 
 login and passwords check 
 https://www.codeproject.com/Questions/1176623/Checking-username-and-password-in-PHP
+
+questions for secure passwords and user type unique code
+
+must match ignore cases()
+
+
+salt() password unique by using username as unique salt 
+
+account page.
+goes to the same page sents to same page
+
+error message in same php file
+
+in login
+forget password 
+
+forget password
+ask for question
+shows question when username is searched
+answer == user input
+
+

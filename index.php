@@ -39,7 +39,9 @@ include('access.php');
           <ul>
             <li><a href="cart.php">Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <li>Welcome <?= $_SESSION["_reg"] ?></li>
+              <a herf="profile.php">
+                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
+                </a>  
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
