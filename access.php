@@ -2,7 +2,7 @@
 session_start(); 
 
   //login details for database
-  require_once('../../conf/sqlinfo.inc.php');
+  require_once('../../conf/sdp.inc.php');
   $conn = @mysqli_connect(
     $sql_host,
     $sql_user,

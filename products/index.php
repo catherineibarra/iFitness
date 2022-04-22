@@ -33,7 +33,9 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <li><a herf="profile.php">Welcome <?php echo($name);?></a></li>
+                <li><a herf="profile.php">
+                    Welcome <?php echo($name); ?>
+                </a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -46,9 +48,15 @@
         </div>
       </div>
     <!-- Center screen-->
+    <section>
+      <img src="images/body img.png" style="width: 100%" />
+      
+    </section>
+
+    
 
     <!--Footer bar-->
-    <footer class="footer nothing bg-primary py-3">
+    <footer class="footer bg-primary py-3">
       <div class="container grid grid-3">
         <!--Social media parts-->
         <div class="social">

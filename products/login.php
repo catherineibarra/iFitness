@@ -33,7 +33,9 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <li><a herf="profile.php">Welcome <?php echo($name);?></a></li>
+                <li><a herf="register.php">
+                    Welcome <?php echo($name); ?>
+                </a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -45,32 +47,68 @@
           </nav>
         </div>
       </div>
-    <!-- Center screen-->
 
-    <!--Footer bar-->
-    <footer class="footer nothing bg-primary py-3">
+      
+    <!-- Center screen-->
+    <section class="center">
+      <div class="register-form">
+          <h2>Login</h2>
+            <form action="login.php" method="POST">
+              <div class="form-control"> 
+                <input type="text" name="username" id="username" placeholder="Username" required/><br />
+              </div>
+              <div class="form-control"> 
+                <input type="password" name="password" id="myInput" placeholder="Password" required/><br />
+                <input type="checkbox" onclick="myFunction()">Show Password
+              </div>
+                <div>
+                  <input type="submit" value="Sign in" class="btn btn-secondary"/>
+                </div>
+          </div>
+      </form>
+    </div>
+          </section>
+
+    <!--Footer bar-->    
+    <footer class="footer bg-primary py-3">
       <div class="container grid grid-3">
-        <!--Social media parts-->
         <div class="social">
           <a href="#"><i class="fab fa-github fa-2x"></i></a>
           <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
           <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
           <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-        <div>
-          <ul>
-            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-          </ul>
-        </div>
-        <nav>
-          <!--pages for like others, more about us etc.-->
-          <ul>
-            <li><a href="#"># links 1 </a></li>
-            <li><a href="#"># links 2</a></li>
-            <li><a href="#"># links 3</a></li>
-          </ul>
-        </nav>
       </div>
-    </footer>
+        <div>
+              <ul>
+                <li>
+                  Copyright &copy; IFitness. All Rights reserved. 2022
+                </li>
+              </ul>
+              </div>
+          <nav>
+            <!--pages for like others, more about us etc.-->
+              <ul>
+                  <li><a href="#"># links 1 </a></li>
+                  <li><a href="#"># links 2</a></li>
+                  <li><a href="#"># links 3</a></li>
+              </ul>
+          </nav>
+          <!--Social media parts-->
+
+      </div>
+  </footer>
+
+    <!--java script codes-->
+    <!--show password-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
   </body>
 </html>
