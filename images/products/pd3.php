@@ -2,7 +2,7 @@
  session_start();
  include('/../access.php');
  $isLoggedIn = isset($_SESSION['_reg']);
- include('./logout.php');
+ include('./location.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <title>Product nine | IFitness </title>
+    <title>Product three | IFitness </title>
   </head>
   <body>
     <!--header bar-->
@@ -42,9 +42,7 @@
           <ul>
             <li><a href="../cart.php">Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <a herf="profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+              <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -62,33 +60,27 @@
       <div class="details product-container">
         <div class="left image-container">
           <div class="main">
-            <img src="../images/9.jpg" id="zoom" alt="" />
+            <img src="../images/3.jpg" id="zoom" alt="" />
           </div>
         </div>
         <div class="right">
-          <span>Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules</span>
-          <h1>Muscle Builder 90 capsules<h1>
-          <div class="price">$77</div>
-        
+          <span>Whey Protein</span>
+          <h1>Muscle Matrix - 60 vcaps (25mg per capsule)<h1>
+          <div class="price">$109</div>
+          
           <form class="form">
             <input type="text" placeholder="1" />
             <a href="../cart.php" class="addCart">Add To Cart</a>
           </form>
           <h3>Product Detail</h3>
           <p>
-            Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules
-Rich Piana 5% Nutrition Bigger By The Day is an all-natural muscle builder that is without a doubt the strongest formula of it’s kind on the market.
-This is a formula that’s so hardcore, only 5% Nutrition could have created it!<br>
+            Muscle Matrix is an excellent Supplement for the reduction of glucocorticoid hormones, commonly referred to as stress hormones.
+ While glucocorticoids are necessary for our health in small amounts, they will promote fat gain as well as destroy muscle tissue.
 
-When it comes to natural muscle builders, there’s a number of products currently available that like to brag about how hardcore they are. 
-You’ve seen the ads and heard the hype. Enough of the garbage out there, we’ve all listened to it long enough and decided it was time to step in and show them how the big boys do it.
- 5% Nutrition has defined the word ‘hardcore’ of the supplements world for years and has designed the most potent legal muscle builder on the market – Bigger By The Day!<br>
+Muscle Matrix is a proprietary peptide amino acid blend that counteracts this problem and supports steady lean muscle growth while burning fat for energy.
 
-We took the strongest legal, all-natural muscle building ingredients available and combined them into one incredible product, and we dared to make it stronger than any other product of its kind.<br>
-
-On your first two days, take 1 capsule with your first meal of the morning and 1 capsule with a light high protein snack before bed. On day three, increase to 1 capsule three times a day (with breakfast, lunch and dinner). 
-Do not exceed more than 3 capsules per day.<br>
-          </p>
+You may experience an increase in Strength, Vascularity and Enhanced Focus while using this supplement. This product effectively builds lean hard muscle and gives you that sculpted chiselled look.
+Key Benefits
         </div>
       </div>
     </section>
@@ -135,24 +127,7 @@ Do not exceed more than 3 capsules per day.<br>
               <li><i class="bx bx-cart"></i></li>
             </ul>
           </div>
-          <div class="product-item">
-            <div class="overlay">
-              <a href="pd3.php" class="product-thumb">
-                <img src="../images/3.jpg" alt="" />
-              </a>
-              <span class="discount">40% off</span>
-            </div>
-            <div class="product-info">
-              <span>Excellent Supplement for the reduction of glucocorticoid hormones</span>
-              <a href="pd3.php">Muscle Matrix - 60 vcaps (25mg per capsule)</a>
-              <h4>$109</h4>
-            </div>
-            <ul class="icons">
-              <li><i class="bx bx-heart"></i></li>
-              <li><i class="bx bx-search"></i></li>
-              <li><i class="bx bx-cart"></i></li>
-            </ul>
-          </div>
+          
           <div class="product-item">
             <div class="overlay">
               <a href="pd4.php" class="product-thumb">
@@ -241,51 +216,70 @@ Do not exceed more than 3 capsules per day.<br>
               <li><i class="bx bx-cart"></i></li>
             </ul>
           </div>
+
+          <div class="product-item">
+            <div class="overlay">
+              <a href="pd9.php" class="product-thumb">
+                <img src="../images/9.jpg" alt="" />
+              </a>
+            </div>
+            <div class="product-info">
+              <span>Natural muscle builder </span>
+              <a href="">Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules</a>
+              <h4>$77</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+
         </div>
-        
-        
-        <!--Footer bar-->
-        <script src="./js/index.js"></script>
-        <script
-        src="https://code.jquery.com/jquery-3.4.0.min.js"
-        integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
-        crossorigin="anonymous"
-        ></script>
-        <script src="./js/zoomsl.min.js"></script>
-        <script>
-          $(function () {
-            console.log("hello");
-            $("#zoom").imagezoomsl({
-              zoomrange: [4, 4],
-            });
-          });
+
+
+    <!--Footer bar-->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
     </script>
 
-<footer class="footer bg-primary py-3">
-  <div class="container grid grid-3">
-    <!--Social media parts-->
-    <div class="social">
-      <a href="#"><i class="fab fa-github fa-2x"></i></a>
-      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-    </div>
-    <div>
-      <ul>
-        <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-      </ul>
-    </div>
-    <nav>
-      <!--pages for like others, more about us etc.-->
-      <ul>
-        <li><a href="../cart.php">Cart</a></li>
-        <li><a href="../login.php">Login</a></li>
-        <li><a href="../register.php">Register</a></li>
-      </ul>
-    </nav>
-    <!-- Custom Script -->
-  </div>
-</footer>
+    <footer class="footer bg-primary py-3">
+      <div class="container grid grid-3">
+        <!--Social media parts-->
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div>
+          <ul>
+            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+          </ul>
+        </div>
+        <nav>
+          <!--pages for like others, more about us etc.-->
+          <ul>
+            <li><a href="../cart.php">Cart</a></li>
+            <li><a href="../login.php">Login</a></li>
+            <li><a href="../register.php">Register</a></li>
+          </ul>
+        </nav>
+        <!-- Custom Script -->
+      </div>
+    </footer>
 
-</body>
+  </body>
 </html>

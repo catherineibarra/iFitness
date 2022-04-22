@@ -32,9 +32,7 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <a herf="profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+                <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>

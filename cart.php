@@ -1,7 +1,6 @@
 <?php
  session_start();
  include('access.php');
- $name = $_SESSION["_reg"];
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -33,7 +32,7 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <li><a herf="profile.php">Welcome <?php echo($name);?></a></li>
+                <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>

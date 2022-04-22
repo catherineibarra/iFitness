@@ -1,3 +1,8 @@
+<?php
+ session_start();
+ include('access.php');
+?>
+
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
@@ -27,9 +32,7 @@
             <ul>
               <li><a href="cart.php">Cart</a></li>
               <?php if ($isLoggedIn): ?>
-                <a herf="profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+                <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -44,7 +47,6 @@
     <?php
 
     //initialize variable from register.php
-    if(isset($_POST["submit"])){
 
       $firstname = $_POST["firstname"];
       $lastname = $_POST["lastname"];
@@ -54,9 +56,6 @@
       $rep_pass = ($_POST["passreapeat"]);
       $question = $_POST["question"];
       $answer = $_POST["answer"];
-    }else{
-      echo"something not set";
-    }
 
     //error message
     $error_message = "";
@@ -75,7 +74,7 @@
     } else {
         
             //login details for database
-            require_once('../../conf/sqlinfo.inc.php');
+            require_once('../../conf/sdp.inc.php');
             $conn = @mysqli_connect(
                 $sql_host,
                 $sql_user,
@@ -121,7 +120,7 @@
                 } else {
                     //Successful 
                     echo "<p>Account has been registered</p>";
-                    echo "<script>window.open('index.php','_self')</script>";
+                    echo "<script>window.open('profile.php','_self')</script>";
                 }
             }
         }

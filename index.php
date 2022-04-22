@@ -1,20 +1,15 @@
 <?php
-session_start(); 
-include('access.php');
+ session_start();
+ include('access.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="utilities.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-      crossorigin="anonymous"
-    />
-    <title>Home | IFitness</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Login Page</title>
   </head>
   <body>
     <!--header bar-->
@@ -22,26 +17,22 @@ include('access.php');
       <div class="container flex">
         <h1 class="logo">IFitness</h1>
         <nav>
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="shop.php">Shop</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
-            <li><input type="text" placeholder="Search..." /></li>
-            <li>
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
-            <li><a href="cart.php">Cart</a></li>
-            <?php if ($isLoggedIn): ?>
-              <a herf="profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="shop.php">Shop</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>  
+                <li><input type="text" placeholder="Search..."></li>
+                <li><button type="submit"><i class="fa fa-search"></i></button></li>      
+              </ul>
+            </nav>
+            <nav>
+            <ul>
+              <li><a href="cart.php">Cart</a></li>
+              <?php if ($isLoggedIn): ?>
+                <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -49,10 +40,10 @@ include('access.php');
               <li><a href="register.php">Register</a></li>
 
               <?php endif; ?>
-          </ul>
-        </nav>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
     <!-- Center screen-->
     <section>
       <img src="images/body img.png" style="width: 100%" />

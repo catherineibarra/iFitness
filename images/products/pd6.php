@@ -2,7 +2,7 @@
  session_start();
  include('/../access.php');
  $isLoggedIn = isset($_SESSION['_reg']);
- include('./logout.php');
+ include('./location.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <title>Product nine | IFitness </title>
+    <title>Product six | IFitness </title>
   </head>
   <body>
     <!--header bar-->
@@ -42,9 +42,7 @@
           <ul>
             <li><a href="../cart.php">Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <a herf="profile.php">
-                    <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                </a>  
+              <li><a href="?profile=profile">welcome <?=$_SESSION["_reg"]?></a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -62,32 +60,40 @@
       <div class="details product-container">
         <div class="left image-container">
           <div class="main">
-            <img src="../images/9.jpg" id="zoom" alt="" />
+            <img src="../images/6.jpg" id="zoom" alt="" />
           </div>
         </div>
         <div class="right">
-          <span>Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules</span>
-          <h1>Muscle Builder 90 capsules<h1>
-          <div class="price">$77</div>
-        
+          <span>BODYBUILDING PILLS FOR MEN</span>
+          <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
+          <div class="price">$39</div>
+          
           <form class="form">
             <input type="text" placeholder="1" />
             <a href="../cart.php" class="addCart">Add To Cart</a>
           </form>
           <h3>Product Detail</h3>
           <p>
-            Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules
-Rich Piana 5% Nutrition Bigger By The Day is an all-natural muscle builder that is without a doubt the strongest formula of it’s kind on the market.
-This is a formula that’s so hardcore, only 5% Nutrition could have created it!<br>
+            BODYBUILDING PILLS FOR MEN: <br>
+Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire. 
+Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat. 
+This herbal complex contacins blend from: Tribulus Terrestris, DHEA, Tongkat ALi, Rhodiola Rosea, Alpha lipoic acid, Zinc, Vitamin B6 and more.<br>
 
-When it comes to natural muscle builders, there’s a number of products currently available that like to brag about how hardcore they are. 
-You’ve seen the ads and heard the hype. Enough of the garbage out there, we’ve all listened to it long enough and decided it was time to step in and show them how the big boys do it.
- 5% Nutrition has defined the word ‘hardcore’ of the supplements world for years and has designed the most potent legal muscle builder on the market – Bigger By The Day!<br>
+WORKOUT SUPPLEMENTS FOR MUSCLE GROWTH: <br>
+The testosterone is responsible for increasing energy, strength, and muscle mass in a person.
+ If you have more DHEA in the body, you will have more testosterone in the body. 
+his means you will be able to increase your lean muscle mass and look more toned. Bodybuilders, in particular, will take DHEA supplements in addition to testosterone supplements in order to maximize their gains.<br>
 
-We took the strongest legal, all-natural muscle building ingredients available and combined them into one incredible product, and we dared to make it stronger than any other product of its kind.<br>
+NATURAL METABOLISM BOOSTER: <br>
+People often gain weight as they get older because their metabolism slows down. A huge benefit of DHEA is that it boosts the body’s metabolism. 
+Since the metabolism is necessary for burning and absorbing calories, a fast metabolism will mean that more calories get burned.
+ Of course, do not depend on DHEA supplements alone for losing weight because you still need to watch your caloric intake and exercise on a regular basis.<br>
 
-On your first two days, take 1 capsule with your first meal of the morning and 1 capsule with a light high protein snack before bed. On day three, increase to 1 capsule three times a day (with breakfast, lunch and dinner). 
-Do not exceed more than 3 capsules per day.<br>
+BODYBUILDING SUPPLEMENTS TESTOSTERONE: <br>
+The most questionable benefit of tongkat ali is as a testosterone booster.
+ Many people claim longjack is a test booster, but this is one claim that has the least evidence.
+ One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
+
           </p>
         </div>
       </div>
@@ -118,6 +124,7 @@ Do not exceed more than 3 capsules per day.<br>
               <li><i class="bx bx-cart"></i></li>
             </ul>
           </div>
+
           <div class="product-item">
             <div class="overlay">
               <a href="pd2.php" class="product-thumb">
@@ -190,24 +197,6 @@ Do not exceed more than 3 capsules per day.<br>
 
           <div class="product-item">
             <div class="overlay">
-              <a href="pd6.php" class="product-thumb">
-                <img src="../images/6.jpg" alt="" />
-              </a>
-            </div>
-            <div class="product-info">
-              <span>Muscle building vitamins for men - stamina booster for men </span>
-              <a href="pd6.php">BODYBUILDING PILLS FOR MEN</a>
-              <h4>$39</h4>
-            </div>
-            <ul class="icons">
-              <li><i class="bx bx-heart"></i></li>
-              <li><i class="bx bx-search"></i></li>
-              <li><i class="bx bx-cart"></i></li>
-            </ul>
-          </div>
-
-          <div class="product-item">
-            <div class="overlay">
               <a href="pd7.php" class="product-thumb">
                 <img src="../images/7.jpg" alt="" />
               </a>
@@ -241,51 +230,70 @@ Do not exceed more than 3 capsules per day.<br>
               <li><i class="bx bx-cart"></i></li>
             </ul>
           </div>
+
+          <div class="product-item">
+            <div class="overlay">
+              <a href="pd9.php" class="product-thumb">
+                <img src="../images/9.jpg" alt="" />
+              </a>
+            </div>
+            <div class="product-info">
+              <span>Natural muscle builder </span>
+              <a href="pd9.php">Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules</a>
+              <h4>$77</h4>
+            </div>
+            <ul class="icons">
+              <li><i class="bx bx-heart"></i></li>
+              <li><i class="bx bx-search"></i></li>
+              <li><i class="bx bx-cart"></i></li>
+            </ul>
+          </div>
+
         </div>
-        
-        
-        <!--Footer bar-->
-        <script src="./js/index.js"></script>
-        <script
-        src="https://code.jquery.com/jquery-3.4.0.min.js"
-        integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
-        crossorigin="anonymous"
-        ></script>
-        <script src="./js/zoomsl.min.js"></script>
-        <script>
-          $(function () {
-            console.log("hello");
-            $("#zoom").imagezoomsl({
-              zoomrange: [4, 4],
-            });
-          });
+
+
+    <!--Footer bar-->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
     </script>
 
-<footer class="footer bg-primary py-3">
-  <div class="container grid grid-3">
-    <!--Social media parts-->
-    <div class="social">
-      <a href="#"><i class="fab fa-github fa-2x"></i></a>
-      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-    </div>
-    <div>
-      <ul>
-        <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-      </ul>
-    </div>
-    <nav>
-      <!--pages for like others, more about us etc.-->
-      <ul>
-        <li><a href="../cart.php">Cart</a></li>
-        <li><a href="../login.php">Login</a></li>
-        <li><a href="../register.php">Register</a></li>
-      </ul>
-    </nav>
-    <!-- Custom Script -->
-  </div>
-</footer>
+    <footer class="footer bg-primary py-3">
+      <div class="container grid grid-3">
+        <!--Social media parts-->
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div>
+          <ul>
+            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+          </ul>
+        </div>
+        <nav>
+          <!--pages for like others, more about us etc.-->
+          <ul>
+            <li><a href="../cart.php">Cart</a></li>
+            <li><a href="../login.php">Login</a></li>
+            <li><a href="../register.php">Register</a></li>
+          </ul>
+        </nav>
+        <!-- Custom Script -->
+      </div>
+    </footer>
 
-</body>
+  </body>
 </html>
