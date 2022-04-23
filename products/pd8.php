@@ -58,10 +58,23 @@
     <!-- Product Details -->
     <section class="section product-detail">
       <div class="details product-container">
-        <div class="left image-container">
+      <div class="left image-container">
+        <div class="slideshow-container">
           <div class="main">
-            <img src="../images/8.jpg" id="zoom" alt="" />
-          </div>
+            <div class="mySlides fade">
+              <img src="../images/8.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/8.1.jpg" id="zoom" alt="" />
+            </div>
+    
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         </div>
         <div class="right">
           <span>Brutaler Pump im Training</span>
@@ -237,6 +250,38 @@ Es steuert den Blutzuckerspiegel und transportiert die Kohlenhydrate zu deinen M
 
     <!--Footer bar-->
     <script src="./js/index.js"></script>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"

@@ -58,10 +58,36 @@
     <!-- Product Details -->
     <section class="section product-detail">
       <div class="details product-container">
-        <div class="left image-container">
+      <div class="left image-container">
+        <div class="slideshow-container">
           <div class="main">
-            <img src="../images/4.jpg" id="zoom" alt="" />
+            <div class="mySlides fade">
+              <img src="../images/4.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/4.1.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/4.2.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/4.3.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/4.4.jpg" id="zoom" alt="" />
+            </div>
+
           </div>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
+        </div>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         </div>
         <div class="right">
           <span>Super-intense pre-workout supplement</span>
@@ -241,6 +267,38 @@ Pinhead is made with all sorts of highly-concentrated, active ingredients such a
 
     <!--Footer bar-->
     <script src="./js/index.js"></script>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"

@@ -361,7 +361,7 @@ padding: 40px;
 }
 
 .product-detail .left .main img {
-  object-fit:fill;
+  object-fit:scale-down;
   height: 100%;
   width: 100%;
 }
