@@ -62,7 +62,7 @@
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/4.4jpg" id="zoom" alt="" />
+              <img src="../images/4.4.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
               <img src="../images/4.3.jpg" id="zoom" alt="" />
