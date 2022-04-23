@@ -59,8 +59,18 @@
     <section class="section product-detail">
       <div class="details product-container">
         <div class="left image-container">
+        <div class="slideshow-container">
           <div class="main">
+          <div class="mySlides fade">
             <img src="../images/1.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+            <img src="../images/1.1.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+            <img src="../images/1.2.jpg" id="zoom" alt="" />
+            </div>
+          </div>
           </div>
         </div>
         <div class="right">
