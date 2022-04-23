@@ -65,7 +65,7 @@
               <img src="../images/8.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/8.1.jpg" id="zoom" alt="" />
+              <img src="../images/8.1.jpeg" id="zoom" alt="" />
             </div>
     
           </div>
