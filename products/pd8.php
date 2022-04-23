@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <title>Product eight | IFitness </title>
+    <title>Product seven | IFitness </title>
   </head>
   <body>
     <!--header bar-->
@@ -68,11 +68,15 @@
               <img src="../images/8.1.jpg" id="zoom" alt="" />
             </div>
     
+          </div>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
+        </div>
 
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-          
+         
         </div>
 
         </div>
