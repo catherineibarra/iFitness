@@ -71,7 +71,7 @@
       <div class="cat-center">
         <div class="cat">
           <a href="./products/pd4.php">
-          <img src="./images/4.jpg" alt="" />
+          <img src="./images/4.1.jpg" alt="" />
           <p>Scream Supps PINHEAD 1 Serve Sample</p>
           <p>$3.96</p></a>
         </div>
