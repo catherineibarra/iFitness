@@ -1,6 +1,6 @@
 <?php
  session_start();
- include('../access.php');
+ include('/../access.php');
  $isLoggedIn = isset($_SESSION['_reg']);
  include('./location.php');
 ?>
