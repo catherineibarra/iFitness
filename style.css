@@ -361,9 +361,9 @@ padding: 40px;
 }
 
 .product-detail .left .main img {
-  object-fit: cover;
-  height: 55%;
-  width: 55%;
+  object-fit:fill;
+  height: 100%;
+  width: 100%;
 }
 
 .product-detail .right span {
@@ -690,7 +690,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
