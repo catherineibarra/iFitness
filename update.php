@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('access.php');
 include('information.php');
 ?>
@@ -26,7 +27,7 @@ include('information.php');
       </nav>
       <nav>
         <ul>
-          <li><input type="text" placeholder="Search..."></li>
+          <li><input type="text" value="Search..."></li>
           <li><button type="submit"><i class="fa fa-search"></i></button></li>
         </ul>
       </nav>
@@ -52,31 +53,42 @@ include('information.php');
       <h2>User Profile</h2>
       <p>
       </p>
-      <form action="update.php" method="POST">
-        <div class="form-control">
-          <label>Full Name:</label>
-          <input type="text" value="<?php echo $f_name; ?> <?php echo $l_name; ?>" name="firstname" id="firstname" readonly />
-        </div>
-        <div class="form-control">
+      <form action="update_details.php" method="POST">
+      <div class="form-control"> 
+      <label>First Name:</label>
+            <input type="text" value="<?php echo $f_name; ?>" name="u_firstname" id="firstname"/>
+          </div>
+          <div class="form-control"> 
+          <label>Last Name:</label>
+            <input type="text" value="<?php echo $l_name; ?>" name="u_lastname" id="lastname"/>
+          </div>
+          <div class="form-control"> 
           <label>Email:</label>
-          <input type="text" value="<?php echo $email; ?>" name="email" id="email" readonly />
-        </div>
-        <div class="form-control">
+            <input type="text" value="<?php echo $email; ?>" name="u_email" id="email" />
+          </div>
+          <div class="form-control"> 
           <label>Username:</label>
-          <input type="text" value="<?php echo $u_name; ?>" name="username" id="username" readonly />
-        </div>
-        <div class="form-control">
-          <label>Security Question:</label>
-          <input type="text" value="<?php echo $question; ?>" name="question" id="question" readonly />
-        </div>
-        <div class="form-control">
-          <label>Security Answer:</label>
-          <input type="password" value="<?php echo $answer; ?>" name="answer" id="myInput" readonly />
-          <input type="checkbox" onclick="myFunction()">Show Answer
-        </div>
-        <div>
-          <input type="submit" value="Edit Profile" class="btn btn-secondary" />
-        </div>
+            <input type="text" value="<?php echo $u_name; ?>" name="u_username" id="username"/>
+          </div>
+          <div class="form-control">
+            <select name="u_question">
+            <option><?php echo $question; ?></option>
+              <option value="In what city were you born?">In what city were you born?</option>
+              <option value="What is the name of your favourite pet?">What is the name of your favourite pet?</option>
+              <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+              <option value="What high school did you attend?">What high school did you attend?</option>
+              <option value="What is the name of your first school?">What is the name of your first school?</option>
+              <option value="What was the make of your first car?">What was the make of your first car?</option>
+              <option value="What was your favorite food as a child?">What was your favorite food as a child?</option>
+              <option value="Where did you meet your spouse?">Where did you meet your spouse?</option>
+            </select>
+          </div>
+          <div class="form-control"> 
+            <input type="text" value="<?php echo $answer; ?>" name="u_answer" id="answer"/>
+          </div>
+          <div>
+          <input type="submit" value="Update" class="btn btn-secondary" />
+          </div>
       </form>
     </div>
   </div>
