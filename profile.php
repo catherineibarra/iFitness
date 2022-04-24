@@ -1,6 +1,7 @@
 <?php
  session_start();
  include('access.php');
+ include('information.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -45,6 +46,17 @@
         </div>
       </div>
       <!--center part -->
+
+      <table>
+        <tr><td>First name:</td><td><?php echo $f_name;?></td></tr>
+        <tr><td>Last name:</td><td><?php echo $l_name;?></td></tr>
+        <tr><td>Email:</td><td><?php echo $email;?></td></tr>
+        <tr><td>username:</td><td><?php echo $u_name;?></td></tr>
+        <tr><td>Password:</td><td><?php echo $p_word;?></td></tr>
+        <tr><td>question:</td><td><?php echo $question;?></td></tr>
+        <tr><td>answer:</td><td><?php echo $answer;?></td></tr>
+
+      </table>
 
             <!--Footer bar-->    
             <footer class="footer nothing bg-primary py-3">
