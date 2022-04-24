@@ -74,15 +74,15 @@
             <input type="password" placeholder="Repeat Password" name="passreapeat" id="passreapeat" required/>
           </div>
           <div class="form-control">
-            <select>
-              <option value="1">In what city were you born?</option>
-              <option value="2">What is the name of your favourite pet?</option>
-              <option value="3">what is your mother's maiden name</option>
-              <option value="4">what high school did you attend?</option>
-              <option value="5">what is the name of your first school?</option>
-              <option value="5">what was the make of your first car?</option>
-              <option value="5">what was your favorite food as a child?</option>
-              <option value="5">where did you meet your spouse?</option>
+            <select name="question">
+              <option value="In what city were you born?">In what city were you born?</option>
+              <option value="What is the name of your favourite pet?">What is the name of your favourite pet?</option>
+              <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+              <option value="What high school did you attend?">What high school did you attend?</option>
+              <option value="What is the name of your first school?">What is the name of your first school?</option>
+              <option value="What was the make of your first car?">What was the make of your first car?</option>
+              <option value="What was your favorite food as a child?">What was your favorite food as a child?</option>
+              <option value="Where did you meet your spouse?">Where did you meet your spouse?</option>
             </select>
           </div>
           <div class="form-control"> 

@@ -66,7 +66,10 @@
     }
 
     //encrypting password
-    $encrypt = hash('sha256',$password);
+    $encrypt_code = md5($username);
+
+    $salt = sha1(md5($password)).$encrypt_code; 
+    $encrypt = hash('sha256',$password.$salt);
 
     //prints error message before entering into database
     if (!empty($error_message)) {
@@ -120,7 +123,7 @@
                 } else {
                     //Successful 
                     echo "<p>Account has been registered</p>";
-                    echo "<script>window.open('profile.php','_self')</script>";
+                    echo "<script>window.open('index.php','_self')</script>";
                 }
             }
         }

@@ -29,7 +29,10 @@ if(isset($_POST) & !empty($_POST)){
 $username = mysqli_real_escape_string($conn, $_POST['username']);
 $password = ($_POST['password']);
 //encrypt password checker matcher
-$encrypt = hash('sha256', $password);
+$encrypt_code = md5($username);
+
+$salt = sha1(md5($password)).$encrypt_code; 
+$encrypt = hash('sha256',$password.$salt);
 
 
 $sql = "SELECT * FROM `$sql_table` WHERE u_name ='$username' AND p_word='$encrypt'";
@@ -38,7 +41,7 @@ $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result)){
     $_SESSION['_reg'] = $_POST['username'];
     $_SESSION['username'] = $username; // <-trying to determine this variable
-    echo "<script>window.open('index.php','_self')</script>";
+    echo "<script>window.open('profile.php','_self')</script>";
 
     
 }else{
