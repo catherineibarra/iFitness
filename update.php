@@ -68,7 +68,7 @@ include('information.php');
           </div>
           <div class="form-control"> 
           <label>Username:</label>
-            <input type="text" value="<?php echo $u_name; ?>" name="u_username" id="username"/>
+            <input type="hidden" value="<?php echo $u_name; ?>" name="u_username" id="username"/>
           </div>
           <div class="form-control">
             <select name="u_question">

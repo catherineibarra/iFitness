@@ -57,15 +57,11 @@
 //error message
 $error_message = "";
 
-//checks if password is the same
-if ($password != $rep_pass) {
-    $error_message .= "<p>Password does not match. Please enter the same password</p>";
-}
 
 $encrypt_code = md5($u_username);
 
-    $salt = sha1(md5($password)).$encrypt_code; 
-    $encrypt = hash('sha256',$password.$salt);
+    $salt = sha1(md5($u_password)).$encrypt_code; 
+    $encrypt = hash('sha256',$u_password.$salt);
 
     if (!empty($error_message)) {
         echo $error_message;
