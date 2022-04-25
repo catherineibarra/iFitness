@@ -54,6 +54,7 @@ include('information.php');
       <p>
       </p>
       <form action="update_details.php" method="POST">
+        <input type="hidden" value="<?php echo $u_name; ?>" name="u_username" id="username"/>
       <div class="form-control"> 
       <label>First Name:</label>
             <input type="text" value="<?php echo $f_name; ?>" name="u_firstname" id="firstname"/>
@@ -67,10 +68,9 @@ include('information.php');
             <input type="text" value="<?php echo $email; ?>" name="u_email" id="email" />
           </div>
           <div class="form-control"> 
-          <label>Username:</label>
-            <input type="hidden" value="<?php echo $u_name; ?>" name="u_username" id="username"/>
           </div>
           <div class="form-control">
+          <label>Security Question:</label>
             <select name="u_question">
             <option><?php echo $question; ?></option>
               <option value="In what city were you born?">In what city were you born?</option>
@@ -84,6 +84,7 @@ include('information.php');
             </select>
           </div>
           <div class="form-control"> 
+          <label>Security Answer:</label>
             <input type="text" value="<?php echo $answer; ?>" name="u_answer" id="answer"/>
           </div>
           <div>

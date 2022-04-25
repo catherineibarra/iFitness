@@ -55,7 +55,7 @@ include('information.php');
       <form action="update.php" method="POST">
         <div class="form-control">
           <label>Full Name:</label>
-          <input type="text" value="<?php echo $f_name; ?> <?php echo $l_name; ?>" name="firstname" id="firstname" readonly />
+          <input type="text" value="<?php echo ucfirst($f_name)," ",ucfirst($l_name); ?>" name="firstname" id="firstname" readonly />
         </div>
         <div class="form-control">
           <label>Email:</label>
