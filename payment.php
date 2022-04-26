@@ -52,72 +52,97 @@ include ('acess.php');
       </div>
     </div>
     <!-- Center screen-->
-   <div class="row">
-  <div class="col-75">
-    <div class="container">
-      <form action="/action_page.php">
-          <div class="col-75">
-          <h3>Enter your payment details</h3>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="Card number            MM/YY/CVC">          
-          </div>
-
-               
-          <div class="col-50">
-            <input type="text" id="adr" name="street address" placeholder="Street address">
+    <br>
+ <!-- payment-->
+    <div class ="center">
+      <div class="form-control">
+        <h4>Enter your payment details</h4> 
+        <form>
+        <div class ="form-control">
+          <label or="NameOnCard">Name on card</label>
+          <div class ="form-control">
+            <input type="text" placeholder="John M.Doe" name="cardnumber" id="cardnumber"requred/>
+        </div>   
+          <div class ="form-control">
+        <label for="Cardnumber">Card number</label>
+        <div class ="form-control">
+            <input type="text" placeholder="1111-2222-3333-4444" name="cardnumber" id="cardnumber"requred/>
         </div>
-            <input type="text" id="address" name="address" placeholder="Apt,unit,suite,etc.">
+            <div class ="form-control">
+              <label for="expdate">Expire Date</label>
+              </div>
+                <input type="text" id="expdate" name="expdate" placeholder="MM/YY"required>  
+                <div class ="form-control">
+                <label for="cvv">CVV</label>
+              </div>
+                <input type="text" id="cvv" name="cvv" placeholder="001"required>                      
+                <div class="form-control">
+                  <h4>Accepted cards</h4> 
+                  <div class="row">
+                        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png" style="width:10%">
+                        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Master-Card-icon.png" style="width:10%">
+                        </div>
+                  </div>
+                  <hr>
+                  <br>
+                  <h4>Billing address</h4> 
+        <label for="Staddr">Address</label>
+      </div>
+            <input type="text" placeholder="542 W. 15th Street" name="straddr" id="straddr"reqired/>
+     
+          <div class="form-control"> 
+          <label for="City">City</label>
+        </div> 
+          <input type="text" placeholder="New York" name="city" id="city"required/>
+        <div class="form-control"> 
+      <label for="Zip">Zip code</label>
+    </div> 
+      <input type="text" placeholder="10001" name="zip" id="zip" requred/>
+    <div class="form-control"> 
+      <label for="Country">Country</label>
+      </div>
+            <select name="country">
+              <option value="Choose a country">Choose a country</option>
+              <option value="Australia">Australia</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Canada">Canada</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Italy">Italy</option>
+              <option value="Japan">Japan</option>
+              <option value="Mexico">Mexico</option>
+              <option value="New Zealand">New Zealand</option>
+              <option value="United States">United States</option>
+            </select>
             </div>
-        <div class = "row">
-           <div class = "col-50">
-             <select name = "Country">
-               <option value = "Afghanistan">Afghanistan</option>
-               <option value = "Bahrain">Bahrain</option>
-               <option value = "Cambodia">Cambodia</option>
-                <option value = "Denmark">Denmark</option>
-               <option value = "Finland">Finland</option>
-                <option value = "Japan">Japan</option>
-               <option value = "Mexico">Mexico</option>
-                <option value = "Netherlands">Netherlands</option>
-               <option value = "New Zealand">New Zealand</option>
-                <option value = "United States">United States</option>
-               <Select>
-            </div>  
-               <div class = "col-50">  
-                  <input type="text" id="city" name="city" placeholder="City"> 
-               </div>
-               <div>
-               
-                 <div class ="col-50">
-                  <input type="text" id="state" name="state" placeholder="State"> 
-                 <input type = "text" id = "zip" name = "zip" placeholder="Zip code">
-                 </div>
-                 
-        </label>
-        <input type="submit" value="Continue to checkout" class="btn">
-      </form>
+      </div>
+  <label>
+    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+    <hr>
+      <!-- contact info-->
+
+              <div class="form-control">
+                <input type="submit" value="Pay now" class="btn btn-secondary" />
+            </div>
+          </div>
+        </div>
+      <!-- cart-->
+        <div class="form-control">
+          <h4>Cart
+            <span class="price" style="color:black">
+              <i class="fa fa-shopping-cart"></i>
+              <b>4</b>
+            </span>
+          </h4>
+          <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+          <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+          <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+          <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+          <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+      </div>
     </div>
   </div>
-
-  <div class="col-25">
-    <div class="container">
-      <h4>Cart
-        <span class="price" style="color:black">
-          <i class="fa fa-shopping-cart"></i>
-          <b>4</b>
-        </span>
-      </h4>
-      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
-    </div>
-  </div>
-</div>
-
-    
-
+    </form>
     <!--Footer bar-->
     <footer class="footer bg-primary py-3">
       <div class="container grid grid-3">
