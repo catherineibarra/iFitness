@@ -9,48 +9,41 @@ include('./location.php');
 <html>
 
 <head>
-  <link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="../utilities.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="../utilities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-  <title>Product two | IFitness </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title> Product Two | iFitness </title>
 </head>
 
 <body>
   <!--header bar-->
-  <div class="navbar">
-    <div class="container flex">
-      <h1 class="logo">IFitness</h1>
-      <nav>
-        <ul>
-          <li><a href="../index.php">Home</a></li>
-          <li><a href="../shop.php">Shop</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li><input type="text" placeholder="Search..." /></li>
-          <li>
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li><a href="../cart.php">Cart</a></li>
-          <?php if ($isLoggedIn) : ?>
-            <li><a href="?profile=profile">welcome <?= $_SESSION["_reg"] ?></a></li>
-            <li><a href="?logout=logout">Logout</a></li>
+  <nav>
+    <ul>
+      <li class="logo"><img src="logo3.png"></li>
+      <div class="navbar">
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../shop.php">Shop</a></li>
 
-          <?php else : ?>
-            <li><a href="../login.php">Login</a></li>
-            <li><a href="../register.php">Register</a></li>
+        <li><a href="../cart.php">Cart</a></li>
+        <?php if ($isLoggedIn) : ?>
+          <li><a href="?profile=profile">Welcome, <?= $_SESSION["_reg"] ?>!</a></li>
+          <li><a href="?logout=logout">Logout</a></li>
 
-          <?php endif; ?>
-        </ul>
-      </nav>
-    </div>
-  </div>
+        <?php else : ?>
+          <li><a href="../login.php">Login</a></li>
+          <li><a href="../register.php">Register</a></li>
+
+        <?php endif; ?>
+
+      </div>
+      <li class="search-icon">
+        <input type="search" placeholder="Search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </li>
+    </ul>
+  </nav>
   <!-- Center screen-->
   <!-- Product Details -->
   <section class="section product-detail">
@@ -72,7 +65,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -263,76 +257,76 @@ include('./location.php');
     </div>
   </section>
 
-    <!--Footer bar-->
-    <script src="./js/index.js"></script>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
+  <!--Footer bar-->
+  <script src="./js/index.js"></script>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
 
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
 
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
       }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
-    <script src="./js/zoomsl.min.js"></script>
-    <script>
-      $(function() {
-        console.log("hello");
-        $("#zoom").imagezoomsl({
-          zoomrange: [4, 4],
-        });
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
+  <script src="./js/zoomsl.min.js"></script>
+  <script>
+    $(function() {
+      console.log("hello");
+      $("#zoom").imagezoomsl({
+        zoomrange: [4, 4],
       });
-    </script>
+    });
+  </script>
 
-    <footer class="footer bg-primary py-3">
-      <div class="container grid grid-3">
-        <!--Social media parts-->
-        <div class="social">
-          <a href="#"><i class="fab fa-github fa-2x"></i></a>
-          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-        <div>
-          <ul>
-            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-          </ul>
-        </div>
-        <nav>
-          <!--pages for like others, more about us etc.-->
-          <ul>
-            <li><a href="../cart.php">Cart</a></li>
-            <li><a href="../login.php">Login</a></li>
-            <li><a href="../register.php">Register</a></li>
-          </ul>
-        </nav>
-        <!-- Custom Script -->
+  <footer class="footer bg-primary py-3">
+    <div class="container grid grid-3">
+      <!--Social media parts-->
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-    </footer>
+      <div>
+        <ul>
+          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+        </ul>
+      </div>
+      <nav>
+        <!--pages for like others, more about us etc.-->
+        <ul>
+          <li><a href="../cart.php">Cart</a></li>
+          <li><a href="../login.php">Login</a></li>
+          <li><a href="../register.php">Register</a></li>
+        </ul>
+      </nav>
+      <!-- Custom Script -->
+    </div>
+  </footer>
 
 </body>
 
