@@ -68,7 +68,7 @@ include ('acess.php');
             <input type="text" id="address" name="address" placeholder="Apt,unit,suite,etc.">
             </div>
         <div class = "row">
-           <div class = "col-75">
+           <div class = "col-50">
              <select name = "Country">
                <option value = "Afghanistan">Afghanistan</option>
                <option value = "Bahrain">Bahrain</option>
