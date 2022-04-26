@@ -50,9 +50,7 @@ include('information.php');
   <div class="center">
     <div class="login-form">
       
-      <h2><i class="fa-solid fa-user"></i>User Profile</h2>
-      <p>
-      </p>
+      <p><i class="fa-solid fa-user">User Profile</i></p>
       <form action="update.php" method="POST">
         <div class="form-control">
           <label>Full Name:</label>
