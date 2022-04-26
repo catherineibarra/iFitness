@@ -56,7 +56,7 @@ include ('acess.php');
   <div class="col-75">
     <div class="container">
       <form action="/action_page.php">
-          <div class="col-50">
+          <div class="col-75">
           <h3>Enter your payment details</h3>
             <input type="text" id="ccnum" name="cardnumber" placeholder="Card number            MM/YY/CVC">          
           </div>
@@ -64,10 +64,11 @@ include ('acess.php');
                
           <div class="col-50">
             <input type="text" id="adr" name="street address" placeholder="Street address">
+        </div>
             <input type="text" id="address" name="address" placeholder="Apt,unit,suite,etc.">
             </div>
         <div class = "row">
-           <div class = "col-50">
+           <div class = "col-75">
              <select name = "Country">
                <option value = "Afghanistan">Afghanistan</option>
                <option value = "Bahrain">Bahrain</option>
