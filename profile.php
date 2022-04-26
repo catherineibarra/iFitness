@@ -49,7 +49,8 @@ include('information.php');
   <!--center part -->
   <div class="center">
     <div class="login-form">
-      <h2>User Profile</h2>
+      
+      <h2><i class="fa-solid fa-user"></i>User Profile</h2>
       <p>
       </p>
       <form action="update.php" method="POST">
