@@ -251,7 +251,7 @@ Es steuert den Blutzuckerspiegel und transportiert die Kohlenhydrate zu deinen M
 
         </div>
 
-
+       </section>
     <!--Footer bar-->
     <script src="./js/index.js"></script>
     <script>

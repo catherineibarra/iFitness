@@ -317,7 +317,7 @@ include('./location.php');
         });
       });
     </script>
-
+  </section>
     <footer class="footer bg-primary py-3">
       <div class="container grid grid-3">
         <!--Social media parts-->

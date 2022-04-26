@@ -261,7 +261,7 @@ include('./location.php');
       </div>
 
     </div>
-
+  </section>
 
     <!--Footer bar-->
     <script src="./js/index.js"></script>

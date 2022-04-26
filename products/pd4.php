@@ -266,7 +266,7 @@ Pinhead is made with all sorts of highly-concentrated, active ingredients such a
 
         </div>
 
-
+       </section>
     <!--Footer bar-->
     <script src="./js/index.js"></script>
     <script>

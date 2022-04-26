@@ -257,7 +257,7 @@ Our product can help you when you need to be strong and help push you through da
 
         </div>
 
-
+       </section>
     <!--Footer bar-->
     <script src="./js/index.js"></script>
     <script>

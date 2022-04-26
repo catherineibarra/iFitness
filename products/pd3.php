@@ -256,7 +256,7 @@ Key Benefits
 
         </div>
 
-
+       </section>
     <!--Footer bar-->
     <script src="./js/index.js"></script>
     <script>

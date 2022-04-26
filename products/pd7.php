@@ -301,7 +301,7 @@ Contains CarnoSyn Beta Alanine, an amino acid, which converts to a compound in y
           </div>
 
         </div>
-
+       </section>
 
     <!--Footer bar-->
     <script src="./js/index.js"></script>

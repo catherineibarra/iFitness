@@ -257,7 +257,7 @@ Do not exceed more than 3 capsules per day.<br>
             </ul>
           </div>
         </div>
-        
+       </section>
         
         <!--Footer bar-->
         <script src="./js/index.js"></script>

@@ -267,7 +267,7 @@ The most questionable benefit of tongkat ali is as a testosterone booster.
           </div>
 
         </div>
-
+       </section>
 
     <!--Footer bar-->
     <script src="./js/index.js"></script>
