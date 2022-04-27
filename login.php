@@ -26,8 +26,8 @@ include('access.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile"><i class="fa-solid fa-user"></i> My Account</a></li>
-          <li><a href="?logout=logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+          <li><a href="?profile=profile">My Account</a></li>
+          <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>
           <li><a href="login.php">Login</a></li>
@@ -45,7 +45,7 @@ include('access.php');
   <!-- Center screen-->
   <section class="center">
     <div class="register-form">
-      <h2>Login</h2>
+      <h2><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</h2>
       <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
         <div class="form-control">
           <input type="text" name="username" id="username" placeholder="Username" /><br />
