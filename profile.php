@@ -52,25 +52,25 @@ include('information.php');
       </p>
       <form action="update.php" method="POST">
         <div class="form-control">
-          <label>Full Name:</label>
+          <label><i class="fa-solid fa-file-signature"></i> Full Name:</label>
           <input type="text" value="<?php echo ucfirst($f_name), " ", ucfirst($l_name); ?>" name="firstname" id="firstname" readonly />
         </div>
         <div class="form-control">
-          <label>Email:</label>
+          <label><i class="fa-solid fa-envelope"></i> Email:</label>
           <input type="text" value="<?php echo $email; ?>" name="email" id="email" readonly />
         </div>
         <div class="form-control">
-          <label>Username:</label>
+          <label><i class="fa-solid fa-square-user"></i> Username:</label>
           <input type="text" value="<?php echo $u_name; ?>" name="username" id="username" readonly />
         </div>
         <div class="form-control">
-          <label>Security Question:</label>
+          <label><i class="fa-solid fa-key"></i> Security Question:</label>
           <input type="text" value="<?php echo $question; ?>" name="question" id="question" readonly />
         </div>
         <div class="form-control">
-          <label>Security Answer:</label>
+          <label><i class="fa-solid fa-square-a"></i> Security Answer:</label>
           <input type="password" value="<?php echo $answer; ?>" name="answer" id="myInput" readonly />
-          <input type="checkbox" onclick="myFunction()">Show Answer
+          <input type="checkbox" onclick="myFunction()"> Show Answer
         </div>
         <div>
           <input type="submit" value="Edit Profile" class="btn btn-secondary" />
