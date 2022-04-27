@@ -33,7 +33,7 @@ if (isset($_POST) & !empty($_POST)) {
 
 
   //login processes
-  $username = mysqli_real_escape_string($conn, $_POST['username']);
+  $username = strtolower(mysqli_real_escape_string($conn, $_POST['username']));
   $password = ($_POST['password']);
   //encrypt password checker matcher
   $encrypt_code = md5($username);
