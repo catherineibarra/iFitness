@@ -65,7 +65,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -81,10 +82,12 @@ include('./location.php');
         <span>Protein Shake</span>
         <h1>Musashi High Protein Chocolate 2kg<h1>
             <div class="price">$76.49</div>
-            <form class="form">
-              <input type="text" placeholder="1" />
-              <a href="../cart.php" class="addCart">Add To Cart</a>
+            <form class="form" action="/add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="2" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
+
             <h3>Product Detail</h3>
             <p>
               Scientifically formulated to be high in protein for muscle recovery, MUSASHI HIGH PROTEIN contains quality protein sources in a delicious tasting shake.

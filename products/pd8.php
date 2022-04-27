@@ -59,7 +59,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -75,10 +76,12 @@ include('./location.php');
         <h1>Rich Piana 5% Nutrition Freak Show<h1>
             <div class="price">$77</div>
 
-            <form class="form">
-              <input type="text" placeholder="1" />
-              <a href="../cart.php" class="addCart">Add To Cart</a>
+            <form class="form" action="/add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="8" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
+
             <h3>Product Detail</h3>
             <p>
               Rich Piana 5% Nutrition Freak Show transportiere die Energie zu deinen Muskeln und ermöglicht dir ein Training wie im Film.

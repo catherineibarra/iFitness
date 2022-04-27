@@ -92,7 +92,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -117,10 +118,12 @@ include('./location.php');
         <h1>Cellucor C4 Original ID 60 Serves<h1>
             <div class="price">$68.90</div>
 
-            <form class="form">
-              <input type="text" placeholder="1" />
-              <a href="../cart.php" class="addCart">Add To Cart</a>
+            <form class="form" action="/add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="7" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
+
             <h3>Product Detail</h3>
             <p>
               About Supplements.co.nz Cellucor C4 Original ID

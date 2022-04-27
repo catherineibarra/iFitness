@@ -68,7 +68,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -86,10 +87,12 @@ include('./location.php');
         <h1>Scream Supps PINHEAD 1 Serve Sample<h1>
             <div class="price">$3.96</div>
 
-            <form class="form">
-              <input type="text" placeholder="1" />
-              <a href="../cart.php" class="addCart">Add To Cart</a>
+            <form class="form" action="/add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="4" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
+
             <h3>Product Detail</h3>
             <p>
               Pinhead is a super-intense pre-workout supplement, to help you get the most from your workouts. But be warned - this extreme formula isn't suitable for the faint-hearted!

@@ -61,7 +61,8 @@ include('./location.php');
               <img src="../images/3.2.jpg" id="zoom" alt="" />
             </div>
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -77,10 +78,12 @@ include('./location.php');
         <h1>Muscle Matrix - 60 vcaps (25mg per capsule)<h1>
             <div class="price">$109</div>
 
-            <form class="form">
-              <input type="text" placeholder="1" />
-              <a href="../cart.php" class="addCart">Add To Cart</a>
+            <form class="form" action="/add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="3" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
+
             <h3>Product Detail</h3>
             <p>
               Muscle Matrix is an excellent Supplement for the reduction of glucocorticoid hormones, commonly referred to as stress hormones.
