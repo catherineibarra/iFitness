@@ -24,7 +24,7 @@ include('access.php');
         <li><a href="index.php">Home</a></li>
         <li><a href="shop.php">Shop</a></li>
 
-        <li><a href="cart.php">Cart</a></li>
+        <li><a href="cart.php">My Cart</a></li>
         <?php if ($isLoggedIn) : ?>
           <li><a href="?profile=profile">My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>

@@ -37,9 +37,9 @@ include ('acess.php');
         </nav>
         <nav>
           <ul>
-            <li><a href="cart.php">Cart</a></li>
+            <li><a href="cart.php">My Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <li>Welcome <?= $_SESSION["_reg"] ?></li>
+              <li><a href="?profile=profile">My Account</a></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
