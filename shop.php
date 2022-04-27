@@ -19,7 +19,7 @@ include('access.php');
   <!--header bar-->
   <nav>
     <ul>
-      <li class="logo"><img src="logo3.png"></li>
+      <li class="logo"><img src="./images/logo3.png"></li>
       <div class="navbar">
         <li><a href="index.php">Home</a></li>
         <li><a href="shop.php">Shop</a></li>

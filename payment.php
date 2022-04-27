@@ -20,7 +20,7 @@ include ('acess.php');
     <!--header bar-->
     <div class="navbar">
       <div class="container flex">
-        <h1 class="logo">IFitness</h1>
+      <li class="logo"><img src="./images/logo3.png"></li>
         <nav>
           <ul>
             <li><a href="index.php">Home</a></li>
