@@ -6,8 +6,8 @@ include ('acess.php');
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="utilities.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -15,12 +15,12 @@ include ('acess.php');
       crossorigin="anonymous"
     />
     <title>Payment Page</title>
-  </head>
+  </style>
   <body>
     <!--header bar-->
     <div class="navbar">
       <div class="container flex">
-      <li class="logo"><img src="./images/logo3.png"></li>
+        <h1 class="logo">IFitness</h1>
         <nav>
           <ul>
             <li><a href="index.php">Home</a></li>
@@ -37,9 +37,9 @@ include ('acess.php');
         </nav>
         <nav>
           <ul>
-            <li><a href="cart.php">My Cart</a></li>
+            <li><a href="cart.php">Cart</a></li>
             <?php if ($isLoggedIn): ?>
-              <li><a href="?profile=profile">My Account</a></li>
+              <li>Welcome <?= $_SESSION["_reg"] ?></li>
                 <li><a href="?logout=logout">Logout</a></li>
 
                 <?php else: ?>
@@ -71,7 +71,7 @@ include ('acess.php');
             <div class ="form-control">
               <label for="expdate">Expire Date</label>
               </div>
-                <input type="text" id="expdate" name="expdate" placeholder="MM/YY"required>  
+                <input type="month" name="month" id="month" required>  
                 <div class ="form-control">
                 <label for="cvv">CVV</label>
               </div>
@@ -102,7 +102,6 @@ include ('acess.php');
       <label for="Country">Country</label>
       </div>
             <select name="country">
-              <option value="Choose a country">Choose a country</option>
               <option value="Australia">Australia</option>
               <option value="Brazil">Brazil</option>
               <option value="Canada">Canada</option>
@@ -118,17 +117,18 @@ include ('acess.php');
       </div>
   <label>
     <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-    <hr>
       <!-- contact info-->
 
               <div class="form-control">
                 <input type="submit" value="Pay now" class="btn btn-secondary" />
+
             </div>
           </div>
         </div>
       <!-- cart-->
-        <div class="form-control">
+        <div id="form">
           <h4>Cart
+            <form>
             <span class="price" style="color:black">
               <i class="fa fa-shopping-cart"></i>
               <b>4</b>
