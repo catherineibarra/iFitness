@@ -6,8 +6,8 @@ include ('acess.php');
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/utilities.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
