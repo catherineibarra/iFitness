@@ -1,6 +1,18 @@
 <?php
 session_start();
 include('access.php');
+
+//if user clicks logout
+if(isset($_GET['logout']) && $_GET['logout'] == "logout"):
+  session_destroy();
+  header("location: index.php");
+  exit;
+endif;
+// if user clicks on profile
+if(isset($_GET['profile']) && $_GET['profile'] == "profile"):
+  header("location: profile.php");
+  exit;
+endif;
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -26,7 +38,7 @@ include('access.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile">Welcome, <?= $_SESSION["_reg"] ?>!</a></li>
+          <li><a href="?profile=profile">User Profile</a></li>
           <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>

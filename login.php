@@ -26,7 +26,7 @@ include('access.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile">Welcome, <?= $_SESSION["_reg"] ?>!</a></li>
+          <li><a href="?profile=profile">User</a></li>
           <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>
@@ -46,13 +46,15 @@ include('access.php');
   <section class="center">
     <div class="register-form">
       <h2>Login</h2>
-      <form action="login.php" method="POST">
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
         <div class="form-control">
-          <input type="text" name="username" id="username" placeholder="Username" required /><br />
+          <input type="text" name="username" id="username" placeholder="Username" /><br />
+          <span class="error">* <?php echo $usernameerr;?></span>
         </div>
         <div class="form-control">
-          <input type="password" name="password" id="myInput" placeholder="Password" required /><br />
-          <input type="checkbox" onclick="myFunction()">Show Password
+          <input type="password" name="password" id="myInput" placeholder="Password" /><br />
+          <input type="checkbox" onclick="myFunction()">Show Password<br>
+          <span class="error">* <?php echo $passworderr;?><?php echo $fmsg;?></span>
         </div>
         <div>
           <input type="submit" value="Sign in" class="btn btn-secondary" />

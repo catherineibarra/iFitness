@@ -27,7 +27,7 @@ include('information.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile">Welcome, <?= $_SESSION["_reg"] ?>!</a></li>
+          <li><a href="?profile=profile"> User Profile</a></li>
           <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>

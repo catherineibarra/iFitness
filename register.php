@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('access.php');
+include('registerprocess.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -48,27 +48,33 @@ include('access.php');
     <div class="login-form">
       <h2>Register</h2>
       <p>
-        Please fill in this form to create an account. or
+        Please fill in this form to create an account. or 
         <a href="login.php">Login</a>
       </p>
-      <form action="registerprocess.php" method="POST">
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
         <div class="form-control">
-          <input type="text" placeholder="First name" name="firstname" id="firstname" required />
+          <input type="text" value="<?php echo $firstname; ?>" placeholder="First name" name="firstname" id="firstname"  />
+          <span class="error">*<?php echo$firstnameerr;?></span>
         </div>
         <div class="form-control">
-          <input type="text" placeholder="Last name" name="lastname" id="lastname" required />
+          <input type="text" value="<?php echo $lastname; ?>" placeholder="Last name" name="lastname" id="lastname"  />
+          <span class="error">* <?php echo $lastnameerr;?></span>
         </div>
         <div class="form-control">
-          <input type="text" placeholder="Example@email.com" name="email" id="email" required />
+          <input type="text" value="<?php echo $email; ?>" placeholder="Example@email.com" name="email" id="email" />
+          <span class="error">* <?php echo $emailerr;?></span>
         </div>
         <div class="form-control">
-          <input type="text" placeholder="Username" name="username" id="username" required />
+          <input type="text" value="<?php echo $username; ?>" placeholder="Username" name="username" id="username" />
+          <span class="error">* <?php echo $usernameerr;?><?php echo $exist_uname;?></span>
         </div>
         <div class="form-control">
-          <input type="password" placeholder="Password" name="password" id="password" required />
+          <input type="password" value="<?php echo $password; ?>" placeholder="Password" name="password" id="password" />
+          <span class="error">* <?php echo $passworderr;?></span>
         </div>
         <div class="form-control">
-          <input type="password" placeholder="Repeat Password" name="passreapeat" id="passreapeat" required />
+          <input type="password" value="<?php echo $rep_pass; ?>" placeholder="Repeat Password" name="passreapeat" id="passreapeat" />
+          <span class="error">* <?php echo $rep_passerr;?><?php echo $no_match;?></span>
         </div>
         <div class="form-control">
           <select name="question">
@@ -83,15 +89,16 @@ include('access.php');
           </select>
         </div>
         <div class="form-control">
-          <input type="text" placeholder="Answer" name="answer" id="answer" requred />
+          <input type="text" value="<?php echo $answer; ?>" placeholder="Answer" name="answer" id="answer" />
+          <span class="error">* <?php echo $answererr;?></span>
         </div>
 
         <div>
           <p>By creating an account you agree to our
             <a href="#">terms and conditions.</a>
           </p>
-          <input type="submit" value="Submit" class="btn btn-secondary" />
-          <input type="reset" value="Reset" class="btn btn-secondary" />
+          <input type="submit" value="Submit" name="submit" class="btn btn-secondary" />
+          <input type="submit" value="Reset" name="reset" class="btn btn-secondary" />
         </div>
     </div>
     </form>
@@ -128,3 +135,4 @@ include('access.php');
 </body>
 
 </html>
+
