@@ -60,7 +60,7 @@ include('information.php');
           <input type="text" value="<?php echo $email; ?>" name="email" id="email" readonly />
         </div>
         <div class="form-control">
-          <label><i class="fa-solid fa-square-user"></i> Username:</label>
+          <label><i class="fa-solid fa-circle-user"></i> Username:</label>
           <input type="text" value="<?php echo $u_name; ?>" name="username" id="username" readonly />
         </div>
         <div class="form-control">
@@ -68,7 +68,7 @@ include('information.php');
           <input type="text" value="<?php echo $question; ?>" name="question" id="question" readonly />
         </div>
         <div class="form-control">
-          <label><i class="fa-solid fa-square-a"></i> Security Answer:</label>
+          <label><i class="fa-solid fa-user-lock"></i> Security Answer:</label>
           <input type="password" value="<?php echo $answer; ?>" name="answer" id="myInput" readonly />
           <input type="checkbox" onclick="myFunction()"> Show Answer
         </div>
