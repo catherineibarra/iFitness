@@ -41,6 +41,9 @@ if ($conn) {
                 $p_word = $row["p_word"];
                 $question = $row["question"];
                 $answer = $row["answer"];
+                $full_name .= ucfirst($f_name); 
+                $full_name .= " ".ucfirst($l_name);
+                $_SESSION['name'] = $full_name;
               }
 
 

@@ -109,6 +109,13 @@ if(isset($_POST['reset'])){
     $rep_pass = "";
     $question = "";
     $answer = "";
+    $firstnameerr = "";
+$lastnameerr = "";
+$emailerr = "";
+$usernameerr = "";
+$passworderr = "";
+$rep_passerr = "";
+$answererr = "";
     $register = false;
 }
 
@@ -120,5 +127,3 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-
-?>

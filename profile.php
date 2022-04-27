@@ -27,7 +27,7 @@ include('information.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile"> User Profile</a></li>
+          <li><a href="?profile=profile"> My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>
@@ -46,7 +46,7 @@ include('information.php');
   <!--center part -->
   <div class="center">
     <div class="login-form">
-      
+    <h1>Welcome, <?= $_SESSION["name"] ?>!</h1>
     <h2><i class="fa-solid fa-user-circle"></i>&nbsp;User Profile<h2>
       <p>
       </p>

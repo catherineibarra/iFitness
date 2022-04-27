@@ -46,6 +46,7 @@ if (isset($_POST) & !empty($_POST)) {
   // from database
   $result = mysqli_query($conn, $sql);
   if (mysqli_num_rows($result)) {
+    
     $_SESSION['_reg'] = $_POST['username'];
     $_SESSION['username'] = $username; // <-trying to determine this variable
     $_SESSION['logged'] = $insession = true;
