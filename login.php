@@ -26,8 +26,8 @@ include('access.php');
 
         <li><a href="cart.php">Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile">User</a></li>
-          <li><a href="?logout=logout">Logout</a></li>
+          <li><a href="?profile=profile"><i class="fa-solid fa-user"></i> My Account</a></li>
+          <li><a href="?logout=logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
 
         <?php else : ?>
           <li><a href="login.php">Login</a></li>
