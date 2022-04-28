@@ -118,7 +118,7 @@ include('./location.php');
         <h1>Cellucor C4 Original ID 60 Serves<h1>
             <div class="price">$68.90</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="7" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
