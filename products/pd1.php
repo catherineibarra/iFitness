@@ -77,7 +77,7 @@ include('./location.php');
         <span>Whey Protein</span>
         <h1>Ghost 100% Whey Protein 2lb<h1>
             <div class="price">$60.21</div>
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="1" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
