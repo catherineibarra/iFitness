@@ -50,7 +50,7 @@ $cart_results = mysqli_query($conn, $cart_query);
   <!-- Center screen-->
   <div class="shopping-cast">
     <p class="shopping-cart-header">
-      SHOPPING CART
+      SHOPPING CART<i class="fa-solid fa-cart-arrow-down"></i>
     </p>
     <table style="border: 1px solid black;">
       <thead>
