@@ -61,8 +61,7 @@ include('./location.php');
               <img src="../images/1.2.jpg" id="zoom" alt="" />
             </div>
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -80,7 +79,7 @@ include('./location.php');
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="1" name="product_id" hidden />
-              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
+              <button class="cart.php" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
