@@ -78,7 +78,7 @@ include('./location.php');
         <h1>NIVERSAL ANIMAL ENERGY 60 CAPSULES<h1>
             <div class="price">$29</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="5" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
