@@ -74,7 +74,7 @@ $cart_results = mysqli_query($conn, $cart_query);
           <td width="99%"" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
           <td style="white-space: nowrap;">$<?php echo $row['price'] ?>/-</td>
           <td style="white-space: nowrap;">
-            <form action="/update_cart.php" method="get">
+            <form action="update_cart.php" method="get">
               <input type="number" class="quantity-input" value="<?php echo $row['quantity'] ?>" name="quantity">
               <input type="number" value="<?php echo $row['id'] ?>" name="id" hidden>
               <button class="quantity-update-btn">Update</button>
@@ -82,7 +82,7 @@ $cart_results = mysqli_query($conn, $cart_query);
           </td>
           <td style="white-space: nowrap;">$<?php echo $row['quantity'] * $row['price'] ?>/-</td>
           <td style="white-space: nowrap;"">
-            <button class=" remove-btn" onclick="location.href='/delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
+            <button class=" remove-btn" onclick="location.href='delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
           </td>
         </tr>
       <?php
@@ -95,7 +95,7 @@ $cart_results = mysqli_query($conn, $cart_query);
         <td></td>
         <td>$<?php echo $total_price ?>/-</td>
         <td>
-          <button class=" remove-btn" onclick="location.href='/delete_cart.php?id=all';">Remove All</button>
+          <button class=" remove-btn" onclick="location.href='delete_cart.php?id=all';">Remove All</button>
         </td>
       </tr>
     </table>
@@ -109,22 +109,29 @@ $cart_results = mysqli_query($conn, $cart_query);
 
 
   <!--Footer bar-->
-  <footer>
-    <ul>
+  <footer class="footer bg-primary py-3">
+    <div class="container grid grid-3">
+      <!--Social media parts-->
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-
-      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
-
-      <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+      <div>
+        <ul>
+          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+        </ul>
       </div>
-    </ul>
+      <nav>
+        <!--pages for like others, more about us etc.-->
+        <ul>
+          <li><a href="#"># links 1 </a></li>
+          <li><a href="#"># links 2</a></li>
+          <li><a href="#"># links 3</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
 </body>
 

@@ -62,7 +62,7 @@ include('./location.php');
             </div>
           </div>
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
+            <</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -77,7 +77,7 @@ include('./location.php');
         <span>Whey Protein</span>
         <h1>Ghost 100% Whey Protein 2lb<h1>
             <div class="price">$60.21</div>
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="1" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
@@ -314,22 +314,30 @@ include('./location.php');
       });
     </script>
   </section>
-  <footer>
-    <ul>
+  <footer class="footer bg-primary py-3">
+    <div class="container grid grid-3">
+      <!--Social media parts-->
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-
-      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
-
-      <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+      <div>
+        <ul>
+          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
+        </ul>
       </div>
-    </ul>
+      <nav>
+        <!--pages for like others, more about us etc.-->
+        <ul>
+          <li><a href="../cart.php">Cart</a></li>
+          <li><a href="../login.php">Login</a></li>
+          <li><a href="../register.php">Register</a></li>
+        </ul>
+      </nav>
+      <!-- Custom Script -->
+    </div>
   </footer>
 
 </body>
