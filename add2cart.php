@@ -18,3 +18,17 @@ while ($row = mysqli_fetch_assoc($product_results))
   echo "<script>window.open('cart.php','_self')</script>";
   break;
 }
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
