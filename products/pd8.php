@@ -76,7 +76,7 @@ include('./location.php');
         <h1>Rich Piana 5% Nutrition Freak Show<h1>
             <div class="price">$77</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="8" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
