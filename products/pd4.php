@@ -87,7 +87,7 @@ include('./location.php');
         <h1>Scream Supps PINHEAD 1 Serve Sample<h1>
             <div class="price">$3.96</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="4" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
