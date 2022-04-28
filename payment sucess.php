@@ -6,8 +6,8 @@ include ('acess.php');
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/utilities.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -16,45 +16,49 @@ include ('acess.php');
     />
     <title>Payment Page</title>
   </style>
+</head>
+<style>
+.payment{
+  text-align: center;
+}
+
+.payment img{
+  width: 10%;
+  height: 60%;
+  margin: auto;
+}
+
+</style>
   <body>
     <!--header bar-->
-    <div class="navbar">
-      <div class="container flex">
-        <h1 class="logo">IFitness</h1>
-        <nav>
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="shop.php">Shop</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
-            <li><input type="text" placeholder="Search..." /></li>
-            <li>
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
-            <li><a href="cart.php">Cart</a></li>
-            <?php if ($isLoggedIn): ?>
-              <li>Welcome <?= $_SESSION["_reg"] ?></li>
-                <li><a href="?logout=logout">Logout</a></li>
+    <nav>
+    <ul>
+      <li class="logo"><img src="./images/logo3.png"></li>
+      <div class="navbar">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="shop.php">Shop</a></li>
 
-                <?php else: ?>
-              <li><a href="login.php">Login</a></li>
-              <li><a href="register.php">Register</a></li>
+        <li><a href="cart.php">My Cart</a></li>
+        <?php if ($isLoggedIn) : ?>
+          <li><a href="?profile=profile">My Account</a></li>
+          <li><a href="?logout=logout">Logout</a></li>
 
-              <?php endif; ?>
-          </ul>
-        </nav>
+        <?php else : ?>
+          <li><a href="login.php">Login</a></li>
+          <li class="reg-nav"><a href="register.php">Register</a></li>
+
+        <?php endif; ?>
+
       </div>
-    </div>
+      <li class="search-icon">
+        <input type="search" placeholder="Search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </li>
+    </ul>
+  </nav>
     <!-- Center screen-->
-    <div class="center">
-        <div class="form-control">
-            <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/32/Accept-icon.png" style="width:30%">  
+    <div class="payment">
+            <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/32/Accept-icon.png">  
             <br>
             <p>
                 Success!
@@ -65,7 +69,7 @@ include ('acess.php');
                 <br>
               </p>
               <br>      
-        </div>
+       
         </div>
 
         <div class="center">
