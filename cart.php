@@ -104,6 +104,10 @@ $cart_results = mysqli_query($conn, $cart_query);
        <form class="form" action="payment.php" method="get">
       <button class="checkout-btn">Proceed To Checkout</button>
         </form>
+         <form class="form" action="shop.php">
+         <button class="checkout-btn">Continue shopping</button>
+                  </form>
+
      </div>
   </div>
 
