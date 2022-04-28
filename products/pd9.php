@@ -89,7 +89,7 @@ include('./location.php');
 
               When it comes to natural muscle builders, there is a number of products currently available that like to brag about how hardcore they are.
               You have seen the ads and heard the hype. Enough of the garbage out there, we have all listened to it long enough and decided it was time to step in and show them how the big boys do it.
-              5% Nutrition has defined the word hardcore of the supplements world for years and has designed the most potent legal muscle builder on the market – Bigger By The Day!<br>
+              5% Nutrition has defined the word hardcore of the supplements world for years and has designed the most potent legal muscle builder on the market Bigger By The Day!<br>
 
               We took the strongest legal, all-natural muscle building ingredients available and combined them into one incredible product, and we dared to make it stronger than any other product of its kind.<br>
 

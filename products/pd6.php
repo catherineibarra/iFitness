@@ -59,7 +59,8 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -75,7 +76,7 @@ include('./location.php');
         <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
             <div class="right">
               <span>BODYBUILDING PILLS FOR MEN</span>
-              <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
+              <h4>PREMIUM HERBAL SUPPLEMENTS<h4>
                   <div class="price">$39</div>
 
                   <form class="form" action="../add2cart.php" method="get">
@@ -84,8 +85,8 @@ include('./location.php');
                     <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
                   </form>
 
-                  <h3>Product Detail</h3>
-                  <p>
+                  <h5>Product Detail</h5>
+                  <h6>
                     BODYBUILDING PILLS FOR MEN: <br>
                     Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire.
                     Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat.
@@ -106,7 +107,7 @@ include('./location.php');
                     Many people claim longjack is a test booster, but this is one claim that has the least evidence.
                     One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
 
-                  </p>
+                  </h6>
             </div>
       </div>
   </section>
@@ -309,7 +310,7 @@ include('./location.php');
     });
   </script>
 
-<footer>
+  <footer>
     <ul>
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
