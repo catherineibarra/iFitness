@@ -82,7 +82,7 @@ include('./location.php');
         <span>Protein Shake</span>
         <h1>Musashi High Protein Chocolate 2kg<h1>
             <div class="price">$76.49</div>
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="2" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
