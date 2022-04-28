@@ -78,7 +78,7 @@ include('./location.php');
         <h1>Muscle Matrix - 60 vcaps (25mg per capsule)<h1>
             <div class="price">$109</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="3" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
