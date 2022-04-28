@@ -45,36 +45,36 @@ include('registerprocess.php');
   <!-- Center screen-->
 
   <div class="center">
-    <div class="login-form">
+    <div class="register-form">
       <h2>Register</h2>
       <p>
-        Please fill in this form to create an account. or 
+        Please fill in this form to create an account. or
         <a href="login.php">Login</a>
       </p>
-      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <div class="form-control">
-          <input type="text" value="<?php echo $firstname; ?>" placeholder="First name" name="firstname" id="firstname"  />
-          <span class="error">*<?php echo$firstnameerr;?></span>
+          <input type="text" value="<?php echo $firstname; ?>" placeholder="First name" name="firstname" id="firstname" />
+          <span class="error">*<?php echo $firstnameerr; ?></span>
         </div>
         <div class="form-control">
-          <input type="text" value="<?php echo $lastname; ?>" placeholder="Last name" name="lastname" id="lastname"  />
-          <span class="error">* <?php echo $lastnameerr;?></span>
+          <input type="text" value="<?php echo $lastname; ?>" placeholder="Last name" name="lastname" id="lastname" />
+          <span class="error">* <?php echo $lastnameerr; ?></span>
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $email; ?>" placeholder="Example@email.com" name="email" id="email" />
-          <span class="error">* <?php echo $emailerr;?></span>
+          <span class="error">* <?php echo $emailerr; ?></span>
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $username; ?>" placeholder="Username" name="username" id="username" />
-          <span class="error">* <?php echo $usernameerr;?><?php echo $exist_uname;?></span>
+          <span class="error">* <?php echo $usernameerr; ?><?php echo $exist_uname; ?></span>
         </div>
         <div class="form-control">
           <input type="password" value="<?php echo $password; ?>" placeholder="Password" name="password" id="password" />
-          <span class="error">* <?php echo $passworderr;?></span>
+          <span class="error">* <?php echo $passworderr; ?></span>
         </div>
         <div class="form-control">
           <input type="password" value="<?php echo $rep_pass; ?>" placeholder="Repeat Password" name="passreapeat" id="passreapeat" />
-          <span class="error">* <?php echo $rep_passerr;?><?php echo $no_match;?></span>
+          <span class="error">* <?php echo $rep_passerr; ?><?php echo $no_match; ?></span>
         </div>
         <div class="form-control">
           <select name="question">
@@ -90,7 +90,7 @@ include('registerprocess.php');
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $answer; ?>" placeholder="Answer" name="answer" id="answer" />
-          <span class="error">* <?php echo $answererr;?></span>
+          <span class="error">* <?php echo $answererr; ?></span>
         </div>
 
         <div>
@@ -100,39 +100,29 @@ include('registerprocess.php');
           <input type="submit" value="Submit" name="submit" class="btn btn-secondary" />
           <input type="submit" value="Reset" name="reset" class="btn btn-secondary" />
         </div>
+        </form>
     </div>
-    </form>
-  </div>
   </div>
 
   <!--Footer bar-->
-  <footer class="footer bg-primary py-3">
-    <div class="container grid grid-3">
-      <!--Social media parts-->
+  <footer>
+    <ul>
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-      <div>
-        <ul>
-          <li>
-            Copyright &copy; IFitness. All Rights reserved. 2022
-          </li>
-        </ul>
+
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="#">About Us </a></li>
+        <li><a href="#">Terms and Policy</a></li>
       </div>
-      <nav>
-        <!--pages for like others, more about us etc.-->
-        <ul>
-          <li><a href="#"># links 1 </a></li>
-          <li><a href="#"># links 2</a></li>
-          <li><a href="#"># links 3</a></li>
-        </ul>
-      </nav>
-    </div>
+    </ul>
   </footer>
+
 </body>
 
 </html>
-

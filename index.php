@@ -3,13 +3,13 @@ session_start();
 include('access.php');
 
 //if user clicks logout
-if(isset($_GET['logout']) && $_GET['logout'] == "logout"):
+if (isset($_GET['logout']) && $_GET['logout'] == "logout") :
   session_destroy();
   header("location: index.php");
   exit;
 endif;
 // if user clicks on profile
-if(isset($_GET['profile']) && $_GET['profile'] == "profile"):
+if (isset($_GET['profile']) && $_GET['profile'] == "profile") :
   header("location: profile.php");
   exit;
 endif;
@@ -43,7 +43,7 @@ endif;
 
         <?php else : ?>
           <li><a href="login.php">Login</a></li>
-          <li><a href="register.php">Register</a></li>
+          <li class="reg-nav"><a href="register.php">Register</a></li>
 
         <?php endif; ?>
 
@@ -56,58 +56,29 @@ endif;
   </nav>
 
   <!-- Center screen-->
-  <section class="section category">
-    <div class="cat-center">
-      <div class="cat">
-        <a href="./products/pd1.php">
-          <img src="./images/1.jpg" alt="" />
-          <p>Ghost 100% Whey Protein 2lb</p>
-          <p>$60.21</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd2.php">
-          <img src="./images/2.jpg" alt="" />
-          <p>Musashi High Protein Chocolate 2kg</p>
-          <p>$76.49</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd3.php">
-          <img src="./images/3.jpg" alt="" />
-          <p>Muscle Matrix - 60 vcaps (25mg per capsule)</p>
-          <p>$109</p>
-        </a>
-      </div>
-    </div>
-  </section>
+  
 
 
   <!--Footer bar-->
-  <footer class="footer bg-primary py-3">
-    <div class="container grid grid-3">
-      <!--Social media parts-->
+  <footer>
+    <ul>
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-      <div>
-        <ul>
-          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-        </ul>
+
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="#">About Us </a></li>
+        <li><a href="#">Terms and Policy</a></li>
       </div>
-      <nav>
-        <!--pages for like others, more about us etc.-->
-        <ul>
-          <li><a href="#"># links 1 </a></li>
-          <li><a href="#"># links 2</a></li>
-          <li><a href="#"># links 3</a></li>
-        </ul>
-      </nav>
-    </div>
+    </ul>
   </footer>
+
+
 </body>
 
 </html>

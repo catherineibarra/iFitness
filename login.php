@@ -43,55 +43,42 @@ include('access.php');
     </ul>
   </nav>
   <!-- Center screen-->
-  <section class="center">
-    <div class="register-form">
+    <div class="login-form">
       <h2><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</h2>
-      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <div class="form-control">
           <input type="text" name="username" id="username" placeholder="Username" /><br />
-          <span class="error">* <?php echo $usernameerr;?></span>
+          <span class="error">* <?php echo $usernameerr; ?></span>
         </div>
         <div class="form-control">
           <input type="password" name="password" id="myInput" placeholder="Password" /><br />
           <input type="checkbox" onclick="myFunction()">Show Password<br>
-          <span class="error">* <?php echo $passworderr;?><?php echo $fmsg;?></span>
+          <span class="error">* <?php echo $passworderr; ?><?php echo $fmsg; ?></span>
         </div>
         <div>
           <input type="submit" value="Sign in" class="btn btn-secondary" />
         </div>
+      </form>
     </div>
-    </form>
-    </div>
-  </section>
-
   <!--Footer bar-->
-  <footer class="footer bg-primary py-3">
-    <div class="container grid grid-3">
+  <footer>
+    <ul>
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-      <div>
-        <ul>
-          <li>
-            Copyright &copy; IFitness. All Rights reserved. 2022
-          </li>
-        </ul>
-      </div>
-      <nav>
-        <!--pages for like others, more about us etc.-->
-        <ul>
-          <li><a href="#"># links 1 </a></li>
-          <li><a href="#"># links 2</a></li>
-          <li><a href="#"># links 3</a></li>
-        </ul>
-      </nav>
-      <!--Social media parts-->
 
-    </div>
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="#">About Us </a></li>
+        <li><a href="#">Terms and Policy</a></li>
+      </div>
+    </ul>
   </footer>
+
 
   <!--java script codes-->
   <!--show password-->
