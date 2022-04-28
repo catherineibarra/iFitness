@@ -76,7 +76,7 @@ include('./location.php');
         <h1>Muscle Builder 90 capsules<h1>
             <div class="price">$77</div>
 
-            <form class="form" action="/add2cart.php" method="get">
+            <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="9" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
