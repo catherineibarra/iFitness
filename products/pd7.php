@@ -341,30 +341,22 @@ include('./location.php');
     });
   </script>
 
-  <footer class="footer bg-primary py-3">
-    <div class="container grid grid-3">
-      <!--Social media parts-->
+<footer>
+    <ul>
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-      <div>
-        <ul>
-          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-        </ul>
+
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="#">About Us </a></li>
+        <li><a href="#">Terms and Policy</a></li>
       </div>
-      <nav>
-        <!--pages for like others, more about us etc.-->
-        <ul>
-          <li><a href="../cart.php">Cart</a></li>
-          <li><a href="../login.php">Login</a></li>
-          <li><a href="../register.php">Register</a></li>
-        </ul>
-      </nav>
-      <!-- Custom Script -->
-    </div>
+    </ul>
   </footer>
 
 </body>

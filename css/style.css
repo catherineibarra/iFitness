@@ -28,18 +28,16 @@ section {
 ul {
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 a {
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 15px;
   color: black;
   padding: 30px;
-  margin: 5px;
 }
 p {
   margin: 10px 0;
@@ -48,21 +46,48 @@ img {
   width: 100%;
 }
 
-nav {
+nav,
+footer {
   background-color: var(--primary-color);
-  padding: 25px 50px 25px 50px;
   border-left: none;
   border-right: none;
   height: 100px;
 }
 
-nav a:hover {
+nav {
+  padding: 25px 50px 25px 50px;
+}
+
+nav ul .reg-nav {
+  background-color: black;
+  height: 40px;
+}
+
+nav ul .reg-nav a {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 0px 25px 0px;
+}
+
+nav a:hover,
+footer a:hover {
   border-bottom: 1px white solid;
 }
 
-nav ul div.navbar {
+nav ul div.navbar,
+footer ul div.navbar {
   display: inline-flex;
   padding: 0 25px;
+  height: 40px;
+}
+
+nav ul div.navbar li {
+  margin: auto;
 }
 
 nav ul .search-icon {
@@ -95,14 +120,30 @@ nav ul .search-icon button {
 }
 
 nav ul .search-icon button:hover {
-  background: #DAE1E5;
+  background: #dae1e5;
+}
+
+.fa-github:hover {
+  color: #652266;
+}
+
+.fa-facebook:hover {
+  color: #1773ea;
+}
+
+.fa-instagram:hover {
+  color: #b32e87;
+}
+
+.fa-twitter:hover {
+  color: #1c9cea;
 }
 
 /*login layout*/
 .register-form {
   padding: 5rem 0;
   max-width: 50rem;
-  margin: 5rem auto;
+  margin: 2.5rem auto;
 }
 
 .center {
@@ -128,14 +169,8 @@ nav ul .search-icon button:hover {
   gap: 30px;
 }
 
-.register-form {
-  position: relative;
-  top: 60px;
-  padding: 40px;
-}
-
 .register-form .form-control {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .register-form input[type="text"],
@@ -155,56 +190,10 @@ nav ul .search-icon button:hover {
   justify-content: space-evenly;
 }
 
-/*.showcase{
-  height: 600px;
-  background: white;
-  color: rgb(0, 0, 0);
-  position: relative;
-}
-
-.showcase h1{
-  font-size: 40px;
-}
-
-.showcase p{
-  margin: 20px 0;
-}
-.showcase .grid{
-  overflow: visible;
-  grid-template-columns: 55% 45%;
-  gap: 30px;
-}
-
-.showcase-form{
- position: relative;
- top: 60px;
-width: 400px;
-padding: 40px;
-}
-
-.showcase-form .form-control{
-  margin: 30px 0;
-}
-
-.showcase-form input[type='text'],
-.showcase-form input[type='password']{
-  border: 0;
-  border-bottom: 2px solid grey;
-  width: 100%;
-  padding: 3px;
-  font-size: 16px;
-}
-
-.showcase-form input:focus{
-  outline: none;
-}*/
-
 /*signup layout*/
 
 .login-form {
-  padding: 5rem 0;
-  max-width: 50rem;
-  margin: 5rem auto;
+  margin: 2.5em auto;
 }
 
 .center {
@@ -214,7 +203,7 @@ padding: 40px;
 }
 
 .login-form .form-control {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .login-form h1 {
@@ -228,16 +217,6 @@ padding: 40px;
   overflow: visible;
   grid-template-columns: 55% 45%;
   gap: 30px;
-}
-
-.login-form {
-  position: relative;
-  top: 60px;
-  padding: 40px;
-}
-
-.login-form .form-control {
-  margin: 30px 0;
 }
 
 .login-form input[type="text"],
@@ -306,44 +285,6 @@ padding: 40px;
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-}
-
-/* Footer bar*/
-
-.footer {
-  background-color: var(--primary-color);
-  color: #000;
-  bottom: 0;
-  left: 0;
-  height: 170px;
-  width: 100%;
-  position: relative;
-  margin-top: auto;
-}
-
-.nothing {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.footer .social a {
-  margin: 0 10px;
-}
-
-.fa-github:hover {
-  color: #000000;
-}
-
-.fa-facebook:hover {
-  color: #1773ea;
-}
-
-.fa-instagram:hover {
-  color: #b32e87;
-}
-
-.fa-twitter:hover {
-  color: #1c9cea;
 }
 
 /*productDeatil page style.css*/
@@ -773,6 +714,55 @@ img {
   }
 }
 
+/* INDEX PAGE - CENTER */
+/* 
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 114rem;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+.content-center .con {
+  max-width: 37rem;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.content-center .con:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.content-center .con img {
+  width: 95%;
+  height: 75%;
+  margin: auto;
+  object-fit: scale-down;
+  transition: all 2s ease;
+}
+
+.content-center .con:hover img {
+  transform: scale(1.1);
+}
+
+.content-center .con div {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  width: 18rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+} */
 
 .shopping-cast {
   width: 80%;
@@ -856,5 +846,3 @@ img {
 .shopping-cast button {
   cursor: pointer;
 }
-
-
