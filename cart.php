@@ -55,8 +55,8 @@ $cart_results = mysqli_query($conn, $cart_query);
     </p>
     <table style="border: 1px solid black;">
       <thead>
-        <th>image</th>
-        <th>name</th>
+        <th>product detail</th>
+        <th>product name</th>
         <th>price</th>
         <th>quantity</th>
         <th>total price</th>
