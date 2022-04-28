@@ -167,7 +167,7 @@ include ('acess.php');
 
           <div>
             <br>
-            <a href = "submit_payment.html">
+            <a href = "payment sucess.html">
               <input type="submit" value="Pay now" name="submit" class="btn btn-secondary" />
             </a>
           </div>
