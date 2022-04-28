@@ -74,7 +74,7 @@ $cart_results = mysqli_query($conn, $cart_query);
           <td width="99%"" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
           <td style="white-space: nowrap;">$<?php echo $row['price'] ?>/-</td>
           <td style="white-space: nowrap;">
-            <form action="/update_cart.php" method="get">
+            <form action="update_cart.php" method="get">
               <input type="number" class="quantity-input" value="<?php echo $row['quantity'] ?>" name="quantity">
               <input type="number" value="<?php echo $row['id'] ?>" name="id" hidden>
               <button class="quantity-update-btn">Update</button>
@@ -82,7 +82,7 @@ $cart_results = mysqli_query($conn, $cart_query);
           </td>
           <td style="white-space: nowrap;">$<?php echo $row['quantity'] * $row['price'] ?>/-</td>
           <td style="white-space: nowrap;"">
-            <button class=" remove-btn" onclick="location.href='/delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
+            <button class=" remove-btn" onclick="location.href='delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
           </td>
         </tr>
       <?php
@@ -95,7 +95,7 @@ $cart_results = mysqli_query($conn, $cart_query);
         <td></td>
         <td>$<?php echo $total_price ?>/-</td>
         <td>
-          <button class=" remove-btn" onclick="location.href='/delete_cart.php?id=all';">Remove All</button>
+          <button class=" remove-btn" onclick="location.href='delete_cart.php?id=all';">Remove All</button>
         </td>
       </tr>
     </table>
