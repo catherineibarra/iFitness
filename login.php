@@ -48,12 +48,12 @@ include('access.php');
       <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <div class="form-control">
           <input type="text" name="username" id="username" placeholder="Username" /><br />
-          <span class="error">* <?php echo $usernameerr; ?></span>
+          <span class="error">&nbsp;  <?php echo $usernameerr; ?></span>
         </div>
         <div class="form-control">
           <input type="password" name="password" id="myInput" placeholder="Password" /><br />
           <input type="checkbox" onclick="myFunction()">Show Password<br>
-          <span class="error">* <?php echo $passworderr; ?><?php echo $fmsg; ?></span>
+          <span class="error">&nbsp; <?php echo"<span class='error'>  $passworderr </span>"?><?php echo $fmsg; ?></span>
         </div>
         <div>
           <input type="submit" value="Sign in" class="btn btn-secondary" />

@@ -57,59 +57,53 @@ include('./location.php');
             <div class="mySlides fade">
               <img src="../images/6.1.jpg" id="zoom" alt="" />
             </div>
-
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" 
-          onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-
         </div>
 
       </div>
       <div class="right">
         <span>BODYBUILDING PILLS FOR MEN</span>
-        <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
-            <div class="right">
-              <span>BODYBUILDING PILLS FOR MEN</span>
-              <h4>PREMIUM HERBAL SUPPLEMENTS<h4>
-                  <div class="price">$39</div>
+        <h4>PREMIUM HERBAL SUPPLEMENTS<h4>
+            <div class="price">$39</div>
 
-                  <form class="form" action="../add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" />
-                    <input type="number" value="6" name="product_id" hidden />
-                    <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
-                  </form>
+            <form class="form" action="../add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="6" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
+            </form>
 
-                  <h5>Product Detail</h5>
-                  <h6>
-                    BODYBUILDING PILLS FOR MEN: <br>
-                    Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire.
-                    Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat.
-                    This herbal complex contacins blend from: Tribulus Terrestris, DHEA, Tongkat ALi, Rhodiola Rosea, Alpha lipoic acid, Zinc, Vitamin B6 and more.<br>
+            <h3>Product Detail</h3>
+            <p>
+              BODYBUILDING PILLS FOR MEN: <br>
+              Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire.
+              Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat.
+              This herbal complex contacins blend from: Tribulus Terrestris, DHEA, Tongkat ALi, Rhodiola Rosea, Alpha lipoic acid, Zinc, Vitamin B6 and more.<br>
 
-                    WORKOUT SUPPLEMENTS FOR MUSCLE GROWTH: <br>
-                    The testosterone is responsible for increasing energy, strength, and muscle mass in a person.
-                    If you have more DHEA in the body, you will have more testosterone in the body.
-                    his means you will be able to increase your lean muscle mass and look more toned. Bodybuilders, in particular, will take DHEA supplements in addition to testosterone supplements in order to maximize their gains.<br>
+              WORKOUT SUPPLEMENTS FOR MUSCLE GROWTH: <br>
+              The testosterone is responsible for increasing energy, strength, and muscle mass in a person.
+              If you have more DHEA in the body, you will have more testosterone in the body.
+              his means you will be able to increase your lean muscle mass and look more toned. Bodybuilders, in particular, will take DHEA supplements in addition to testosterone supplements in order to maximize their gains.<br>
 
-                    NATURAL METABOLISM BOOSTER: <br>
-                    People often gain weight as they get older because their metabolism slows down. A huge benefit of DHEA is that it boosts the body’s metabolism.
-                    Since the metabolism is necessary for burning and absorbing calories, a fast metabolism will mean that more calories get burned.
-                    Of course, do not depend on DHEA supplements alone for losing weight because you still need to watch your caloric intake and exercise on a regular basis.<br>
+              NATURAL METABOLISM BOOSTER: <br>
+              People often gain weight as they get older because their metabolism slows down. A huge benefit of DHEA is that it boosts the body’s metabolism.
+              Since the metabolism is necessary for burning and absorbing calories, a fast metabolism will mean that more calories get burned.
+              Of course, do not depend on DHEA supplements alone for losing weight because you still need to watch your caloric intake and exercise on a regular basis.<br>
 
-                    BODYBUILDING SUPPLEMENTS TESTOSTERONE: <br>
-                    The most questionable benefit of tongkat ali is as a testosterone booster.
-                    Many people claim longjack is a test booster, but this is one claim that has the least evidence.
-                    One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
+              BODYBUILDING SUPPLEMENTS TESTOSTERONE: <br>
+              The most questionable benefit of tongkat ali is as a testosterone booster.
+              Many people claim longjack is a test booster, but this is one claim that has the least evidence.
+              One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
 
-                  </h6>
-            </div>
+        </p>
       </div>
+    </div>
   </section>
 
 

@@ -40,6 +40,10 @@ img {
   width: 100%;
 }
 
+.error{
+  color: var(--error-color);
+}
+
 /* ===========================================
 NAVIGATION BAR */
 nav {

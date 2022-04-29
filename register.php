@@ -54,27 +54,29 @@ include('registerprocess.php');
       <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <div class="form-control">
           <input type="text" value="<?php echo $firstname; ?>" placeholder="First name" name="firstname" id="firstname" />
-          <span class="error">*<?php echo $firstnameerr; ?></span>
+          <span class="error">&nbsp;<?php echo $firstnameerr; ?></span>
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $lastname; ?>" placeholder="Last name" name="lastname" id="lastname" />
-          <span class="error">* <?php echo $lastnameerr; ?></span>
+          <span class="error">&nbsp; <?php echo $lastnameerr; ?></span>
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $email; ?>" placeholder="Example@email.com" name="email" id="email" />
-          <span class="error">* <?php echo $emailerr; ?></span>
+          <span class="error">&nbsp; <?php echo $emailerr; ?></span>
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $username; ?>" placeholder="Username" name="username" id="username" />
-          <span class="error">* <?php echo $usernameerr; ?><?php echo $exist_uname; ?></span>
+          <span class="error">&nbsp; <?php echo $usernameerr; ?><?php echo $exist_uname; ?></span>
         </div>
         <div class="form-control">
-          <input type="password" value="<?php echo $password; ?>" placeholder="Password" name="password" id="password" />
-          <span class="error">* <?php echo $passworderr; ?></span>
+          <input type="password" value="<?php echo $password; ?>" placeholder="Password" name="password" id="myInput" />
+          <input type="checkbox" onclick="myFunction1()">Show Password<br>
+          <span class="error">&nbsp; <?php echo $passworderr; ?></span>
         </div>
         <div class="form-control">
-          <input type="password" value="<?php echo $rep_pass; ?>" placeholder="Repeat Password" name="passreapeat" id="passreapeat" />
-          <span class="error">* <?php echo $rep_passerr; ?><?php echo $no_match; ?></span>
+          <input type="password" value="<?php echo $rep_pass; ?>" placeholder="Repeat Password" name="passreapeat" id="secondary" />
+          <input type="checkbox" onclick="myFunction2()">Show Password<br>
+          <span class="error">&nbsp; <?php echo $rep_passerr; ?><?php echo $no_match; ?></span>
         </div>
         <div class="form-control">
           <select name="question">
@@ -90,7 +92,7 @@ include('registerprocess.php');
         </div>
         <div class="form-control">
           <input type="text" value="<?php echo $answer; ?>" placeholder="Answer" name="answer" id="answer" />
-          <span class="error">* <?php echo $answererr; ?></span>
+          <span class="error">&nbsp; <?php echo $answererr; ?></span>
         </div>
 
         <div>
@@ -122,6 +124,25 @@ include('registerprocess.php');
       </div>
     </ul>
   </footer>
+  <script>
+    function myFunction1() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+
+    function myFunction2() {
+      var x = document.getElementById("secondary");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+  </script>
 
 </body>
 
