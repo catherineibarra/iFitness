@@ -19,6 +19,8 @@ endif;
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/utilities.css">
@@ -56,8 +58,77 @@ endif;
   </nav>
 
   <!-- Center screen-->
-  
 
+  <ul class="box-content">
+
+    <li class="home-card">
+      <div class="box">
+        <div class="slide-img">
+          <img src="./images/1.jpg" alt="1">
+          <div class="index-overlay">
+            <a href="#" class="add-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="type">
+            <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
+            <a href="#" class="price">$60.21</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="home-card">
+      <div class="box">
+        <div class="slide-img">
+          <img src="./images/2.jpg" alt="2">
+          <div class="index-overlay">
+            <a href="#" class="add-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="type">
+            <a href="./products/pd2.php"> Musashi High Protein Chocolate 2kg </a>
+            <a href="#" class="price">$76.49</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="home-card">
+      <div class="box">
+        <div class="slide-img">
+          <img src="./images/5.jpg" alt="3">
+          <div class="index-overlay">
+            <a href="#" class="add-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="type">
+            <a href="./products/pd3.php"> Niversal Animal Energy 60 Capsules </a>
+            <a href="#" class="price">$29.00</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="home-card">
+      <div class="box">
+        <div class="slide-img">
+          <img src="./images/9.jpg" alt="4">
+          <div class="index-overlay">
+            <a href="#" class="add-btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="type">
+            <a href="./products/pd3.php"> Rich Piana 5% Nutrition 90 Capsules </a>
+            <a href="#" class="price">$77.00</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
 
   <!--Footer bar-->
   <footer>
@@ -77,7 +148,6 @@ endif;
       </div>
     </ul>
   </footer>
-
 
 </body>
 

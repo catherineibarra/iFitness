@@ -10,12 +10,13 @@
 
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
 body {
+  color: #000;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -27,17 +28,10 @@ section {
 
 ul {
   list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 a {
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 15px;
-  color: black;
-  padding: 30px;
 }
 p {
   margin: 10px 0;
@@ -46,44 +40,44 @@ img {
   width: 100%;
 }
 
-nav,
-footer {
+/* ===========================================
+NAVIGATION BAR */
+nav {
   background-color: var(--primary-color);
   border-left: none;
   border-right: none;
   height: 100px;
+  padding: 25px 50px 25px 50px;
 }
 
-nav {
-  padding: 25px 50px 25px 50px;
+nav a {
+  letter-spacing: 2px;
+  font-size: 15px;
+  color: black;
+  padding: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul .reg-nav {
   background-color: black;
-  height: 40px;
 }
 
 nav ul .reg-nav a {
   color: white;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 30px 0px 25px 0px;
-}
-
-nav a:hover,
-footer a:hover {
+nav a:hover {
   border-bottom: 1px white solid;
 }
 
-nav ul div.navbar,
-footer ul div.navbar {
+nav ul div.navbar {
   display: inline-flex;
   padding: 0 25px;
-  height: 40px;
 }
 
 nav ul div.navbar li {
@@ -123,6 +117,51 @@ nav ul .search-icon button:hover {
   background: #dae1e5;
 }
 
+/* ===========================================
+FOOTER */
+footer {
+  background-color: var(--primary-color);
+  height: 100px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 0px 25px 0px;
+}
+
+footer a {
+  letter-spacing: 2px;
+  font-size: 15px;
+  color: black;
+  padding: 30px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nothing {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a:hover {
+  border-bottom: 1px white solid;
+}
+
+footer ul div.navbar {
+  display: inline-flex;
+  padding: 0 25px;
+  height: 40px;
+}
+
+footer ul div.navbar li {
+  margin: auto;
+}
+
 .fa-github:hover {
   color: #652266;
 }
@@ -139,9 +178,10 @@ nav ul .search-icon button:hover {
   color: #1c9cea;
 }
 
-/*login layout*/
+/* ===========================================
+REGISTER FORM*/
 .register-form {
-  padding: 5rem 0;
+  padding: 0;
   max-width: 50rem;
   margin: 2.5rem auto;
 }
@@ -190,10 +230,12 @@ nav ul .search-icon button:hover {
   justify-content: space-evenly;
 }
 
-/*signup layout*/
-
+/* ===========================================
+LOGIN FORM */
 .login-form {
-  margin: 2.5em auto;
+  padding: 5rem 0;
+  max-width: 50rem;
+  margin: 5rem auto;
 }
 
 .center {
@@ -232,10 +274,10 @@ nav ul .search-icon button:hover {
   outline: none;
 }
 
-/*Shop page layout*/
-
+/* ===========================================
+SHOP PAGE*/
 .section {
-  padding: 10rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
   overflow: hidden;
 }
 
@@ -255,6 +297,10 @@ nav ul .search-icon button:hover {
   position: relative;
   cursor: pointer;
   text-align: center;
+}
+
+.cat-center .cat p {
+  color: #000;
 }
 
 .cat-center .cat:not(:last-child) {
@@ -287,14 +333,14 @@ nav ul .search-icon button:hover {
   font-weight: 500;
 }
 
-/*productDeatil page style.css*/
+/* ===========================================
+PRODUCT PAGE*/
 .product-container {
   max-width: 114rem;
   margin: 0 auto;
   padding: 0 3rem;
 }
 
-/* Product Details */
 .product-detail .details {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -472,6 +518,7 @@ nav ul .search-icon button:hover {
 }
 
 .product-info a {
+  color: black;
   font-size: 1.5rem;
   display: block;
   margin-bottom: 1rem;
@@ -595,8 +642,8 @@ nav ul .search-icon button:hover {
   }
 }
 
-/* Icons */
-
+/* ===========================================
+ICONS*/
 .icon {
   cursor: pointer;
   font-size: 2.5rem;
@@ -622,7 +669,8 @@ nav ul .search-icon button:hover {
   justify-content: center;
 }
 
-/*slider style */
+/* ===========================================
+SLIDER STYLE*/
 * {
   box-sizing: border-box;
 }
@@ -637,14 +685,16 @@ img {
   vertical-align: middle;
 }
 
-/* Slideshow container */
+/* ===========================================
+SLIDESHOW CONTAINER*/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* ===========================================
+NEXT & PREVIOUS BUTTONS*/
 .prev,
 .next {
   cursor: pointer;
@@ -714,56 +764,8 @@ img {
   }
 }
 
-/* INDEX PAGE - CENTER */
-/* 
-.content-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 114rem;
-  margin: auto;
-  padding: 0 3rem;
-}
-
-.content-center .con {
-  max-width: 37rem;
-  height: 15rem;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  text-align: center;
-}
-
-.content-center .con:not(:last-child) {
-  margin-right: 3rem;
-}
-
-.content-center .con img {
-  width: 95%;
-  height: 75%;
-  margin: auto;
-  object-fit: scale-down;
-  transition: all 2s ease;
-}
-
-.content-center .con:hover img {
-  transform: scale(1.1);
-}
-
-.content-center .con div {
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--white);
-  width: 18rem;
-  height: 5rem;
-  line-height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
-} */
-
+/* ===========================================
+SHOPPING CART*/
 .shopping-cast {
   width: 80%;
   margin: auto;
@@ -771,7 +773,7 @@ img {
   /* background-color: #c1c4c7; */
   /* border: 1px solid gray; */
   border-collapse: collapse;
-  overflow-y:auto;
+  overflow-y: auto;
   height: 75%;
 }
 
@@ -781,12 +783,12 @@ img {
   /* min-width: 10%; */
 }
 
-.shopping-cast th{
+.shopping-cast th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-.shopping-cast td{
+.shopping-cast td {
   border: 1px solid white;
   padding: 8px;
 }
@@ -834,7 +836,7 @@ img {
 
 .checkout-btn {
   margin: auto;
-  background-color: #1773EA;
+  background-color: #1773ea;
   color: white;
   height: 35px;
   border: none;
@@ -845,4 +847,116 @@ img {
 
 .shopping-cast button {
   cursor: pointer;
+}
+
+/* ===========================================
+ INDEX PAGE */
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 460px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.slide-img {
+  position: relative;
+}
+
+.box img {
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.detail-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.type {
+  display: flex;
+  color: #222222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.type a {
+  color: #222222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 20px 10px 20px 10px;
+}
+
+.price {
+  color: #333333;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.index-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 95, 235, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.add-btn:hover {
+  color: #ffffff;
+  background-color: #f15fa3;
+  /* background-color: #dae1e5; */
+  transition: all ease 0.3s;
+}
+
+.index-overlay {
+  visibility: hidden;
+}
+
+.slide-img:hover .index-overlay {
+  visibility: visible;
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
