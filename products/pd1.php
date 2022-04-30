@@ -14,6 +14,7 @@ include('./location.php');
   <link rel="stylesheet" href="../css/utilities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
   <title> Product One | iFitness </title>
 </head>
 
@@ -61,8 +62,12 @@ include('./location.php');
               <img src="../images/1.2.jpg" id="zoom" alt="" />
             </div>
           </div>
+<<<<<<< HEAD
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
             <</a>
+=======
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+>>>>>>> 6d99f1046a034225b65f2fe32eba5062e5bd9f2e
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -80,7 +85,7 @@ include('./location.php');
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
               <input type="number" value="1" name="product_id" hidden />
-              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
+              <button class="cart.php" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
@@ -121,7 +126,7 @@ include('./location.php');
   <section class="section featured">
     <div class="top container">
       <h1>Related Products</h1>
-      <a href="#" class="view-more">View more</a>
+      <a href="../shop.php" class="view-more">View more</a>
     </div>
     <div class="product-center container">
       <div class="product-item">

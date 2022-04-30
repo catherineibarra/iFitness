@@ -14,6 +14,7 @@ include('./location.php');
   <link rel="stylesheet" href="../css/utilities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
   <title> Product Six | iFitness </title>
 </head>
 
@@ -57,59 +58,61 @@ include('./location.php');
             <div class="mySlides fade">
               <img src="../images/6.1.jpg" id="zoom" alt="" />
             </div>
-
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-
         </div>
 
       </div>
       <div class="right">
         <span>BODYBUILDING PILLS FOR MEN</span>
-        <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
-            <div class="right">
-              <span>BODYBUILDING PILLS FOR MEN</span>
-              <h1>PREMIUM HERBAL SUPPLEMENTS<h1>
-                  <div class="price">$39</div>
+        <h4>PREMIUM HERBAL SUPPLEMENTS<h4>
+            <div class="price">$39</div>
 
+<<<<<<< HEAD
                   <form class="form" action="../add2cart.php" method="get">
                     <input type="number" value="1" name="quantity" />
                     <input type="number" value="6" name="product_id" hidden />
                     <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
                   </form>
+=======
+            <form class="form" action="../add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" />
+              <input type="number" value="6" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
+            </form>
+>>>>>>> 6d99f1046a034225b65f2fe32eba5062e5bd9f2e
 
-                  <h3>Product Detail</h3>
-                  <p>
-                    BODYBUILDING PILLS FOR MEN: <br>
-                    Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire.
-                    Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat.
-                    This herbal complex contacins blend from: Tribulus Terrestris, DHEA, Tongkat ALi, Rhodiola Rosea, Alpha lipoic acid, Zinc, Vitamin B6 and more.<br>
+            <h3>Product Detail</h3>
+            <p>
+              BODYBUILDING PILLS FOR MEN: <br>
+              Our powerful formula will be beneficial for boosting performance and drive, muscle mass and stamina, testosterone level and disire.
+              Also it promotes heart health and supports healthy cholesterol, mood and stress, suports weight loss and helps burn fat.
+              This herbal complex contacins blend from: Tribulus Terrestris, DHEA, Tongkat ALi, Rhodiola Rosea, Alpha lipoic acid, Zinc, Vitamin B6 and more.<br>
 
-                    WORKOUT SUPPLEMENTS FOR MUSCLE GROWTH: <br>
-                    The testosterone is responsible for increasing energy, strength, and muscle mass in a person.
-                    If you have more DHEA in the body, you will have more testosterone in the body.
-                    his means you will be able to increase your lean muscle mass and look more toned. Bodybuilders, in particular, will take DHEA supplements in addition to testosterone supplements in order to maximize their gains.<br>
+              WORKOUT SUPPLEMENTS FOR MUSCLE GROWTH: <br>
+              The testosterone is responsible for increasing energy, strength, and muscle mass in a person.
+              If you have more DHEA in the body, you will have more testosterone in the body.
+              his means you will be able to increase your lean muscle mass and look more toned. Bodybuilders, in particular, will take DHEA supplements in addition to testosterone supplements in order to maximize their gains.<br>
 
-                    NATURAL METABOLISM BOOSTER: <br>
-                    People often gain weight as they get older because their metabolism slows down. A huge benefit of DHEA is that it boosts the body’s metabolism.
-                    Since the metabolism is necessary for burning and absorbing calories, a fast metabolism will mean that more calories get burned.
-                    Of course, do not depend on DHEA supplements alone for losing weight because you still need to watch your caloric intake and exercise on a regular basis.<br>
+              NATURAL METABOLISM BOOSTER: <br>
+              People often gain weight as they get older because their metabolism slows down. A huge benefit of DHEA is that it boosts the body’s metabolism.
+              Since the metabolism is necessary for burning and absorbing calories, a fast metabolism will mean that more calories get burned.
+              Of course, do not depend on DHEA supplements alone for losing weight because you still need to watch your caloric intake and exercise on a regular basis.<br>
 
-                    BODYBUILDING SUPPLEMENTS TESTOSTERONE: <br>
-                    The most questionable benefit of tongkat ali is as a testosterone booster.
-                    Many people claim longjack is a test booster, but this is one claim that has the least evidence.
-                    One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
+              BODYBUILDING SUPPLEMENTS TESTOSTERONE: <br>
+              The most questionable benefit of tongkat ali is as a testosterone booster.
+              Many people claim longjack is a test booster, but this is one claim that has the least evidence.
+              One study showed a 46% increase in testosterone with tongkat ali, this was with men who were already low in testosterone.
 
-                  </p>
-            </div>
+        </p>
       </div>
+    </div>
   </section>
 
 
@@ -117,7 +120,7 @@ include('./location.php');
   <section class="section featured">
     <div class="top container">
       <h1>Related Products</h1>
-      <a href="#" class="view-more">View more</a>
+      <a href="../shop.php" class="view-more">View more</a>
     </div>
     <div class="product-center container">
       <div class="product-item">
@@ -310,9 +313,14 @@ include('./location.php');
     });
   </script>
 
+<<<<<<< HEAD
   <footer class="footer bg-primary py-3">
     <div class="container grid grid-3">
       <!--Social media parts-->
+=======
+  <footer>
+    <ul>
+>>>>>>> 6d99f1046a034225b65f2fe32eba5062e5bd9f2e
       <div class="social">
         <a href="#"><i class="fab fa-github fa-2x"></i></a>
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>

@@ -14,6 +14,7 @@ include('./location.php');
   <link rel="stylesheet" href="../css/utilities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
   <title> Product Nine | iFitness </title>
 </head>
 
@@ -59,8 +60,7 @@ include('./location.php');
             </div>
 
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -85,12 +85,12 @@ include('./location.php');
             <h3>Product Detail</h3>
             <p>
               Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules
-              Rich Piana 5% Nutrition Bigger By The Day is an all-natural muscle builder that is without a doubt the strongest formula of it’s kind on the market.
-              This is a formula that’s so hardcore, only 5% Nutrition could have created it!<br>
+              Rich Piana 5% Nutrition Bigger By The Day is an all-natural muscle builder that is without a doubt the strongest formula of it is kind on the market.
+              This is a formula that is so hardcore, only 5% Nutrition could have created it!<br>
 
-              When it comes to natural muscle builders, there’s a number of products currently available that like to brag about how hardcore they are.
-              You’ve seen the ads and heard the hype. Enough of the garbage out there, we’ve all listened to it long enough and decided it was time to step in and show them how the big boys do it.
-              5% Nutrition has defined the word ‘hardcore’ of the supplements world for years and has designed the most potent legal muscle builder on the market – Bigger By The Day!<br>
+              When it comes to natural muscle builders, there is a number of products currently available that like to brag about how hardcore they are.
+              You have seen the ads and heard the hype. Enough of the garbage out there, we have all listened to it long enough and decided it was time to step in and show them how the big boys do it.
+              5% Nutrition has defined the word hardcore of the supplements world for years and has designed the most potent legal muscle builder on the market Bigger By The Day!<br>
 
               We took the strongest legal, all-natural muscle building ingredients available and combined them into one incredible product, and we dared to make it stronger than any other product of its kind.<br>
 
@@ -106,7 +106,7 @@ include('./location.php');
   <section class="section featured">
     <div class="top container">
       <h1>Related Products</h1>
-      <a href="#" class="view-more">View more</a>
+      <a href="../shop.php" class="view-more">View more</a>
     </div>
     <div class="product-center container">
       <div class="product-item">

@@ -60,7 +60,7 @@ if($register == true){
         
         //this checks inside the row if there is a results that matches.
         if (mysqli_num_rows($code_results)) {
-            $exist_uname = "'$username' already exist. Please try another username.";
+            $exist_uname = "*Username already exist. Please try another Username.";
         } else {
             
             //insert user inputs into database

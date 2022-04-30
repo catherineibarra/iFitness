@@ -6,14 +6,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $insession = true;
 //username
   if (empty($_POST["username"])) {
-    $usernameerr = "Username is required";
+    $usernameerr = "*Username is required";
     $insession = false;
   } else {
     $username = test_input($_POST["username"]);
   }
   //password
   if (empty($_POST["password"])) {
-    $passworderr = "Password is required";
+    $passworderr = "*Password is required";
     $insession = false;
   } else {
     $password = test_input($_POST["password"]);
