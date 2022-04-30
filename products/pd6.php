@@ -73,20 +73,13 @@ include('./location.php');
         <span>BODYBUILDING PILLS FOR MEN</span>
         <h4>PREMIUM HERBAL SUPPLEMENTS<h4>
             <div class="price">$39</div>
-
-<<<<<<< HEAD
+          
+          < HEAD
                   <form class="form" action="../add2cart.php" method="get">
                     <input type="number" value="1" name="quantity" />
                     <input type="number" value="6" name="product_id" hidden />
                     <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
                   </form>
-=======
-            <form class="form" action="../add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" />
-              <input type="number" value="6" name="product_id" hidden />
-              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
-            </form>
->>>>>>> 6d99f1046a034225b65f2fe32eba5062e5bd9f2e
 
             <h3>Product Detail</h3>
             <p>
