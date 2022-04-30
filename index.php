@@ -19,6 +19,7 @@ endif;
 <html>
 
 <head>
+  <title> Home | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,6 @@ endif;
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title> Home | iFitness </title>
 </head>
 
 <body>
@@ -58,93 +58,99 @@ endif;
   </nav>
 
   <!-- Center screen-->
+  <section class="index-section">
 
-  <ul class="box-content">
+    <img src="./images/draft1.png" width="100%">
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/1.jpg" alt="1">
-          <div class="index-overlay">
-            <a href="#" class="add-btn">Add to Cart</a>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
-            <a href="#" class="price">$60.21</a>
-          </div>
-        </div>
-      </div>
-    </li>
+    <h1 class="feat-h1"> FEATURED PRODUCTS </h1>
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/2.jpg" alt="2">
-          <div class="index-overlay">
-            <a href="#" class="add-btn">Add to Cart</a>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd2.php"> Musashi High Protein Chocolate 2kg </a>
-            <a href="#" class="price">$76.49</a>
-          </div>
-        </div>
-      </div>
-    </li>
+    <ul class="box-content">
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/5.jpg" alt="3">
-          <div class="index-overlay">
-            <a href="#" class="add-btn">Add to Cart</a>
+      <li class="home-card">
+        <div class="box">
+          <div class="slide-img">
+            <img src="./images/1.jpg" alt="1">
+            <div class="index-overlay">
+              <a href="not-found.html" class="add-btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
+              <a href="./products/pd1.php" class="price">$60.21</a>
+            </div>
           </div>
         </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd3.php"> Niversal Animal Energy 60 Capsules </a>
-            <a href="#" class="price">$29.00</a>
-          </div>
-        </div>
-      </div>
-    </li>
+      </li>
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/9.jpg" alt="4">
-          <div class="index-overlay">
-            <a href="#" class="add-btn">Add to Cart</a>
+      <li class="home-card">
+        <div class="box">
+          <div class="slide-img">
+            <img src="./images/2.jpg" alt="2">
+            <div class="index-overlay">
+              <a href="not-found.html" class="add-btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="./products/pd2.php"> Musashi High Protein Chocolate 2kg </a>
+              <a href="./products/pd2.php" class="price">$76.49</a>
+            </div>
           </div>
         </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd3.php"> Rich Piana 5% Nutrition 90 Capsules </a>
-            <a href="#" class="price">$77.00</a>
+      </li>
+
+      <li class="home-card">
+        <div class="box">
+          <div class="slide-img">
+            <img src="./images/5.jpg" alt="3">
+            <div class="index-overlay">
+              <a href="not-found.html" class="add-btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="./products/pd5.php"> Niversal Animal Energy 60 Capsules </a>
+              <a href="./products/pd5.php" class="price">$29.00</a>
+            </div>
           </div>
         </div>
-      </div>
-    </li>
-  </ul>
+      </li>
+
+      <li class="home-card">
+        <div class="box">
+          <div class="slide-img">
+            <img src="./images/9.jpg" alt="4">
+            <div class="index-overlay">
+              <a href="not-found.html" class="add-btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="./products/pd9.php"> Rich Piana 5% Nutrition 90 Capsules </a>
+              <a href="./products/pd9.php" class="price">$77.00</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
 
   <!--Footer bar-->
   <footer>
     <ul>
       <div class="social">
-        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
   </footer>
