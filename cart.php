@@ -51,65 +51,72 @@ $cart_results = mysqli_query($conn, $cart_query);
   <!-- Center screen-->
   <div class="shopping-cast">
     <p class="shopping-cart-header">
-      SHOPPING CART<i class="fa-solid fa-cart-arrow-down"></i>
+      SHOPPING CART
     </p>
-    <table style="border: 1px solid black;">
-      <thead>
-        <th>product detail</th>
-        <th>product name</th>
-        <th>price</th>
-        <th>quantity</th>
-        <th>total price</th>
-        <th>action</th>
-      </thead>
-      <?php
+    <?php
+    if (mysqli_num_rows($cart_results)) {
+    ?>
+      <table style="border: 1px solid black;">
+        <thead>
+          <th>product detail</th>
+          <th>product name</th>
+          <th>price</th>
+          <th>quantity</th>
+          <th>total price</th>
+          <th>action</th>
+        </thead>
+        <?php
 
-      $total_price = 0;
+        $total_price = 0;
 
-      while ($row = mysqli_fetch_assoc($cart_results)) {
-        $price = $row['quantity'] * $row['price'];
-        $total_price = $total_price + $price;
-      ?>
-        <tr>
-          <td style="white-space: nowrap;"><img src="<?php echo str_replace('pd', '', str_replace('../', '/', $row['image'])) ?>" /></td>
-          <td width="99%"" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
-          <td style="white-space: nowrap;">$<?php echo $row['price'] ?> </td>
-          <td style="white-space: nowrap;">
-            <form action="update_cart.php" method="get">
-              <input type="number" class="quantity-input" value="<?php echo $row['quantity'] ?>" name="quantity">
-              <input type="number" value="<?php echo $row['id'] ?>" name="id" hidden>
-              <button class="quantity-update-btn">Update</button>
-            </form>
-          </td>
-          <td style="white-space: nowrap;">$<?php echo $row['quantity'] * $row['price'] ?> </td>
-          <td style="white-space: nowrap;"">
+        while ($row = mysqli_fetch_assoc($cart_results)) {
+          $price = $row['quantity'] * $row['price'];
+          $total_price = $total_price + $price;
+        ?>
+          <tr>
+            <td style="white-space: nowrap;"><img src="<?php echo str_replace('pd', '', str_replace('../', '/', $row['image'])) ?>" /></td>
+            <td width="99%"" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
+            <td style="white-space: nowrap;">$<?php echo $row['price'] ?></td>
+            <td style="white-space: nowrap;">
+              <form action="update_cart.php" method="get">
+                <input type="number" class="quantity-input" value="<?php echo $row['quantity'] ?>" name="quantity">
+                <input type="number" value="<?php echo $row['id'] ?>" name="id" hidden>
+                <button class="quantity-update-btn">Update</button>
+              </form>
+            </td>
+            <td style="white-space: nowrap;">$<?php echo $row['quantity'] * $row['price'] ?> </td>
+            <td style="white-space: nowrap;"">
             <button class=" remove-btn" onclick="location.href='delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
+            </td>
+          </tr>
+        <?php
+        }
+        ?>
+        <tr>
+          <td></td>
+          <td>grand total:</td>
+          <td></td>
+          <td></td>
+          <td>$<?php echo $total_price ?> </td>
+          <td>
+            <button class=" remove-btn" onclick="location.href='delete_cart.php?id=all';">Remove All</button>
           </td>
         </tr>
-      <?php
-      }
-      ?>
-      <tr>
-        <td></td>
-        <td>grand total:</td>
-        <td></td>
-        <td></td>
-        <td>$<?php echo $total_price ?> </td>
-        <td>
-          <button class=" remove-btn" onclick="location.href='delete_cart.php?id=all';">Remove All</button>
-        </td>
-      </tr>
-    </table>
-    <div style="width: 20%;margin: auto;">
-       <form class="form" action="payment.php" method="get">
-      <button class="checkout-btn">Proceed To Checkout</button>
-        </form>
-         <form class="form" action="shop.php">
+      </table>
+      <div style="width: 20%;margin: auto;">
+        <button class="checkout-btn">Proceed To Checkout</button>
+ <form class="form" action="shop.php">
          <button class="checkout-btn">Continue shopping</button>
                   </form>
-
-     </div>
+      </div>
+    <?php
+    } else {
+    ?>
+      <p style="text-align: center;color: red;">No Any Product In Cart</p>
+    <?php } ?>
   </div>
+
+
 
 
 
