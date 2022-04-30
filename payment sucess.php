@@ -73,7 +73,7 @@ include ('acess.php');
         </div>
 
         <div class="center">
-            <a href = "shop.html">
+            <a href = "shop.php">
               <input type="submit" value="continue shopping" name="submit" class="btn btn-secondary" />
             </a>
           </div>
