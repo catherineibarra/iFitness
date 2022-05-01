@@ -58,7 +58,7 @@ include ('acess.php');
   </nav>
     <!-- Center screen-->
     <div class="payment">
-            <img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/32/Accept-icon.png">  
+            <img src ="https://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-check-icon.png"style="width:70%" class = "center"> 
             <br>
             <p>
                 Success!
@@ -73,7 +73,7 @@ include ('acess.php');
         </div>
 
         <div class="center">
-            <a href = "shop.php">
+          <a href = "shop.php">
               <input type="submit" value="continue shopping" name="submit" class="btn btn-secondary" />
             </a>
           </div>
