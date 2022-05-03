@@ -207,6 +207,14 @@ REGISTER FORM*/
 .register-form p {
   margin: 20px 0;
 }
+.login-btn {
+  letter-spacing: 2px;
+  font-size: 15px;
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
 .register-form .grid {
   overflow: visible;
   grid-template-columns: 55% 45%;
@@ -237,9 +245,9 @@ REGISTER FORM*/
 /* ===========================================
 LOGIN FORM */
 .login-form {
-  padding: 5rem 0;
+  padding: 0;
   max-width: 50rem;
-  margin: 5rem auto;
+  margin: 2.5em auto;
 }
 
 .center {
@@ -507,6 +515,20 @@ PRODUCT PAGE*/
   height: 31rem;
   object-fit: cover;
   transition: all 500ms linear;
+}
+
+.related-h1 {
+  font-size: 3em;
+  font-weight: 1000;
+  text-align: center;
+  padding: 30px 30px 10px 30px;
+  letter-spacing: 5px;
+}
+
+.view-more{
+  text-align: center;
+  display: block;
+  padding: 0px 0px 20px 0px;
 }
 
 .product-info {
@@ -827,10 +849,8 @@ SHOPPING CART*/
   width: 100%;
   height: 80%;
   margin: 0;
-  margin-top: 25px;
   border-collapse: collapse;
   overflow-y: auto;
-
 }
 
 .shopping-cast thead {
@@ -888,10 +908,12 @@ SHOPPING CART*/
   border-radius: 5px;
 }
 
-.shopping-cart-header {
-  font-size: 40px;
-  font-weight: bolder;
+.shopping-cart-h1 {
+  font-size: 3em;
+  font-weight: 1000;
   text-align: center;
+  padding: 20px;
+  letter-spacing: 5px;
 }
 
 .checkout-btn {

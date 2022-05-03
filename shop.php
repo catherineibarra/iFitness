@@ -7,16 +7,27 @@ include('access.php');
 <html>
 
 <head>
+  <title> Shop | iFitness </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- IMPORT CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/awesome.css">
+
+  <!-- IMPORT FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title> Shop | iFitness </title>
+
+  <!-- IMPORT VECTORS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--header bar-->
+  <!-- NAVIGATION BAR -->
   <nav>
     <ul>
       <li class="logo"><img src="./images/logo3.png"></li>
@@ -31,7 +42,7 @@ include('access.php');
 
         <?php else : ?>
           <li><a href="login.php">Login</a></li>
-          <li><a href="register.php">Register</a></li>
+          <li class="reg-nav"><a href="register.php">Register</a></li>
 
         <?php endif; ?>
 
@@ -42,98 +53,195 @@ include('access.php');
       </li>
     </ul>
   </nav>
-  <!-- Center screen-->
 
+  <!-- BODY-CONTENT -->
   <section class="section category">
+
+    <!-- ROW 1 -->
     <div class="cat-center">
-      <div class="cat">
-        <a href="./products/pd1.php">
-          <img src="./images/1.jpg" alt="" />
-          <p>Ghost 100% Whey Protein 2lb</p>
-          <p>$60.21</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd2.php">
-          <img src="./images/2.jpg" alt="" />
-          <p>Musashi High Protein Chocolate 2kg</p>
-          <p>$76.49</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd3.php">
-          <img src="./images/3.jpg" alt="" />
-          <p>Muscle Matrix - 60 vcaps (25mg per capsule)</p>
-          <p>$109</p>
-        </a>
-      </div>
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/1.jpg" alt="1">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
+                <a href="./products/pd1.php" class="price">$60.21</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/2.jpg" alt="2">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd2.php"> Musashi High Protein Chocolate 2kg </a>
+                <a href="./products/pd2.php" class="price">$76.59</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/3.jpg" alt="3">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd3.php"> Muscle Matrix 60 Capsules </a>
+                <a href="./products/pd3.php" class="price">$109.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
 
+    <!-- ROW 2 -->
     <div class="cat-center">
-      <div class="cat">
-        <a href="./products/pd4.php">
-          <img src="./images/4.1.jpg" alt="" />
-          <p>Scream Supps PINHEAD 1 Serve Sample</p>
-          <p>$3.96</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd5.php">
-          <img src="./images/5.jpg" alt="" />
-          <p>NIVERSAL ANIMAL ENERGY 60 CAPSULES</p>
-          <p>$29</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd6.php">
-          <img src="./images/6.jpg" alt="" />
-          <p>Muscle Building Vitamins for men - stamina booster for men </p>
-          <p>$39</p>
-        </a>
-      </div>
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/4.1.jpg" alt="4">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
+                <a href="./products/pd4.php" class="price">$3.96</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/5.jpg" alt="5">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd5.php"> Universal Animal Energy 60 Capsules </a>
+                <a href="./products/pd5.php" class="price">$29.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/6.jpg" alt="6">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd6.php"> Muscle Building Vitamins for Men 60 Capsules </a>
+                <a href="./products/pd6.php" class="price">$39.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
 
+    <!-- ROW 3 -->
     <div class="cat-center">
-      <div class="cat">
-        <a href="./products/pd7.php">
-          <img src="./images/7.jpg" alt="" />
-          <p>Cellucor C4 Original ID 60 Serves</p>
-          <p>$68.90</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd8.php">
-          <img src="./images/8.jpg" alt="" />
-          <p>Rich Piana 5% Nutrition Freak Show</p>
-          <p>$78.90</p>
-        </a>
-      </div>
-      <div class="cat">
-        <a href="./products/pd9.php">
-          <img src="./images/9.jpg" alt="" />
-          <p>Rich Piana 5% Nutrition 90 capsules</p>
-          <p>$77</p>
-        </a>
-      </div>
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/7.jpg" alt="7">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd7.php"> Cellucor C4 ID Pre Workout 60 Serves </a>
+                <a href="./products/pd7.php" class="price">$68.90</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/8.jpg" alt="8">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd8.php"> Rich Piana 5% Nutrition Freak Show 180 Capsuls</a>
+                <a href="./products/pd8.php" class="price">$78.90</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/9.jpg" alt="9">
+              <div class="index-overlay">
+                <a href="not-found.html" class="add-btn">Add to Cart</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd9.php"> Rich Piana 5% Nutrition 90 Capsules </a>
+                <a href="./products/pd9.php" class="price">$77.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 
 
-  <!--Footer bar-->
+  <!-- FOOTER -->
   <footer>
     <ul>
       <div class="social">
-        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
   </footer>

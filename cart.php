@@ -12,16 +12,27 @@ $cart_results = mysqli_query($conn, $cart_query);
 <html>
 
 <head>
+  <title> My Cart | iFitness </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- IMPORT CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/awesome.css">
+
+  <!-- IMPORT FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title> My Cart | iFitness </title>
+
+  <!-- IMPORT VECTORS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--header bar-->
+  <!-- NAVIGATION BAR -->
   <nav>
     <ul>
       <li class="logo"><img src="./images/logo3.png"></li>
@@ -36,7 +47,7 @@ $cart_results = mysqli_query($conn, $cart_query);
 
         <?php else : ?>
           <li><a href="login.php">Login</a></li>
-          <li><a href="register.php">Register</a></li>
+          <li class="reg-nav"><a href="register.php">Register</a></li>
 
         <?php endif; ?>
 
@@ -47,22 +58,21 @@ $cart_results = mysqli_query($conn, $cart_query);
       </li>
     </ul>
   </nav>
-  <!-- Center screen-->
+
+  <!-- BODY-CONTENT -->
   <div class="shopping-cast">
-    <p class="shopping-cart-header">
-      SHOPPING CART
-    </p>
+    <h1 class="shopping-cart-h1"> SHOPPING CART </h1>
     <?php
     if (mysqli_num_rows($cart_results)) {
     ?>
-      <table style="border: 1px solid black;">
+      <table>
         <thead>
-          <th>product detail</th>
-          <th>product name</th>
-          <th>price</th>
-          <th>quantity</th>
-          <th>total price</th>
-          <th>action</th>
+          <th>Product Detail</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total Price</th>
+          <th>Action</th>
         </thead>
         <?php
 
@@ -93,7 +103,7 @@ $cart_results = mysqli_query($conn, $cart_query);
         ?>
         <tr>
           <td></td>
-          <td>grand total:</td>
+          <td>Grand total:</td>
           <td></td>
           <td></td>
           <td>$<?php echo $total_price ?> </td>
@@ -103,36 +113,36 @@ $cart_results = mysqli_query($conn, $cart_query);
         </tr>
       </table>
       <div style="width: 20%;margin: auto;">
-          <form class="form" action="payment.php">
-        <button class="checkout-btn">Proceed To Checkout</button>
-           </form>
- <form class="form" action="shop.php">
-         <button class="checkout-btn">Continue shopping</button>
-                  </form>
+        <form class="form" action="payment.php">
+          <button class="checkout-btn">Proceed To Checkout</button>
+        </form>
+        <form class="form" action="shop.php">
+          <button class="checkout-btn">Continue shopping</button>
+        </form>
       </div>
     <?php
     } else {
     ?>
-      <p style="text-align: center;color: red;">No Any Product In Cart</p>
+      <p style="text-align: center;color: red;">Your Cart is Empty!</p>
     <?php } ?>
   </div>
 
 
-<!--Footer bar-->
+  <!-- FOOTER -->
   <footer>
     <ul>
       <div class="social">
-        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
   </footer>
@@ -140,5 +150,3 @@ $cart_results = mysqli_query($conn, $cart_query);
 </body>
 
 </html>
-
-

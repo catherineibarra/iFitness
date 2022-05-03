@@ -8,16 +8,27 @@ include('acess.php');
 <html>
 
 <head>
+  <title> Payment | iFitness </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- IMPORT CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/awesome.css">
+
+  <!-- IMPORT FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <title> Payment Page | iFitness </title>
+
+  <!-- IMPORT VECTORS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
 </head>
 
 <body>
-  <!--header bar-->
+  <!-- NAVIGATION BAR -->
   <nav>
     <ul>
       <li class="logo"><img src="./images/logo3.png"></li>
@@ -43,7 +54,8 @@ include('acess.php');
       </li>
     </ul>
   </nav>
-  <!-- Center screen-->
+
+  <!-- BODY-CONTENT -->
   <div class="center">
     <div class="payment-form">
       <h2>Payment</h2>
@@ -113,24 +125,25 @@ include('acess.php');
       </form>
     </div>
   </div>
-  <!--Footer bar-->
+
+  <!-- FOOTER -->
   <footer>
     <ul>
       <div class="social">
-        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="#">About Us </a></li>
-        <li><a href="#">Terms and Policy</a></li>
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
   </footer>
-</body>
 
+</body>
 </html>

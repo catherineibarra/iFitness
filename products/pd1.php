@@ -9,17 +9,27 @@ include('./location.php');
 <html>
 
 <head>
+  <title> Product One | iFitness </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- IMPORT CSS -->
   <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="../css/utilities.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <!-- IMPORT FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- IMPORT VECTORS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-  <title> Product One | iFitness </title>
 </head>
 
 <body>
-  <!--header bar-->
+  <!-- NAVIGATION BAR -->
   <nav>
     <ul>
       <li class="logo"><img src="../images/logo3.png"></li>
@@ -34,7 +44,7 @@ include('./location.php');
 
         <?php else : ?>
           <li><a href="../login.php">Login</a></li>
-          <li><a href="../register.php">Register</a></li>
+          <li class="reg-nav"><a href="../register.php">Register</a></li>
 
         <?php endif; ?>
 
@@ -45,11 +55,12 @@ include('./location.php');
       </li>
     </ul>
   </nav>
-  <!-- Center screen-->
+  
+  <!-- BODY-CONTENT -->
   <!-- Product Details -->
   <section class="section product-detail">
     <div class="details product-container">
-      <div class="left image-container">
+    <div class="left image-container">
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
@@ -62,12 +73,7 @@ include('./location.php');
               <img src="../images/1.2.jpg" id="zoom" alt="" />
             </div>
           </div>
-<<<<<<< HEAD
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            <</a>
-=======
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
->>>>>>> 6d99f1046a034225b65f2fe32eba5062e5bd9f2e
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -84,8 +90,8 @@ include('./location.php');
             <div class="price">$60.21</div>
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="1" name="product_id" hidden />
-              <button class="cart.php" type="submit" style="cursor: pointer;">Add To Cart</button>
+              <input type="number" value="7" name="product_id" hidden />
+              <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
@@ -122,11 +128,11 @@ include('./location.php');
   </section>
 
 
-  <!-- Related -->
+  <!-- RELATED PRODUCTS -->
   <section class="section featured">
     <div class="top container">
-      <h1>Related Products</h1>
-      <a href="../shop.php" class="view-more">View more</a>
+      <h1 class="related-h1">Related Products</h1>
+      <a class="view-more" href="../shop.php">View more</a>
     </div>
     <div class="product-center container">
       <div class="product-item">
@@ -270,12 +276,30 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-
     </div>
+  </section>
 
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <div class="social">
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
 
-    <!--Footer bar-->
-    <script src="./js/index.js"></script>
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
+      </div>
+    </ul>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="./js/index.js"></script>
     <script>
       let slideIndex = 1;
       showSlides(slideIndex);
@@ -317,34 +341,7 @@ include('./location.php');
           zoomrange: [4, 4],
         });
       });
-    </script>
-  </section>
-  <footer class="footer bg-primary py-3">
-    <div class="container grid grid-3">
-      <!--Social media parts-->
-      <div class="social">
-        <a href="#"><i class="fab fa-github fa-2x"></i></a>
-        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-      </div>
-      <div>
-        <ul>
-          <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-        </ul>
-      </div>
-      <nav>
-        <!--pages for like others, more about us etc.-->
-        <ul>
-          <li><a href="../cart.php">Cart</a></li>
-          <li><a href="../login.php">Login</a></li>
-          <li><a href="../register.php">Register</a></li>
-        </ul>
-      </nav>
-      <!-- Custom Script -->
-    </div>
-  </footer>
+  </script>
 
 </body>
-
 </html>
