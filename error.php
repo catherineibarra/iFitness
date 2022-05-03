@@ -12,12 +12,18 @@ $answererr = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $register = true;
     //first name
+
+
     if(empty($_POST["firstname"])){
         $firstnameerr = "*First Name is required";
         $register = false;
         
     }else{
         $firstname = test_input($_POST["firstname"]);
+
+        if(ctype_space($_POST["firstname"])){
+            $firstnameerr = "*Starts with a white spaces";
+        }
     
         if(!preg_match("/^[a-zA-Z-']*$/",$firstname)){
             $firstnameerr = "*No special character or white spaces";
@@ -32,8 +38,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }else{
         $lastname = test_input($_POST["lastname"]);
 
-        if(!preg_match("/^[a-zA-Z-']*$/",$firstname)){
-            $firstnameerr = "*No special character or white spaces";
+        if(ctype_space($_POST["lastname"])){
+            $lastnameerr = "*Starts with a white spaces";
+        }
+
+        if(!preg_match("/^[a-zA-Z-']*$/",$lastname)){
+            $lastnameeerr = "*No special character or white spaces";
             $register = false;
         }
     }
@@ -49,6 +59,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $emailerr = "*Invalid Email format";
             $register = false;
         }
+
+        
     }
     //username
     if(empty($_POST["username"])){
@@ -56,6 +68,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $register = false;
     }else{
         $username = test_input($_POST["username"]);
+
+        if(ctype_space($_POST["username"])){
+            $usernameerr = "*Starts with a white spaces";
+        }
     }
     //password
     if(empty($_POST["password"])){
@@ -73,6 +89,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }else{
         $rep_pass = test_input($_POST["passreapeat"]);
     }
+
+    if ($_POST["password"] != $_POST["passreapeat"]) {
+            $no_match = "*Password does not match. Please enter the same password";
+        $register = false;
+    }
+
+
     //answer
     if(empty($_POST["answer"])){
         $answererr = "*Answer is required";
@@ -81,22 +104,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }else{
         $answer = test_input($_POST["answer"]);
 
+        if(ctype_space($_POST["answer"])){
+            $answererr = "*starts with a white spaces";
+        }
             
-        if(!preg_match("/^[a-zA-Z-']*$/",$firstname)){
-            $firstnameerr = "*No special character or white spaces";
+        if(!preg_match("/^[a-zA-Z-']*$/",$answer)){
+            $answererr = "*No special character or white spaces";
             $register = false;
         }
-    }
-
-    if ($password != $rep_pass) {
-
-        if (empty($password) && empty($rep_pass)) {
-
-            $no_match = "*Password does not match. Please enter the same password";
-            
-          } else
-            $no_match = "";
-        $register = false;
     }
 }
 
@@ -116,6 +131,7 @@ $usernameerr = "";
 $passworderr = "";
 $rep_passerr = "";
 $answererr = "";
+$no_match = "";
     $register = false;
 }
 
