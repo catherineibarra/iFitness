@@ -81,7 +81,7 @@ include('information.php');
             <div class="form-control">
               <label><i class="fa-solid fa-user-lock"></i> Security Answer:</label>
               <input type="password" value="<?php echo $answer; ?>" name="answer" id="myInput" readonly />
-              <input type="checkbox" onclick="myFunction()"> Show Answer
+              <input type="checkbox" onclick="myFunction()"> <small style="font-weight: normal;">Show Answer</small>
             </div>
             <div>
               <input type="submit" value="Edit Profile" class="btn btn-secondary" />

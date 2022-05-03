@@ -73,7 +73,7 @@ include('access.php');
   </div>
 
   <!-- FOOTER -->
-  <footer>
+  <footer class="nothing">
     <ul>
       <div class="social">
         <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>

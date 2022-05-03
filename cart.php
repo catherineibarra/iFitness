@@ -2,6 +2,7 @@
 session_start();
 include('access.php');
 
+
 $u_name = $_SESSION['_reg'];
 
 $cart_query = "SELECT * FROM cart WHERE u_name = '$u_name';";
@@ -60,10 +61,10 @@ $cart_results = mysqli_query($conn, $cart_query);
   </nav>
 
   <!-- BODY-CONTENT -->
+  <h1 class="shopping-cart-header center py-3">
+      SHOPPING CART <i class="fa-solid fa-cart-arrow-down"></i>
+        </h1>
   <div class="shopping-cast">
-  <p class="shopping-cart-header">
-      SHOPPING CART<i class="fa-solid fa-cart-arrow-down"></i>
-    </p>
     <?php
     if (mysqli_num_rows($cart_results)) {
     ?>
@@ -86,7 +87,7 @@ $cart_results = mysqli_query($conn, $cart_query);
         ?>
           <tr>
             <td style="white-space: nowrap;"><img src="<?php echo str_replace('pd', '', str_replace('../', '/', $row['image'])) ?>" /></td>
-            <td width="99%"" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
+            <td width="99%" style=" font-weight: bold;"><?php echo $row['name'] ?></td>
             <td style="white-space: nowrap;">$<?php echo $row['price'] ?></td>
             <td style="white-space: nowrap;">
               <form action="update_cart.php" method="get">
@@ -96,7 +97,7 @@ $cart_results = mysqli_query($conn, $cart_query);
               </form>
             </td>
             <td style="white-space: nowrap;">$<?php echo $row['quantity'] * $row['price'] ?> </td>
-            <td style="white-space: nowrap;"">
+            <td style="white-space: nowrap;">
             <button class=" remove-btn" onclick="location.href='delete_cart.php?id=<?php echo $row['id'] ?>';">Remove</button>
             </td>
           </tr>
@@ -105,9 +106,9 @@ $cart_results = mysqli_query($conn, $cart_query);
         ?>
         <tr>
           <td></td>
-          <td>Grand total:</td>
           <td></td>
           <td></td>
+          <td><b>Total:</b></td>
           <td>$<?php echo $total_price ?> </td>
           <td>
             <button class=" remove-btn" onclick="location.href='delete_cart.php?id=all';">Remove All</button>
@@ -115,7 +116,8 @@ $cart_results = mysqli_query($conn, $cart_query);
         </tr>
       </table>
       <div style="width: 20%;margin: auto;">
-        <form class="form" action="payment.php">
+        <form class="form" action="payment.php" method="POST">
+          <input type="text" name="totalprice" id="totalprice" value="<?php echo $total_price ?>" hidden>
           <button class="checkout-btn">Proceed To Checkout</button>
         </form>
         <form class="form" action="shop.php">

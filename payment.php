@@ -1,7 +1,6 @@
 <?php
 session_start();
-include('acess.php');
-
+include('access.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -84,6 +83,10 @@ include('acess.php');
           <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png" style="width:10%">
           <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Master-Card-icon.png" style="width:10%">
         </div>
+        <?php 
+        $total = $_POST['totalprice'];
+        echo "<b>Total:</b> $",$total;
+        ?> 
         <p>
           Please enter your Billing address here
         </p>

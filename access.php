@@ -85,7 +85,7 @@ if (isset($_POST) & !empty($_POST)) {
   } else {
     if (empty($usernameerr) && empty($passworderr)) {
 
-      $fmsg = "Username or Password did not match";
+      $fmsg = "*Username or Password did not match";
     } else
       $fmsg = "";
   }

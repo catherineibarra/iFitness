@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ('acess.php');
+include ('access.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
@@ -79,7 +79,7 @@ include ('acess.php');
           </div>
                
   <!-- FOOTER -->
-  <footer>
+  <footer class="nothing">
     <ul>
       <div class="social">
         <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
