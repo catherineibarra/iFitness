@@ -23,8 +23,8 @@ include ('acess.php');
 }
 
 .payment img{
-  width: 10%;
-  height: 60%;
+  width: 256px;
+  height: 128px;
   margin: auto;
 }
 
@@ -58,7 +58,7 @@ include ('acess.php');
   </nav>
     <!-- Center screen-->
     <div class="payment">
-            <img src ="https://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-check-icon.png"style="width:70%" class = "center"> 
+            <img src ="https://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-check-icon.png" class = "center"> 
             <br>
             <p>
                 Success!
