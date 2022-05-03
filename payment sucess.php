@@ -78,30 +78,23 @@ include ('acess.php');
             </a>
           </div>
                
-    <!--Footer bar-->
-    <footer class="footer bg-primary py-3">
-      <div class="container grid grid-3">
-        <!--Social media parts-->
-        <div class="social">
-          <a href="#"><i class="fab fa-github fa-2x"></i></a>
-          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-        <div>
-          <ul>
-            <li>Copyright &copy; IFitness. All Rights reserved. 2022</li>
-          </ul>
-        </div>
-        <nav>
-          <!--pages for like others, more about us etc.-->
-          <ul>
-            <li><a href="#"># links 1 </a></li>
-            <li><a href="#"># links 2</a></li>
-            <li><a href="#"># links 3</a></li>
-          </ul>
-        </nav>
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <div class="social">
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
-    </footer>
-  </body>
+
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+      <div class="navbar">
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
+      </div>
+    </ul>
+  </footer>
+</body>
 </html>
