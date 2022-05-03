@@ -13,4 +13,4 @@ if ($id == 'all') {
 
 mysqli_query($conn, $sql);
 echo "<script>window.open('cart.php','_self')</script>";
-?>
+?> 
