@@ -90,7 +90,7 @@ include('./location.php');
             <div class="price">$60.21</div>
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="7" name="product_id" hidden />
+              <input type="number" value="1" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 

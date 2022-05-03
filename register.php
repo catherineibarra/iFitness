@@ -59,8 +59,9 @@ include('registerprocess.php');
     <div class="register-form">
       <h2>Register</h2>
       <p>
-        Please fill in this form to create an account or
-        <a class="login-btn" href="login.php"> Login </a>
+        Please fill in this form to create an account
+        <br>or
+        <a class="login-btn" href="login.php"> Login.</a>
       </p>
       <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
         <div class="form-control">
@@ -81,12 +82,12 @@ include('registerprocess.php');
         </div>
         <div class="form-control">
           <input type="password" value="<?php echo $password; ?>" placeholder="Password" name="password" id="myInput" />
-          <input type="checkbox" onclick="myFunction1()">Show Password<br>
+          <input type="checkbox" onclick="myFunction1()"> Show Password<br>
           <span class="error">&nbsp; <?php echo $passworderr; ?></span>
         </div>
         <div class="form-control">
           <input type="password" value="<?php echo $rep_pass; ?>" placeholder="Repeat Password" name="passreapeat" id="secondary" />
-          <input type="checkbox" onclick="myFunction2()">Show Password<br>
+          <input type="checkbox" onclick="myFunction2()"> Show Password<br>
           <span class="error">&nbsp; <?php echo $rep_passerr; ?><?php echo $no_match; ?></span>
         </div>
         <div class="form-control">
@@ -113,7 +114,7 @@ include('registerprocess.php');
           <input type="submit" value="Submit" name="submit" class="btn btn-secondary" />
           <input type="submit" value="Reset" name="reset" class="btn btn-secondary" />
         </div>
-        </form>
+      </form>
     </div>
   </div>
 
@@ -157,4 +158,5 @@ include('registerprocess.php');
   </script>
 
 </body>
+
 </html>
