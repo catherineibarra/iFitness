@@ -61,7 +61,9 @@ $cart_results = mysqli_query($conn, $cart_query);
 
   <!-- BODY-CONTENT -->
   <div class="shopping-cast">
-    <h1 class="shopping-cart-h1"> SHOPPING CART </h1>
+  <p class="shopping-cart-header">
+      SHOPPING CART<i class="fa-solid fa-cart-arrow-down"></i>
+    </p>
     <?php
     if (mysqli_num_rows($cart_results)) {
     ?>
