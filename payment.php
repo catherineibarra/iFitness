@@ -64,11 +64,11 @@ include('access.php');
       <form action="payment sucess.php" method="POST">
         <div class="form-control">
           <label or="NameOnCard">Name on card</label><br>
-          <input type="text" placeholder="First name" name="firstname" id="firstname" required />
+          <input type="text" placeholder="First name" name="firstname" id="firstname" pattern="[A-Za-z]+" required />
         </div>
         <div class="form-control">
           <label for="Cardnumber">Card number</label><br>
-          <input type="text" placeholder="1111-2222-3333-4444" name="cardnumber" id="cardnumber" required />
+          <input type="text" placeholder="1111-2222-3333-4444" name="cardnumber" id="cardnumber" pattern="[0-9]+" maxlength = "16" minlength = "16" required />
         </div>
         <div class="form-control">
           <label for="expdate">Expire Date</label><br>
@@ -92,15 +92,15 @@ include('access.php');
         </p>
         <div class="form-control">
           <label for="Staddr">Address</label><br>
-          <input type="text" placeholder="542 W. 15th Street" name="straddr" id="straddr" required />
+          <input type="text" placeholder="542 W. 15th Street" name="straddr" id="straddr" pattern="[a-zA-Z0-9-]" required />
         </div>
         <div class="form-control">
           <label for="City">City</label><br>
-          <input type="text" placeholder="New York" name="city" id="city" required />
+          <input type="text" placeholder="New York" name="city" id="city"pattern="[A-Za-z]+" required />
         </div>
         <div class="form-control">
           <label for="Zip">Zip code</label><br>
-          <input type="text" placeholder="10001" name="zip" id="zip" required />
+          <input type="text" placeholder="10001" name="zip" id="zip" pattern="[0-9]+" maxlength = "5" minlength = "5" required />
         </div>
 
         <div class="form-control">
