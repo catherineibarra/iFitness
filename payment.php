@@ -59,16 +59,17 @@ include('access.php');
     <div class="payment-form">
       <h2>Payment</h2>
       <p>
-        Please enter your payment details here
+        <b>Please enter your payment details here </b>
       </p>
       <form action="payment sucess.php" method="POST">
         <div class="form-control">
           <label or="NameOnCard">Name on card</label><br>
-          <input type="text" placeholder="First name" name="firstname" id="firstname" pattern="[A-Za-z]+" required />
+          <input type="text" placeholder="First name" name="firstname" id="firstname" pattern="[A-Za-z ]+" required />
         </div>
         <div class="form-control">
           <label for="Cardnumber">Card number</label><br>
-          <input type="text" placeholder="1111-2222-3333-4444" name="cardnumber" id="cardnumber" pattern="[0-9]+" maxlength = "16" minlength = "16" required />
+          <input type="text" placeholder="1111-2222-3333-4444" name="cardnumber" id="cardnumber" pattern="[0-9]+" maxlength = "16" minlength = "16"
+          oninput="this.setCustomValidity('')" required />
         </div>
         <div class="form-control">
           <label for="expdate">Expire Date</label><br>
@@ -76,7 +77,7 @@ include('access.php');
         </div>
         <div class="form-control">
           <label for="cvv">CVV</label><br>
-          <input type="text" id="cvv" name="cvv" placeholder="001" required />
+          <input type="text" id="cvv" name="cvv" placeholder="001" maxlength="3" required />
         </div>
         <div class="form-control">
           <h4>Accepted cards</h4>
@@ -88,19 +89,19 @@ include('access.php');
         echo "<b>Total:</b> $",$total;
         ?> 
         <p>
-          Please enter your Billing address here
+          <b>Please enter your Billing address here</b>
         </p>
         <div class="form-control">
           <label for="Staddr">Address</label><br>
-          <input type="text" placeholder="542 W. 15th Street" name="straddr" id="straddr" pattern="[a-zA-Z0-9-]" required />
+          <input type="text"  name="straddr" id="straddr" pattern="^[#.0-9a-zA-Z\s,\'-]+$" oninput="this.setCustomValidity('')" required/>
         </div>
         <div class="form-control">
           <label for="City">City</label><br>
-          <input type="text" placeholder="New York" name="city" id="city"pattern="[A-Za-z]+" required />
+          <input type="text"  name="city" id="city"pattern="[A-Za-z ]+" oninput="this.setCustomValidity('')" required />
         </div>
         <div class="form-control">
           <label for="Zip">Zip code</label><br>
-          <input type="text" placeholder="10001" name="zip" id="zip" pattern="[0-9]+" maxlength = "5" minlength = "5" required />
+          <input type="text"  name="zip" id="zip" pattern="[0-9]+" maxlength = "5" oninput="this.setCustomValidity('')" required />
         </div>
 
         <div class="form-control">
