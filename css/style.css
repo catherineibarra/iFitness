@@ -69,6 +69,11 @@ nav ul {
 
 nav ul .reg-nav {
   background-color: black;
+  border-left: none;
+  border-right: none;
+  padding: 8px 10px 8px 10px;
+  
+
 }
 
 nav ul .reg-nav a {
