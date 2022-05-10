@@ -171,12 +171,12 @@ include('./location.php');
       <div class="product-item">
         <div class="overlay">
           <a href="pd4.php" class="product-thumb">
-            <img src="../images/4.jpg" alt="" />
+            <img src="../images/4.1.jpg" alt="" />
           </a>
         </div>
         <div class="product-info">
           <span>Enhanced muscle-building</span>
-          <a href="pd4.php">Scream Supps PINHEAD 1 Serve Sample</a>
+          <a href="pd4.php">Scream Supps Pinhead</a>
           <h4>$3.96</h4>
         </div>
         <ul class="icons">
@@ -194,7 +194,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Muscle building vitamins for men - stamina booster for men </span>
-          <a href="pd6.php">BODYBUILDING PILLS FOR MEN</a>
+          <a href="pd6.php">Bodybuilding Pills For Men</a>
           <h4>$39</h4>
         </div>
         <ul class="icons">
@@ -212,7 +212,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 Original ID 60 Serves</a>
+          <a href="pd7.php">Cellucor C4 Original</a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">
@@ -248,7 +248,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Natural muscle builder </span>
-          <a href="pd9.php">Rich Piana 5% Nutrition Bigger By The Day Muscle Builder 90 capsules</a>
+          <a href="pd9.php"> Muscle Builder</a>
           <h4>$77</h4>
         </div>
         <ul class="icons">

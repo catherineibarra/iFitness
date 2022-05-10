@@ -89,7 +89,7 @@ endif;
           </div>
           <div class="detail-box">
             <div class="type">
-              <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
+              <a href="./products/pd1.php"> c </a>
               <a href="./products/pd1.php" class="price">$60.21</a>
             </div>
           </div>
