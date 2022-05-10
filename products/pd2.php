@@ -248,7 +248,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Natural muscle builder </span>
-          <a href="pd9.php">Muscle Builder</a>
+          <a href="pd9.php">Muscle Builder 90 capsules</a>
           <h4>$77</h4>
         </div>
         <ul class="icons">

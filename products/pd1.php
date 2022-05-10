@@ -231,7 +231,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 Original</a>
+          <a href="pd7.php">Cellucor C4 ID Pre Workout 60 Serves </a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">
@@ -267,7 +267,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Natural muscle builder </span>
-          <a href="pd9.php">Muscle Builder</a>
+          <a href="pd9.php">Muscle Builder 90 capsules</a>
           <h4>$77</h4>
         </div>
         <ul class="icons">
