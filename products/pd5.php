@@ -177,7 +177,7 @@ include('./location.php');
         <div class="product-info">
           <span>Enhanced muscle-building</span>
           <a href="pd4.php">Scream Supps Pinhead</a>
-          <h4>$3.96</h4>
+          <h4>$59.99</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
@@ -212,7 +212,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 Original</a>
+          <a href="pd7.php">Cellucor C4 ID Pre Workout 60 Serves </a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">

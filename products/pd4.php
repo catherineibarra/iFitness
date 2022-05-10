@@ -93,7 +93,7 @@ include('./location.php');
       <div class="right">
         <span>Pre Workout Powder</span>
         <h1>Scream Supps Pinhead Intense Pre Workout<h1>
-            <div class="price">$3.96</div>
+            <div class="price">$59.99</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
@@ -219,7 +219,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 Original</a>
+          <a href="pd7.php">Cellucor C4 ID Pre Workout 60 Serves </a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">

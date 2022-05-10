@@ -143,7 +143,7 @@ include('access.php');
             <div class="detail-box">
               <div class="type">
                 <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
-                <a href="./products/pd4.php" class="price">$3.96</a>
+                <a href="./products/pd4.php" class="price">$59.99</a>
               </div>
             </div>
           </div>
