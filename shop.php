@@ -252,7 +252,7 @@ include('access.php');
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd9.php"> Rich Piana 5% Nutrition 90 Capsules </a>
+                <a href="./products/pd9.php"> Muscle Builder 90 Capsules </a>
                 <a href="./products/pd9.php" class="price">$77.00</a>
               </div>
             </div>
