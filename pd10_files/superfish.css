@@ -1,0 +1,82 @@
+
+/*** ESSENTIAL STYLES ***/
+.sf-timetable-menu, .sf-timetable-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-timetable-menu {
+	line-height:	1.0;
+}
+.sf-timetable-menu ul {
+	position:		absolute;
+	top:			-999em !important;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-timetable-menu ul li {
+	width:			100%;
+}
+.sf-timetable-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-timetable-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-timetable-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-timetable-menu li:hover ul,
+.sf-timetable-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-timetable-menu li:hover li ul,
+ul.sf-timetable-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-timetable-menu li li:hover ul,
+ul.sf-timetable-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-timetable-menu li li:hover li ul,
+ul.sf-timetable-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-timetable-menu li li li:hover ul,
+ul.sf-timetable-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-timetable-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-timetable-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-timetable-menu a, .sf-timetable-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#13a;
+}
+.sf-timetable-menu li {
+	background:		#BDD2FF;
+}
+.sf-timetable-menu li li {
+	background:		#AABDE6;
+}
+.sf-timetable-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-timetable-menu li:hover, .sf-timetable-menu li.sfHover,
+.sf-timetable-menu a:focus, .sf-timetable-menu a:hover, .sf-timetable-menu a:active {
+	background:		#CFDEFF;
+	outline:		0;
+}

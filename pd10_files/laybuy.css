@@ -1,0 +1,171 @@
+.laybuy-checkout-widget {
+    color: black;
+    font-weight: 300;
+    font-size:16px;
+}
+.laybuy-inline-widget img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.2em;
+    position: relative;
+    top: -2px;
+    margin-right:5px;
+    margin-left: 4px;
+}
+.laybuy-inline-widget u {
+    cursor: pointer;
+}
+
+.laybuy-checkout-widget {
+    margin: 5px 0 5px 0;
+}
+
+.laybuy-checkout-widget img {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.laybuy-popup-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0 ;
+    overflow: auto; /* Enable scroll if needed */
+}
+#laybuy-popup-outer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Modal Content */
+.laybuy-popup-modal-content {
+    margin: auto;
+    width:90vw;
+    max-width: 620px;
+    height: 520px;
+    position: relative;
+    border-radius: 0.65em;
+}
+
+.laybuy-popup-modal-content img{
+    width: 100%;
+    height: 100%;
+}
+.laybuy-popup-modal-content > iframe {
+    width:100%;
+    height:100%;
+    border: 0;
+
+}
+/* The Close Button */
+.laybuy-popup-modal-content .close {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 18px;
+    top: 2px;
+}
+
+.laybuy-popup-modal-content .close:hover,
+.laybuy-popup-modal-content .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.laybuy-popup-modal-content .bottom-cta-btn{
+    align-self: start;
+    padding: 1.25em 2.8em;
+    margin: 1.5em 0 0;
+    font-size: .8rem;
+    line-height: 0;
+    color: #fff;
+    background: #533187;
+    border: 0;
+    border-radius: 4em;
+    cursor: pointer;
+    outline: 0;
+    margin-left: 40%;
+}
+
+
+
+/*category page*/
+ #laybuy-what-is-modal.laybuy-cat-page  img, .laybuy-cat-page  img  {
+    height: 1.2em!important;
+    margin-top: 7px!important;
+}
+
+#laybuy-what-is-modal u {
+    cursor: pointer;
+}
+
+.laybuy-checkout-content {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.laybuy-checkout-content .title {
+    color: #756efa;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.laybuy-checkout-img-wide {
+    display: inline-flex;
+    text-align: center;
+}
+.laybuy-checkout-img {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.laybuy-checkout-img img {
+    width: 50%;
+    max-width: 100%;
+    float:left;
+}
+.laybuy-checkout-img img{
+    margin: 0px !important;
+    float: left !important;
+}
+
+.laybuy-checkout-img img.second-row {
+    margin-bottom: 20px !important;
+}
+
+.laybuy-checkout-img-wide img {
+    width: 25%;
+}
+.payment_method_laybuy .payment_box{ padding: 0px !important; background: white !important;  }
+.payment_method_laybuy span.amount {color: #756efa !important}
+.payment_methods li.payment_method_laybuy img {max-height: 100% !important;}
+
+.laybuy-payment-info {
+    font-size: 14px;
+    color: #6d6d6d;
+}
+.summary.entry-summary .laybuy-payment-info {
+    display: none;
+}
+
+ul.wc-block-grid__products li.wc-block-grid__product img {
+    display: block;
+    margin: 0 auto 1.618em;
+}
+.woocommerce-Price-amount+.laybuy-payment-info {
+    margin-top: 20px;
+}
+.laybuy-logo-link {
+    margin-right: 5px;
+}
+
+/****** CUSTOM *******/
+.shoptimizer-sticky-add-to-cart__content-price .woocommerce-Price-amount + p {
+    display:none;
+}

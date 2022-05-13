@@ -1,0 +1,429 @@
+.tt_event_responsive_image,
+.tt_event_page_left .attachment-event-post-thumb
+{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width:1009px)
+{
+	.tt_event_theme_page .textwidget p:first-child
+	{
+		margin-top: 23px;
+	}
+	.tt_event_theme_page h2
+	{
+		font-size: 30px;
+	}
+	.tt_event_theme_page h3
+	{
+		font-size: 22px;
+	}
+	.tt_event_theme_page h4
+	{
+		font-size: 18px;
+	}
+	.tt_event_theme_page h5
+	{
+		font-size: 16px;
+	}
+	.tt_event_theme_page p,
+	.tt_event_items_list li
+	{
+		font-size: 14px;
+	}
+	.tt_event_theme_page
+	{
+		padding: 20px;
+		width: 710px;
+	}
+	.tt_event_page_left
+	{
+		width: 480px;
+	}
+	.tt_event_page_right
+	{
+		width: 210px;
+	}
+	.tt_event_column_left
+	{
+		margin-right: 10px;
+	}
+	.rtl .tt_event_column_left
+	{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+	.tt_event_column_left, .tt_event_column_right
+	{
+		width: 235px;
+	}
+	.tt_event_hours li
+	{
+		width: 184px;
+		margin: 0 23px 23px 0;
+		padding: 15px 20px;
+	}
+	.rtl .tt_event_hours li
+	{
+		margin: 0 0px 23px 23px;
+	}
+	.tt_upcoming_events li
+	{
+		width: 210px;
+	}
+	.tt_upcoming_events li a
+	{
+		padding: 10px;
+	}
+	.tt_event_items_list li.type_info
+	{
+		padding: 5px 0;
+	}
+	.tt_event_margin_top_27
+	{
+		margin-top: 20px !important;
+	}
+	.tt_event_theme_page h3
+	{
+		margin-top: 15px;
+	}
+	/* --- timetable --- */
+	.tt_responsive .tt_timetable th, .tt_responsive .tt_timetable .event_container,
+	.tt_responsive .tt_tooltip .tt_tooltip_content
+	{
+		padding: 4px 4px 5px;
+	}
+	.tt_responsive .tt_timetable td
+	{
+		height: 18px;
+	}
+	.tt_timetable .event span.available_slots + .event_hour_booking_wrapper.always
+	{
+		margin-bottom: 0;
+	}
+	.tt_timetable td .event_hour_booking_wrapper.always
+	{
+		margin-bottom: 0;
+	}
+	.tt_timetable td.tt_single_event .event_hour_booking_wrapper.always
+	{
+		padding: 0 4px;
+		margin-bottom: 5px;
+	}
+	.timetable_sidebar_box
+	{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width:767px)
+{
+	.tt_event_theme_page,
+	.tt_event_page_left,
+	.tt_event_page_right,
+	.tt_upcoming_events li
+	{
+		width: 422px;
+	}
+	.tt_event_page_right
+	{
+		margin-top: 50px;
+	}
+	.tt_event_column_left, .tt_event_column_right
+	{
+		width: 206px;
+	}
+	.tt_event_hours li
+	{
+		width: 368px;
+		margin: 0 0 23px;
+		padding: 15px 25px;
+	}
+	.tt_event_hours li:last-child
+	{
+		margin-bottom: 0;
+	}
+	.tt_upcoming_events li a
+	{
+		padding: 10px 20px;
+	}
+	/* --- timetable --- */
+	.tt_responsive .tt_timetable
+	{
+		display: none;
+	}
+	.tt_responsive .tt_timetable.small
+	{
+		display: block;
+	}
+	/* --- navigation wrapper --- */
+	.tt_double_buttons .tt_navigation_cell:first-child
+	{
+		margin: 0 0 10px 0 !important;
+		width: 100%;
+	}
+	.tt_double_buttons .tt_navigation_cell:last-child
+	{
+		margin: 0 0 30px 0 !important;
+	}
+	.tt_tabs .tt_navigation_cell:first-child
+	{
+		margin: 0 0 30px 0 !important;
+	}
+	/* --- tabs box navigation --- */	
+	.tt_double_buttons .sf-timetable-menu:first-of-type
+	{
+		margin-right: 10px !important;
+	}
+	.tt_double_buttons .sf-timetable-menu:last-of-type
+	{
+		margin-right: 0 !important;
+	}
+	.rtl .tt_double_buttons .sf-timetable-menu:first-of-type
+	{
+		margin-left: 10px !important;
+		margin-right: 0 !important;
+	}
+	.rtl .tt_double_buttons .sf-timetable-menu:last-of-type
+	{
+		margin-left: 0 !important;
+	}
+	.tt_double_buttons .tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected
+	{
+		padding: 15px 15px !important;
+		width: 174px;
+	}
+	.tt_double_buttons .sf-timetable-menu li ul
+	{
+		width: 204px;
+	}
+	.tt_double_buttons .sf-timetable-menu li ul li
+	{
+		width: 194px;
+	}
+	.tt_double_buttons .tabs_box_navigation label
+	{
+		font-size: 16px !important;
+	}	
+	/* --- booking --- */
+	.tt_booking .tt_booking_message_wrapper
+	{
+		width: auto;
+	}
+	.tt_booking .tt_booking_message
+	{
+		margin: 10px 10px 15px;
+	}
+	.tt_booking .tt_booking_message h2
+	{
+		font-size: 22px;
+		line-height: 33px;
+		margin-bottom: 12px;
+	}	
+	.tt_booking .tt_booking_message p
+	{
+		font-size: 14px;
+		line-height: 21px;
+		margin-top: 15px;
+	}
+	.tt_booking .event_details_wrapper
+	{
+		padding: 9px 13px 10px;
+	}
+	.tt_booking p.event_details
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.tt_booking a
+	{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.tt_booking .tt_btn_wrapper
+	{
+		margin-top: 15px;
+	}
+	.tt_booking a.tt_btn
+	{
+		min-width: 150px;
+	}
+	.tt_event_url
+	{
+		padding: 12px;
+		font-size: 13px;
+	}
+	.tt_booking form.tt_booking_form
+	{
+		margin-top: 15px;
+	}
+	.tt_booking form.tt_booking_form .tt_field_wrapper .tt_field
+	{
+		font-size: 14px;
+		line-height: 21px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.tt_booking form.tt_booking_form .tt_field_wrapper textarea.tt_field
+	{
+		height: 64px;
+	}
+	.tt_booking form.tt_booking_form .tt_field_wrapper .tt_slots_number_wrapper input[type="button"]
+	{
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width:479px)
+{
+	.tt_event_theme_page,
+	.tt_event_page_left,
+	.tt_event_page_right,
+	.tt_upcoming_events li,
+	.tt_event_column_left, 
+	.tt_event_column_right
+	{
+		width: 280px;
+	}
+	.tt_event_hours li
+	{
+		width: 236px;
+		padding: 15px 20px;
+	}
+	.tt_event_theme_page
+	{
+		padding: 10px;
+	}
+	.tt_event_column_left
+	{
+		margin-right: 0;
+	}
+	.rtl .tt_event_column_left
+	{
+		margin-left: 0;
+	}
+	.tt_event_column_right
+	{
+		margin-top: 23px;
+	}
+	.tt_event_column_left .tt_event_items_list
+	{	
+		padding-bottom: 0;
+	}
+	/* --- timetable --- */
+	.tt_responsive .tt_timetable.small .tt_items_list div.event_container
+	{
+		width: 148px;
+	}
+	.tt_responsive .tt_timetable.small .tt_items_list div.value
+	{
+		width: 112px;
+	}
+	.tt_responsive .tt_timetable.small.use_colors .tt_items_list li
+	{
+		padding: 12px 5px !important;
+	}
+	.tt_responsive .tt_timetable.small.use_colors .tt_items_list div.event_container
+	{
+		width: 138px;
+	}
+	.tt_responsive .tt_timetable.small .box_header
+	{
+		font-size: 14px !important;
+	}
+	/* --- navigation wrapper --- */
+	.tt_navigation_cell
+	{
+		margin-right: 0 !important;
+	}
+	.tt_navigation_cell:first-child
+	{
+		margin-bottom: 10px !important;
+		width: 100%;
+	}
+	.tt_navigation_cell:last-child
+	{
+		margin-bottom: 30px !important;
+	}
+	/* --- tabs box navigation --- */
+	.tt_responsive.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected
+	{
+		width: 220px;
+	}
+	.tt_responsive.tabs_box_navigation.sf-timetable-menu li ul
+	{
+		width: 258px;
+	}	
+	.sf-timetable-menu li ul li
+	{
+		width: 248px;
+	}
+	.tt_double_buttons .tabs_box_navigation,
+	.tt_double_buttons .sf-timetable-menu:first-of-type
+	{
+		margin-right: 0 !important;
+	}
+	.rtl .tt_double_buttons .tabs_box_navigation,
+	.rtl .tt_double_buttons .sf-timetable-menu:first-of-type
+	{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	.tt_double_buttons .sf-timetable-menu:first-of-type
+	{
+		margin-bottom: 10px !important;
+	}
+	.tt_double_buttons .tt_responsive.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected
+	{
+		width: 220px;
+		padding: 15px 19px !important;
+	}
+	.tt_double_buttons .tt_responsive.tabs_box_navigation.sf-timetable-menu li ul
+	{
+		width: 258px;
+	}
+	.tt_double_buttons .sf-timetable-menu li ul li
+	{
+		width: 248px;
+	}
+	.tt_double_buttons .tabs_box_navigation label
+	{
+		font-size: 18px !important;
+	}
+	/* --- booking --- */
+	.tt_booking .tt_booking_message h2
+	{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.tt_booking p.event_details
+	{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.tt_booking p
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.tt_booking .tt_btn_wrapper
+	{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.tt_booking a.tt_btn
+	{
+		font-size: 14px;
+		min-width: 110px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 10px 5px 0;
+	}
+}
+@media screen and (max-height:479px)
+{
+	.tt_booking .tt_booking_message_wrapper
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
