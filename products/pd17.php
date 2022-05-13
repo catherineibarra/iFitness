@@ -412,6 +412,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd17.php" class="product-thumb">
+            <img src="../images/170.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Seamless Gym Set Sport Suit Workout Sportswear Yoga Set Gym Clothing Tracksuit High Waist</span>
+          <a href="pd17.php">Sport Suit Workout Sportswear</a>
+          <h4>$129.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd18.php" class="product-thumb">
             <img src="../images/180.jpg" alt="" />
           </a>
@@ -427,7 +445,6 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-
 
       <div class="product-item">
         <div class="overlay">

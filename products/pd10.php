@@ -309,6 +309,24 @@ This home gym comes preloaded with a range of attachments including 2 x single h
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd10.php" class="product-thumb">
+            <img src="../images/102.png" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Strength Trainer</span>
+          <a href="pd10.php">Two Person Station Multi Gym/Station With Smith Machine</a>
+          <h4>$2037</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd11.php" class="product-thumb">
             <img src="../images/111.jpg" alt="" />
           </a>

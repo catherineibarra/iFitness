@@ -135,7 +135,26 @@ include('./location.php');
       <h1 class="related-h1">Related Products</h1>
       <a class="view-more" href="../shop.php">View more</a>
     </div>
+    
     <div class="product-center container">
+    <div class="product-item">
+        <div class="overlay">
+          <a href="pd1.php" class="product-thumb">
+            <img src="../images/1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Whey Protein</span>
+          <a href="pd1.php">Ghost 100% Whey Protein 2lb</a>
+          <h4>$76.49 </h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd2.php" class="product-thumb">

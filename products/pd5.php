@@ -188,6 +188,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd5.php" class="product-thumb">
+            <img src="../images/5.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>ENERGY UP </span>
+          <a href="pd5.php">Niversal Animal Energy</a>
+          <h4>$29</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd6.php" class="product-thumb">
             <img src="../images/6.jpg" alt="" />
           </a>

@@ -133,6 +133,25 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
+      
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd2.php" class="product-thumb">
+            <img src="../images/2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Scientifically formulated to be high in protein for muscle recovery</span>
+          <a href="pd2.php">Musashi High Protein Chocolate 2kg</a>
+          <h4>$76.49 </h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd3.php" class="product-thumb">

@@ -153,6 +153,25 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd3.php" class="product-thumb">
+            <img src="../images/3.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span>Excellent Supplement for the reduction of glucocorticoid hormones</span>
+          <a href="pd3.php">Muscle Matrix - 60 vcaps (25mg per capsule)</a>
+          <h4>$109</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd4.php" class="product-thumb">
             <img src="../images/4.1.jpg" alt="" />
           </a>

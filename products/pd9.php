@@ -263,6 +263,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd9.php" class="product-thumb">
+            <img src="../images/9.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Natural muscle builder </span>
+          <a href="pd9.php">Muscle Builder 90 capsules</a>
+          <h4>$77</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd10.php" class="product-thumb">
             <img src="../images/102.png" alt="" />
           </a>

@@ -214,6 +214,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd6.php" class="product-thumb">
+            <img src="../images/6.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Muscle building vitamins for men - stamina booster for men </span>
+          <a href="pd6.php">Bodybuilding Pills For Men</a>
+          <h4>$39</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd7.php" class="product-thumb">
             <img src="../images/7.jpg" alt="" />
           </a>

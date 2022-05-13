@@ -237,6 +237,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd8.php" class="product-thumb">
+            <img src="../images/8.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Brutaler Pump im Training</span>
+          <a href="pd8.php">Rich Piana 5% Nutrition Freak Show</a>
+          <h4>$79</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd9.php" class="product-thumb">
             <img src="../images/9.jpg" alt="" />
           </a>

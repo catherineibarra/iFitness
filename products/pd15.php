@@ -384,6 +384,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd15.php" class="product-thumb">
+            <img src="../images/150.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>FSHEIN Cut Out Sports Bra & Leggings</span>
+          <a href="pd15.php">Sports Bra & Leggings</a>
+          <h4>$169.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd16.php" class="product-thumb">
             <img src="../images/160.jpg" alt="" />
           </a>

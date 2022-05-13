@@ -464,6 +464,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd19.php" class="product-thumb">
+            <img src="../images/190.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Velocity 1/4 Zip Top - Charcoal Marl For Men</span>
+          <a href="pd19.php">1/4 zip top</a>
+          <h4>$179.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd20.php" class="product-thumb">
             <img src="../images/201.jpg" alt="" />
           </a>

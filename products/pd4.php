@@ -177,6 +177,24 @@ include('./location.php');
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd4.php" class="product-thumb">
+            <img src="../images/4.1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Enhanced muscle-building</span>
+          <a href="pd4.php">Scream Supps Pinhead</a>
+          <h4>$59.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd5.php" class="product-thumb">
             <img src="../images/5.jpg" alt="" />
           </a>

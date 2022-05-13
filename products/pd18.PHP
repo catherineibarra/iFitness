@@ -442,6 +442,23 @@ include('./location.php');
         </ul>
       </div>
 
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd18.php" class="product-thumb">
+            <img src="../images/180.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Seamless 1/4 Zip - Dark Grey Marl For Men</span>
+          <a href="pd18.php">Regular fit seamless training 1/4 zip</a>
+          <h4>$109</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
 
       <div class="product-item">
         <div class="overlay">
@@ -478,7 +495,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
     </div>
   </section>
 

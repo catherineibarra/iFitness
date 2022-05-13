@@ -315,6 +315,24 @@ For more great Fusion Motion exercise equipment, be sure to check out our store 
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd11.php" class="product-thumb">
+            <img src="../images/111.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Strength Trainer</span>
+          <a href="pd11.php">Fusion Push-up Workout Set</a>
+          <h4>$69.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd12.php" class="product-thumb">
             <img src="../images/120.jpg" alt="" />
           </a>

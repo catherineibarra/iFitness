@@ -327,6 +327,24 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd12.php" class="product-thumb">
+            <img src="../images/120.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Cardio Equipment</span>
+          <a href="pd12.php">WalkingPad Foldable Treadmill</a>
+          <h4>$1099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd13.php" class="product-thumb">
             <img src="../images/130.jpg" alt="" />
           </a>
