@@ -57,239 +57,259 @@ include('access.php');
   <!-- BODY-CONTENT -->
   <section class="section category">
     <!-- BODY-CONTENT -->
-  <section class="section category">
+    <section class="section category">
 
-<!-- ROW 1 -->
-<div class="cat-center">
-  <ul class="box-content">
-
-  <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/111.jpg" alt="11">
-              <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="11" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
+      <!-- ROW 1 -->
+      <div class="cat-center">
+        <ul class="box-content">
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/1.jpg" alt="1">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="1" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
+                  <a href="./products/pd1.php" class="price">$60.21</a>
+                </div>
               </div>
             </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
-                <a href="./products/pd11.php" class="price">$69.99</a>
+          </li>
+
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/8.jpg" alt="8">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="8" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd8.php"> Rich Piana 5% Nutrition Freak Show 180 Capsuls</a>
+                  <a href="./products/pd8.php" class="price">$78.90</a>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/120.jpg" alt="12">
-              <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="12" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/3.jpg" alt="3">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="3" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd3.php"> Muscle Matrix 60 Capsules </a>
+                  <a href="./products/pd3.php" class="price">$109.00</a>
+                </div>
               </div>
             </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
-                <a href="./products/pd12.php" class="price">$1099</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="cat-center">
+        <ul class="box-content">
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/4.1.jpg" alt="4">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="4" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
+                  <a href="./products/pd4.php" class="price">$59.99</a>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/130.jpg" alt="13">
-              <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="13" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/5.jpg" alt="5">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="5" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd5.php"> Universal Animal Energy 60 Capsules </a>
+                  <a href="./products/pd5.php" class="price">$29.00</a>
+                </div>
               </div>
             </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
-                <a href="./products/pd13.php" class="price">$24.97</a>
+          </li>
+
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/6.jpg" alt="6">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="6" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd6.php"> Muscle Building Vitamins for Men 60 Capsules </a>
+                  <a href="./products/pd6.php" class="price">$39.00</a>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-  
-
-<!-- ROW 2 -->
-<div class="cat-center">
-  <ul class="box-content">
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/4.1.jpg" alt="4">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="4" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
-            <a href="./products/pd4.php" class="price">$59.99</a>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
-    </li>
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/5.jpg" alt="5">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="5" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd5.php"> Universal Animal Energy 60 Capsules </a>
-            <a href="./products/pd5.php" class="price">$29.00</a>
-          </div>
-        </div>
+      <!-- ROW 3 -->
+      <div class="cat-center">
+        <ul class="box-content">
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/7.jpg" alt="7">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="7" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd7.php"> Cellucor C4 ID Pre Workout 60 Serves </a>
+                  <a href="./products/pd7.php" class="price">$68.90</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/111.jpg" alt="11">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="11" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
+                  <a href="./products/pd11.php" class="price">$69.99</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/120.jpg" alt="12">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="12" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
+                  <a href="./products/pd12.php" class="price">$1099</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="home-card">
+            <div class="box">
+              <div class="slide-img">
+                <img src="./images/130.jpg" alt="13">
+                <div class="index-overlay">
+                  <form class="form" action="add2cart.php" method="get">
+                    <input type="number" value="1" name="quantity" hidden />
+                    <input type="number" value="13" name="product_id" hidden />
+                    <button class="add-btn" type="submit">Add To Cart</button>
+                  </form>
+                </div>
+              </div>
+              <div class="detail-box">
+                <div class="type">
+                  <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
+                  <a href="./products/pd13.php" class="price">$24.97</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+        <!--pages-->
+        <a href="shop.php">Page 1</a>
       </div>
-    </li>
-
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/6.jpg" alt="6">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="6" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd6.php"> Muscle Building Vitamins for Men 60 Capsules </a>
-            <a href="./products/pd6.php" class="price">$39.00</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
-
-<!-- ROW 3 -->
-<div class="cat-center">
-  <ul class="box-content">
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/7.jpg" alt="7">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="7" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd7.php"> Cellucor C4 ID Pre Workout 60 Serves </a>
-            <a href="./products/pd7.php" class="price">$68.90</a>
-          </div>
-        </div>
-      </div>
-    </li>
-
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/1.jpg" alt="1">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="1" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd1.php"> Ghost 100% Whey Protein 2lb </a>
-            <a href="./products/pd1.php" class="price">$60.21</a>
-          </div>
-        </div>
-      </div>
-    </li>
-
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/3.jpg" alt="3">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="3" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd3.php"> Muscle Matrix 60 Capsules </a>
-            <a href="./products/pd3.php" class="price">$109.00</a>
-          </div>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
+    </section>
 
 
+
+    <!-- FOOTER -->
+    <footer>
+      <ul>
+        <div class="social">
+          <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+          <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+
+        <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+        <div class="navbar">
+          <li><a href="not-found.html">About Us </a></li>
+          <li><a href="not-found.html">Terms and Policy</a></li>
+        </div>
       </ul>
-      <!--pages-->
-    <a href="shop.php">Page 1</a>
-    </div>
-  </section>
-
-
-
-  <!-- FOOTER -->
-  <footer>
-    <ul>
-      <div class="social">
-        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
-        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
-      </div>
-
-      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
-
-      <div class="navbar">
-        <li><a href="not-found.html">About Us </a></li>
-        <li><a href="not-found.html">Terms and Policy</a></li>
-      </div>
-    </ul>
-  </footer>
+    </footer>
 
 </body>
 
