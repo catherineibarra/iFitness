@@ -166,7 +166,7 @@ include('access.php');
               </div>
               <div class="detail-box">
                 <div class="type">
-                  <a href="./products/pd15.php">Sports Bra and Leggings </a>
+                  <a href="./products/pd15.php">Sports suits</a>
                   <a href="./products/pd15.php" class="price">$169.99</a>
                 </div>
               </div>
