@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Seven | iFitness </title>
+  <title> Product 13 | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +39,7 @@ include('./location.php');
 
         <li><a href="../cart.php">My Cart</a></li>
         <?php if ($isLoggedIn) : ?>
-          <li><a href="?profile=profile">My Account
+          <li><a href="?profile=profile">My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>
 
         <?php else : ?>
@@ -64,45 +64,29 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/7.jpg" id="zoom" alt="" />
+              <img src="../images/130.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.1.jpg" id="zoom" alt="" />
+              <img src="../images/131.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.2.jpg" id="zoom" alt="" />
+              <img src="../images/132.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.3.jpg" id="zoom" alt="" />
+              <img src="../images/133.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.4.jpg" id="zoom" alt="" />
+              <img src="../images/134.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.5.jpg" id="zoom" alt="" />
+              <img src="../images/135.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.6.jpg" id="zoom" alt="" />
+              <img src="../images/136.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/7.7.jpg" id="zoom" alt="" />
+              <img src="../images/137.jpg" id="zoom" alt="" />
             </div>
-            <div class="mySlides fade">
-              <img src="../images/7.8.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/7.9.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/710.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/711.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/712.jpg" id="zoom" alt="" />
-            </div>
-
           </div>
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
@@ -117,43 +101,39 @@ include('./location.php');
           <span class="dot" onclick="currentSlide(6)"></span>
           <span class="dot" onclick="currentSlide(7)"></span>
           <span class="dot" onclick="currentSlide(8)"></span>
-          <span class="dot" onclick="currentSlide(9)"></span>
-          <span class="dot" onclick="currentSlide(10)"></span>
-          <span class="dot" onclick="currentSlide(11)"></span>
-          <span class="dot" onclick="currentSlide(12)"></span>
         </div>
 
       </div>
       <div class="right">
-        <span>Pre Workout Powder</span>
-        <h1>Cellucor C4 ID Pre Workout 60 Serves<h1>
-            <div class="price">$68.90</div>
+        <span>Thigh Toner Workout Equipment</span>
+        <h1>Thigh Toner Workout Equipment For Women<h1>
+            <div class="price">$24.97</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="7" name="product_id" hidden />
+              <input type="number" value="13" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
             <p>
-              About Supplements.co.nz Cellucor C4 Original ID
+            Maybe you have gone through a long period of immobility and have developed thigh fat.
 
-              Explosive energy,
-              heightened focus and an overwhelming urge to tackle any challenge...
-              that's the C4 experience. Millions of people-ranging from beginners all the way up to the elite competitors, have relied on C4 pre-workout to help them turn their ambitions into achievements.
+Or you just had a baby and noticed that your thighs have turned flabby.
 
-              As America's #1 selling pre-workout,
-              C4 Original lives up to its solid reputation with a classic formula for advanced energy, endurance, focus and pumps! But with a new bottle design and more delicious flavor options for you to choose from,
-              you'll feel like it's your very first time experiencing the C4 pre-workout you know and love.
+Or lack of exercise has made your thigh fat.
 
-              Whether you're just starting a fitness journey or you're striving to reach that next level, C4 Original will help you unlock your full potential.
+Whatever the reason is, this thigh toner equipment will get your thighs back in shape. After all, which woman does not want thin legs?
 
-              Contains CarnoSyn Beta Alanine, an amino acid, which converts to a compound in your body called carnosine. It is the only patented and clinically studied form of beta-alanine that has been shown to support muscular endurance.
+It makes you don all types of dresses beautifully and appear irresistible for the opposite gender.
+
+Get attractive for your boyfriend or husband, it is never too late to do the right thing.
             </p>
       </div>
+      
     </div>
   </section>
+
 
   <!-- RELATED PRODUCTS -->
   <section class="section featured">
@@ -179,7 +159,6 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-
       <div class="product-item">
         <div class="overlay">
           <a href="pd2.php" class="product-thumb">
@@ -202,7 +181,7 @@ include('./location.php');
           <a href="pd3.php" class="product-thumb">
             <img src="../images/3.jpg" alt="" />
           </a>
-          <span class="discount">40%</span>
+          <span class="discount">40% off</span>
         </div>
         <div class="product-info">
           <span>Excellent Supplement for the reduction of glucocorticoid hormones</span>
@@ -258,8 +237,26 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Muscle building vitamins for men - stamina booster for men </span>
-          <a href="pd6.php">Bodubuilding Pills For Men</a>
+          <a href="pd6.php">Bodybuilding Pills For Men</a>
           <h4>$39</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd7.php" class="product-thumb">
+            <img src="../images/7.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
+          <a href="pd7.php">Cellucor C4 Original</a>
+          <h4>$68.9</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
@@ -304,7 +301,6 @@ include('./location.php');
         </ul>
       </div>
 
-      
       <div class="product-item">
         <div class="overlay">
           <a href="pd10.php" class="product-thumb">
@@ -322,7 +318,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd11.php" class="product-thumb">
@@ -340,7 +336,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd12.php" class="product-thumb">
@@ -358,25 +354,8 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
-      <div class="product-item">
-        <div class="overlay">
-          <a href="pd13.php" class="product-thumb">
-            <img src="../images/130.jpg" alt="" />
-          </a>
-        </div>
-        <div class="product-info">
-          <span>Thigh Toner Workout Equipment</span>
-          <a href="pd13.php">Thigh Toner Workout Equipment For Women</a>
-          <h4>$24.97</h4>
-        </div>
-        <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
-          <li><i class="bx bx-search"></i></li>
-          <li><i class="bx bx-cart"></i></li>
-        </ul>
-      </div>
-      
+
+
     </div>
   </section>
 

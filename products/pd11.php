@@ -331,6 +331,24 @@ For more great Fusion Motion exercise equipment, be sure to check out our store 
         </ul>
       </div>
 
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd13.php" class="product-thumb">
+            <img src="../images/130.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Thigh Toner Workout Equipment</span>
+          <a href="pd13.php">Thigh Toner Workout Equipment For Women</a>
+          <h4>$24.97</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
     </div>
   </section>
 
