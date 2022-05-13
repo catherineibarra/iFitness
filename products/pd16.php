@@ -82,9 +82,8 @@ include('./location.php');
               <img src="../images/165.jpg" id="zoom" alt="" />
             </div>
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
-              <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
         <div style="text-align:center">

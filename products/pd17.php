@@ -74,9 +74,8 @@ include('./location.php');
             </div>
       
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
-            << /a>
-              <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
         <div style="text-align:center">
