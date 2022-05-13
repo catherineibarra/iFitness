@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Nine | iFitness </title>
+  <title> Product Ten | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -98,13 +98,13 @@ include('./location.php');
 
       </div>
       <div class="right">
-        <span>Two Person Station Multi Gym/Station With Smith Machine </span>
-        <h1>Strength Trainer<h1>
+        <span>Strength Trainer</span>
+        <h1>Two Person Station Multi Gym/Station With Smith Machine <h1>
             <div class="price">$2037</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="9" name="product_id" hidden />
+              <input type="number" value="10" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
@@ -299,6 +299,24 @@ This home gym comes preloaded with a range of attachments including 2 x single h
           <span>Natural muscle builder </span>
           <a href="pd9.php">Muscle Builder 90 capsules</a>
           <h4>$77</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd11.php" class="product-thumb">
+            <img src="../images/110.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Strength Trainer</span>
+          <a href="pd11.php">Fusion Push-up Workout Set</a>
+          <h4>$69.99</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>

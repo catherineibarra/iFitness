@@ -266,15 +266,36 @@ include('access.php');
               <div class="index-overlay">
               <form class="form" action="add2cart.php" method="get">
               <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="9" name="product_id" hidden />
+              <input type="number" value="10" name="product_id" hidden />
               <button class="add-btn" type="submit">Add To Cart</button>
             </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd10.php"> Strength Trainer</a>
+                <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
                 <a href="./products/pd10.php" class="price">$2037.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/110.jpg" alt="11">
+              <div class="index-overlay">
+              <form class="form" action="add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" hidden/>
+              <input type="number" value="11" name="product_id" hidden />
+              <button class="add-btn" type="submit">Add To Cart</button>
+            </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
+                <a href="./products/pd11.php" class="price">$69.99</a>
               </div>
             </div>
           </div>

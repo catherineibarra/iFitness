@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Three | iFitness </title>
+  <title> Product eleven | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +55,7 @@ include('./location.php');
       </li>
     </ul>
   </nav>
-
+  
   <!-- BODY-CONTENT -->
   <!-- Product Details -->
   <section class="section product-detail">
@@ -64,13 +64,22 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/3.jpg" id="zoom" alt="" />
+              <img src="../images/110.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/3.1.jpg" id="zoom" alt="" />
+              <img src="../images/111.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/3.2.jpg" id="zoom" alt="" />
+              <img src="../images/112.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/113.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/114.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/115.jpg" id="zoom" alt="" />
             </div>
           </div>
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
@@ -81,35 +90,46 @@ include('./location.php');
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+
         </div>
 
       </div>
       <div class="right">
-        <span>Dietary Supplement</span>
-        <h1>Muscle Matrix 60 Capsules<h1>
-            <div class="price">$109</div>
+        <span>Strength Trainer</span>
+        <h1>Fusion Push-up Workout Set<h1>
+            <div class="price">$69.99</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="3" name="product_id" hidden />
+              <input type="number" value="11" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
             <p>
-              Muscle Matrix is an excellent Supplement for the reduction of glucocorticoid hormones, commonly referred to as stress hormones.
-              While glucocorticoids are necessary for our health in small amounts, they will promote fat gain as well as destroy muscle tissue.
+            Hate awkward stares and the persistent aroma of B.O. every time you go to the gym? Get a total body experience that tones and strengthens multiple muscle groups right from home – with the Fusion Motion push up board!
 
-              Muscle Matrix is a proprietary peptide amino acid blend that counteracts this problem and supports steady lean muscle growth while burning fat for energy.
+With the unique color-coded board guide, you’ll effortlessly target your triceps, back, shoulders and chest. Simply match the ergonomic handles to the muscle group you want to work for laser-targeted toning! Have no idea where to start? Consult our in-depth training guide with over 100 new exercises to enhance your daily routine!
 
-              You may experience an increase in Strength, Vascularity and Enhanced Focus while using this supplement. This product effectively builds lean hard muscle and gives you that sculpted chiselled look.
-              Key Benefits
+But don’t just stop at sculpting the perfect upper body. Boost cardio and burn calories with our weighted ball-bearing jump rope. With 360 degrees of no-noise rotation, you’ll enjoy advanced skipping techniques to develop your quads, hammies, and glutes! And with internally locking handles, you can quickly adjust the rope to whatever length you need!
+
+Heading out of town for a conference or much-needed vacation? Skip crowded hotel fitness rooms and bring your own portable gym! Our push-up board effortlessly folds into a compact carrier that holds all of the included fitness gear and magnetically locks to prevent spillage.
+
+Note: The Fusion Motion back, arm and chest exerciser hold up to 265 pounds of weight.
+
+For more great Fusion Motion exercise equipment, be sure to check out our store for the full range of products!
+
+            </p>
       </div>
+      
     </div>
   </section>
 
 
-  <!-- RELATED -->
+  <!-- RELATED PRODUCTS -->
   <section class="section featured">
     <div class="top container">
       <h1 class="related-h1">Related Products</h1>
@@ -150,7 +170,24 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd3.php" class="product-thumb">
+            <img src="../images/3.jpg" alt="" />
+          </a>
+          <span class="discount">40% off</span>
+        </div>
+        <div class="product-info">
+          <span>Excellent Supplement for the reduction of glucocorticoid hormones</span>
+          <a href="pd3.php">Muscle Matrix - 60 vcaps (25mg per capsule)</a>
+          <h4>$109</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
       <div class="product-item">
         <div class="overlay">
           <a href="pd4.php" class="product-thumb">
@@ -212,7 +249,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 ID Pre Workout 60 Serves </a>
+          <a href="pd7.php">Cellucor C4 Original</a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">
@@ -248,7 +285,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Natural muscle builder </span>
-          <a href="">Muscle Builder 90 capsules</a>
+          <a href="pd9.php">Muscle Builder 90 capsules</a>
           <h4>$77</h4>
         </div>
         <ul class="icons">
@@ -258,7 +295,6 @@ include('./location.php');
         </ul>
       </div>
 
-      
       <div class="product-item">
         <div class="overlay">
           <a href="pd10.php" class="product-thumb">
@@ -276,29 +312,11 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
-      <div class="product-item">
-        <div class="overlay">
-          <a href="pd11.php" class="product-thumb">
-            <img src="../images/110.jpg" alt="" />
-          </a>
-        </div>
-        <div class="product-info">
-          <span>Strength Trainer</span>
-          <a href="pd11.php">Fusion Push-up Workout Set</a>
-          <h4>$69.99</h4>
-        </div>
-        <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
-          <li><i class="bx bx-search"></i></li>
-          <li><i class="bx bx-cart"></i></li>
-        </ul>
-      </div>
-      
+
     </div>
   </section>
 
-    <!-- FOOTER -->
+  <!-- FOOTER -->
   <footer>
     <ul>
       <div class="social">
