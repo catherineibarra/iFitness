@@ -55,6 +55,7 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
+  <h1 class="center py-3">Protein Powder</h1>
   <section class="section category">
 
     <!-- ROW 1 -->
@@ -279,14 +280,16 @@ include('access.php');
             </div>
           </div>
         </li>
-
-      </ul>
-      <!--pages-->
-      <a href="shop.php">page 1 | &nbsp</a>
-      <a href="shop2.php">page 2 |  &nbsp</a>
-      <a href="shop3.php">page 3  &nbsp</a> 
-    </div>
   </section>
+
+<!--pages section-->
+  <div class="center py-3">
+    <!--pages-->
+    <a href="shop.php">Page 1 | &nbsp</a>
+    <a href="shop2.php">Page 2 |  &nbsp</a>
+    <a href="shop3.php">Page 3  &nbsp</a> 
+  </div>
+
 
 
   <!-- FOOTER -->
