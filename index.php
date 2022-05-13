@@ -1,7 +1,6 @@
 <?php
 session_start();
 include('access.php');
-include('information.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
