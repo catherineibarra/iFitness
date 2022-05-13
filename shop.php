@@ -280,7 +280,6 @@ include('access.php');
           </div>
         </li>
         
-
       </ul>
       <!--pages-->
     <a href="shop2.php">Page 2</a>
