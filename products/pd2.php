@@ -160,7 +160,7 @@ include('./location.php');
         <div class="product-info">
           <span>Enhanced muscle-building</span>
           <a href="pd4.php">Scream Supps Pinhead</a>
-          <h4>$59.99</h4>
+          <h4></h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
