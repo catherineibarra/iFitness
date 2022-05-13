@@ -65,11 +65,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/1.jpg" alt="1">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="1" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="1" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -86,11 +86,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/2.jpg" alt="2">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="2" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="2" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -107,11 +107,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/3.jpg" alt="3">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="3" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="3" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -133,11 +133,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/4.1.jpg" alt="4">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="4" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="4" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -154,11 +154,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/5.jpg" alt="5">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="5" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="5" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -175,11 +175,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/6.jpg" alt="6">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="6" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="6" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -201,11 +201,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/7.jpg" alt="7">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="7" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="7" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -222,11 +222,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/8.jpg" alt="8">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="8" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="8" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -243,11 +243,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/9.jpg" alt="9">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="9" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="9" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -264,11 +264,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/102.png" alt="10">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="10" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="10" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -285,11 +285,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/111.jpg" alt="11">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="11" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="11" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -306,11 +306,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/120.jpg" alt="12">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="12" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="12" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -327,11 +327,11 @@ include('access.php');
             <div class="slide-img">
               <img src="./images/130.jpg" alt="13">
               <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="13" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="13" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
             <div class="detail-box">
@@ -345,9 +345,10 @@ include('access.php');
 
       </ul>
       <!--pages-->
-      <a href="shop2.php">Page 2</a>
+      <a href="shop.php">Page 1</a>
     </div>
   </section>
+
 
 
   <!-- FOOTER -->
