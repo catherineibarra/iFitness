@@ -326,6 +326,24 @@ include('./location.php');
         </ul>
       </div>
       
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd14.php" class="product-thumb">
+            <img src="../images/140.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Fat Burner</span>
+          <a href="pd14.php">EHP Labs OxyShred Thermogenic</a>
+          <h4>$79.89</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
     </div>
   </section>
 

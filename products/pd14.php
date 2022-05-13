@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Twelve | iFitness </title>
+  <title> Product 13 | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,22 +64,7 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/120.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/121.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/122.png" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/123.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/124.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/125.jpg" id="zoom" alt="" />
+              <img src="../images/140.jpg" id="zoom" alt="" />
             </div>
           </div>
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
@@ -88,34 +73,30 @@ include('./location.php');
 
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-          <span class="dot" onclick="currentSlide(6)"></span>
 
         </div>
 
       </div>
       <div class="right">
-        <span>Cardio Equipment</span>
-        <h1>WalkingPad Foldable Treadmill<h1>
-            <div class="price">$1099</div>
+        <span>Fat Burner</span>
+        <h1>EHP Labs OxyShred Thermogenic<h1>
+            <div class="price">$79.89</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="12" name="product_id" hidden />
+              <input type="number" value="14" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
             <p>
-            Conventional treadmills are huge and occupy unnecessary space. 
-            Our WalkingPad Treadmill incorporates a unique dual folding mechanism, the deck and handle can be easily folded up for compact and simple storage. 
-            It is your perfect exercise buddy that allows you to stay healthy under different scenarios.
-
-Learn from the feedback of our previous customers, 
-we redesign the WalkingPad Foldable Treadmill with the capability to serve your running need. We also reshape it by adding a balancing handle and prolonging the deck for a better running experience.
+            EHPLabs OxyShred has taken the fitness and weight loss world by storm with its amazing taste, 
+            efficacious formula and reliable results.  EHPLabs OxyShred is a potent thermogenic fat burner. 
+            It will take your body to a new level of fat burning called hyper-lipolysis.  In other words: turbo fat burning.
+              Unlike other fat burners on the market, OxyShred is not a heavy stimulant based thermogenic.  
+              OxyShred has been pharmaceutically engineered to switch off your body itss fat memory the a2 receptors and to stimulate your body 
+              its fat burning hormones the ß2-adrenergic receptors to mobilise the existing subcutaneous stubborn fat cells to the mitochondria to be converted into energy
+             in the form of adenosine triphosphate. EHP Labs is one of Sprint Fit's most popular brands. 
             </p>
       </div>
       
@@ -327,6 +308,24 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd12.php" class="product-thumb">
+            <img src="../images/120.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Cardio Equipment</span>
+          <a href="pd12.php">WalkingPad Foldable Treadmill</a>
+          <h4>$1099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd13.php" class="product-thumb">
             <img src="../images/130.jpg" alt="" />
           </a>
@@ -343,24 +342,7 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
         </ul>
       </div>
 
-      <div class="product-item">
-        <div class="overlay">
-          <a href="pd14.php" class="product-thumb">
-            <img src="../images/140.jpg" alt="" />
-          </a>
-        </div>
-        <div class="product-info">
-          <span>Fat Burner</span>
-          <a href="pd14.php">EHP Labs OxyShred Thermogenic</a>
-          <h4>$79.89</h4>
-        </div>
-        <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
-          <li><i class="bx bx-search"></i></li>
-          <li><i class="bx bx-cart"></i></li>
-        </ul>
-      </div>
-      
+
     </div>
   </section>
 

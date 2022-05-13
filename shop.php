@@ -262,24 +262,24 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/102.png" alt="10">
+              <img src="./images/140.jpg" alt="14">
               <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="10" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
+              <form class="form" action="add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" hidden/>
+              <input type="number" value="14" name="product_id" hidden />
+              <button class="add-btn" type="submit">Add To Cart</button>
+            </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
-                <a href="./products/pd10.php" class="price">$2037.00</a>
+                <a href="./products/pd14.php">EHP Labs OxyShred Thermogenic Fat Burner</a>
+                <a href="./products/pd14.php" class="price">$79.89</a>
               </div>
             </div>
           </div>
         </li>
-        
+
       </ul>
       <!--pages-->
     <a href="shop2.php">Page 2</a>
