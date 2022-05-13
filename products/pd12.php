@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Two | iFitness </title>
+  <title> Product Twelve | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +55,7 @@ include('./location.php');
       </li>
     </ul>
   </nav>
-
+  
   <!-- BODY-CONTENT -->
   <!-- Product Details -->
   <section class="section product-detail">
@@ -64,12 +64,23 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/2.jpg" id="zoom" alt="" />
+              <img src="../images/120.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/2.3.jpg" id="zoom" alt="" />
+              <img src="../images/121.jpg" id="zoom" alt="" />
             </div>
-
+            <div class="mySlides fade">
+              <img src="../images/122.png" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/123.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/124.jpg" id="zoom" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="../images/125.jpg" id="zoom" alt="" />
+            </div>
           </div>
           <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
@@ -78,36 +89,39 @@ include('./location.php');
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-        </div>
-      </div>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
 
+        </div>
+
+      </div>
       <div class="right">
-        <span>High Whey Protein</span>
-        <h1>Musashi High Protein Chocolate 2kg<h1>
-            <div class="price">$76.49</div>
+        <span>Cardio Equipment</span>
+        <h1>WalkingPad Foldable Treadmill<h1>
+            <div class="price">$1099</div>
+
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="2" name="product_id" hidden />
+              <input type="number" value="12" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
             <p>
-              Scientifically formulated to be high in protein for muscle recovery, MUSASHI HIGH PROTEIN contains quality protein sources in a delicious tasting shake.
-              Combining instantised whey protein concentrate, whey protein isolate and milk protein solids, each serve delivers 30 grams of quality protein to help reach your training goals.
-              General Information
-              Scientifically formulated to be high in protein for muscle recovery, MUSASHI HIGH PROTEIN contains quality protein sources in a delicious tasting shake.
-              Combining instantised whey protein concentrate, whey protein isolate and milk protein solids, each serve delivers 30 grams of quality protein to help reach your training goals.
-              Warnings
-              Contains: Milk, Soy Products
-              Ingredients
-              Musashi Bulk Protein Blend (65%) [Whey Protein Concentrate, Skim Milk Powder, Whey Protein Isolate, Whole Milk Powder, Emulsifiers (Soy Lecithin, Sunflower Lecithin)], Maltodextrin, Dextrose, Cocoa Powder, Vitamins & Minerals (Dicalcium Phosphate, Dipotassium Phosphate, Magnesium Carbonate, Zinc Gluconate, Ferric Pyroosphate, Maltodextrin, Sodium Ascrobate, Vitamin E Acetate, Nicotinamide, Vitamin A Acetate, Vitmain D3, Vitamin B12, Potassium Iodide, Vitamin B6, Vitamin B2, Vitamin B1, Folic Acid), Flavours, Vegetable Gum (Guar Gum), Sweetener (Sucralose), Acidity Regulator (Citric Acid)
+            Conventional treadmills are huge and occupy unnecessary space. 
+            Our WalkingPad Treadmill incorporates a unique dual folding mechanism, the deck and handle can be easily folded up for compact and simple storage. 
+            It is your perfect exercise buddy that allows you to stay healthy under different scenarios.
 
-              Directions:
-              When taking P High Protein as a post-exercise protein shake to support your recovery, aim to consume within 30 minutes of completing exercise to help maximise effectiveness.
+Learn from the feedback of our previous customers, 
+we redesign the WalkingPad Foldable Treadmill with the capability to serve your running need. We also reshape it by adding a balancing handle and prolonging the deck for a better running experience.
+            </p>
       </div>
+      
     </div>
   </section>
+
 
   <!-- RELATED PRODUCTS -->
   <section class="section featured">
@@ -135,10 +149,27 @@ include('./location.php');
       </div>
       <div class="product-item">
         <div class="overlay">
+          <a href="pd2.php" class="product-thumb">
+            <img src="../images/2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Scientifically formulated to be high in protein for muscle recovery</span>
+          <a href="pd2.php">Musashi High Protein Chocolate 2kg</a>
+          <h4>$76.49 </h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd3.php" class="product-thumb">
             <img src="../images/3.jpg" alt="" />
           </a>
-          <span class="discount">40%</span>
+          <span class="discount">40% off</span>
         </div>
         <div class="product-info">
           <span>Excellent Supplement for the reduction of glucocorticoid hormones</span>
@@ -160,7 +191,7 @@ include('./location.php');
         <div class="product-info">
           <span>Enhanced muscle-building</span>
           <a href="pd4.php">Scream Supps Pinhead</a>
-          <h4></h4>
+          <h4>$59.99</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
@@ -212,7 +243,7 @@ include('./location.php');
         </div>
         <div class="product-info">
           <span>Explosive energy, heightened focus and an overwhelming urge to tackle any challenge</span>
-          <a href="pd7.php">Cellucor C4 ID Pre Workout 60 Serves </a>
+          <a href="pd7.php">Cellucor C4 Original</a>
           <h4>$68.9</h4>
         </div>
         <ul class="icons">
@@ -257,8 +288,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd10.php" class="product-thumb">
@@ -294,25 +324,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
-      <div class="product-item">
-        <div class="overlay">
-          <a href="pd12.php" class="product-thumb">
-            <img src="../images/120.jpg" alt="" />
-          </a>
-        </div>
-        <div class="product-info">
-          <span>Cardio Equipment</span>
-          <a href="pd12.php">WalkingPad Foldable Treadmill</a>
-          <h4>$1099</h4>
-        </div>
-        <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
-          <li><i class="bx bx-search"></i></li>
-          <li><i class="bx bx-cart"></i></li>
-        </ul>
-      </div>
-      
+
     </div>
   </section>
 
@@ -378,8 +390,7 @@ include('./location.php');
           zoomrange: [4, 4],
         });
       });
-    </script>
-
+  </script>
 
 </body>
 </html>

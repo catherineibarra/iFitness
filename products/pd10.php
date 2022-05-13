@@ -325,6 +325,24 @@ This home gym comes preloaded with a range of attachments including 2 x single h
         </ul>
       </div>
 
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd12.php" class="product-thumb">
+            <img src="../images/120.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Cardio Equipment</span>
+          <a href="pd12.php">WalkingPad Foldable Treadmill</a>
+          <h4>$1099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      
     </div>
   </section>
 
