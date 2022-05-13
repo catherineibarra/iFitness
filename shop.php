@@ -259,94 +259,10 @@ include('access.php');
           </div>
         </li>
 
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/102.png" alt="10">
-              <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="10" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
-                <a href="./products/pd10.php" class="price">$2037.00</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/111.jpg" alt="11">
-              <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="11" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
-                <a href="./products/pd11.php" class="price">$69.99</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/120.jpg" alt="12">
-              <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="12" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
-                <a href="./products/pd12.php" class="price">$1099</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/130.jpg" alt="13">
-              <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="13" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
-                <a href="./products/pd13.php" class="price">$24.97</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
       </ul>
-    </div>
-    <!--pages-->
+      <!--pages-->
     <a href="shop2.php">Page 2</a>
+    </div>
   </section>
 
 
