@@ -344,9 +344,9 @@ include('access.php');
         </li>
 
       </ul>
-      <!--pages-->
-      <a href="shop.php">Page 1</a>
     </div>
+    <!--pages-->
+    <a href="shop.php">Page 1</a>
   </section>
 
 
