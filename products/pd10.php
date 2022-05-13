@@ -507,6 +507,186 @@ This home gym comes preloaded with a range of attachments including 2 x single h
         </ul>
       </div>
 
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd21.php" class="product-thumb">
+            <img src="../images/210.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Rockit Dumbbell Rack</span>
+          <a href="pd21.php">Rockit Dumbbell Rack</a>
+          <h4>$702</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd22.php" class="product-thumb">
+            <img src="../images/220.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Height Adjustable Chin Pull Up Bar Dip Station Weight Bench</span>
+          <a href="pd22.php">Height Adjustable Chin Pull Up Bar Dip Station Weight Bench</a>
+          <h4>$319.97</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd23.php" class="product-thumb">
+            <img src="../images/230.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Muliti Gym 3 Station Jx930 158LBS (72KG) Stack Weights JX Fitness Home GYM</span>
+          <a href="pd23.php">Jx930 158LBS (72KG) Stack Weights</a>
+          <h4>$1299</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd24.php" class="product-thumb">
+            <img src="../images/240.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Gym Weight Training Exercise Equipment Strength Machine</span>
+          <a href="pd24.php">Gym Weight Training Exercise Equipment Strength Machine</a>
+          <h4>$369.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+  
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd25.php" class="product-thumb">
+            <img src="../images/250.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Genki Magnetic Cross Trainer Elliptical Trainer Machine Home Gym Equipment with LED Display</span>
+          <a href="pd25.php">Genki Magnetic Cross Trainer Elliptical Trainer Machine Home Gym Equipment with LED Display</a>
+          <h4>$139.88</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd26.php" class="product-thumb">
+            <img src="../images/260.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Genki Exercise Bike Spin Stationary Shock Absorbing Home Gym Fitness Equipment Adjustable Magnetic Resistance</span>
+          <a href="pd26.php">Bike Spin Stationary Shock Absorbing</a>
+          <h4>$379.97</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd27.php" class="product-thumb">
+            <img src="../images/270.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>7-In-1 Weight Bench Multi-Function Power Station Fitness Gym Equipment</span>
+          <a href="pd27.php">7-In-1 Weight Bench Multi-Function Power Station Fitness Gym Equipment</a>
+          <h4>$150.30</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd28.php" class="product-thumb">
+            <img src="../images/280.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Centra Magnetic Rowing Machine 8 Level Resistance Exercise Fitness Home Gym</span>
+          <a href="pd28.php">Centra Magnetic Rowing Machine 8 Level Resistance Exercise Fitness Home Gym</a>
+          <h4>$420</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd29.php" class="product-thumb">
+            <img src="../images/290.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Slim Body Comprehensive Exercise Comfortable Fitness Equipment Push Up Bracket For Home Gym Easy Comprehensive Exercise Fitness Equipment For Training</span>
+          <a href="pd29.php"> Push Up Bracket</a>
+          <h4>$35</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd30.php" class="product-thumb">
+            <img src="../images/300.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Wall Mounted Pull Up Multi Function Home Gym Exercise Fitness Indoor Exercise Equipment Gym House Fitness US STORE</span>
+          <a href="pd30.php"> Wall Mounted Pull Up </a>
+          <h4>$756.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
