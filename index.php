@@ -1,18 +1,7 @@
 <?php
 session_start();
 include('access.php');
-
-//if user clicks logout
-if (isset($_GET['logout']) && $_GET['logout'] == "logout") :
-  session_destroy();
-  header("location: index.php");
-  exit;
-endif;
-// if user clicks on profile
-if (isset($_GET['profile']) && $_GET['profile'] == "profile") :
-  header("location: profile.php");
-  exit;
-endif;
+include('information.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
