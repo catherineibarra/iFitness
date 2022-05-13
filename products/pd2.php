@@ -257,6 +257,24 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
+      
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd10.php" class="product-thumb">
+            <img src="../images/102.png" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Two Person Station Multi Gym/Station With Smith Machine</span>
+          <a href="pd10.php">Strength Trainer</a>
+          <h4>$2037</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
 
     </div>
   </section>
