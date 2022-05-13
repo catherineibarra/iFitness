@@ -262,7 +262,7 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/102.jpg" alt="9">
+              <img src="./images/102.png" alt="10">
               <div class="index-overlay">
               <form class="form" action="add2cart.php" method="get">
               <input type="number" value="1" name="quantity" hidden/>

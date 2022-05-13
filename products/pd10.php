@@ -136,6 +136,7 @@ This home gym comes preloaded with a range of attachments including 2 x single h
 
             </p>
       </div>
+      
     </div>
   </section>
 
