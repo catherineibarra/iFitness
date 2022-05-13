@@ -285,7 +285,7 @@ include('access.php');
           </li>
         </ul>
         <!--pages-->
-        <a href="shop.php">Go back to page 1</a>
+        <a href="shop.php"><- page 1</a>
       </div>
 
     </section>

@@ -282,7 +282,7 @@ include('access.php');
 
       </ul>
       <!--pages-->
-    <a href="shop2.php">Go to Page 2</a>
+    <a href="shop2.php">-> Page 2</a>
     </div>
   </section>
 
