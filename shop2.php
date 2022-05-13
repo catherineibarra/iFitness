@@ -83,6 +83,29 @@ include('access.php');
       </div>
     </li>
 
+    <li class="home-card">
+      <div class="box">
+        <div class="slide-img">
+          <img src="./images/3.jpg" alt="3">
+          <div class="index-overlay">
+          <form class="form" action="add2cart.php" method="get">
+          <input type="number" value="1" name="quantity" hidden/>
+          <input type="number" value="3" name="product_id" hidden />
+          <button class="add-btn" type="submit">Add To Cart</button>
+        </form>
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="type">
+            <a href="./products/pd3.php"> Muscle Matrix 60 Capsules </a>
+            <a href="./products/pd3.php" class="price">$109.00</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
 <!-- ROW 2 -->
 <div class="cat-center">
   <ul class="box-content">
@@ -175,47 +198,6 @@ include('access.php');
       </div>
     </li>
 
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/8.jpg" alt="8">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="8" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd8.php"> Rich Piana 5% Nutrition Freak Show 180 Capsuls</a>
-            <a href="./products/pd8.php" class="price">$78.90</a>
-          </div>
-        </div>
-      </div>
-    </li>
-
-    <li class="home-card">
-      <div class="box">
-        <div class="slide-img">
-          <img src="./images/9.jpg" alt="9">
-          <div class="index-overlay">
-          <form class="form" action="add2cart.php" method="get">
-          <input type="number" value="1" name="quantity" hidden/>
-          <input type="number" value="9" name="product_id" hidden />
-          <button class="add-btn" type="submit">Add To Cart</button>
-        </form>
-          </div>
-        </div>
-        <div class="detail-box">
-          <div class="type">
-            <a href="./products/pd9.php"> Muscle Builder 90 Capsules </a>
-            <a href="./products/pd9.php" class="price">$77.00</a>
-          </div>
-        </div>
-      </div>
-    </li>
 
 
         <li class="home-card">
