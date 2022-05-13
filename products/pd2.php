@@ -348,7 +348,116 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd15.php" class="product-thumb">
+            <img src="../images/150.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>FSHEIN Cut Out Sports Bra & Leggings</span>
+          <a href="pd15.php">Sports Bra & Leggings</a>
+          <h4>$169.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd16.php" class="product-thumb">
+            <img src="../images/160.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Gym Bunny Seamless Long Sleeve Top</span>
+          <a href="pd16.php">Seamless Long Sleeve Top</a>
+          <h4>$102</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd17.php" class="product-thumb">
+            <img src="../images/170.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Seamless Gym Set Sport Suit Workout Sportswear Yoga Set Gym Clothing Tracksuit High Waist</span>
+          <a href="pd17.php">Sport Suit Workout Sportswear</a>
+          <h4>$129.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
       
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd18.php" class="product-thumb">
+            <img src="../images/180.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Seamless 1/4 Zip - Dark Grey Marl For Men</span>
+          <a href="pd18.php">Regular fit seamless training 1/4 zip</a>
+          <h4>$109</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd19.php" class="product-thumb">
+            <img src="../images/190.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Velocity 1/4 Zip Top - Charcoal Marl For Men</span>
+          <a href="pd19.php">1/4 zip top</a>
+          <h4>$179.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd20.php" class="product-thumb">
+            <img src="../images/201.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Men's Linear Mark Graphic Training 1/4 Zip - Ice Blue</span>
+          <a href="pd20.php">Graphic training 1/4 zip</a>
+          <h4>$200</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
     </div>
   </section>
 

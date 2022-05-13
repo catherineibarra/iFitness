@@ -25,7 +25,7 @@ include('./location.php');
 
   <!-- IMPORT VECTORS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 </head>
 
 <body>
@@ -55,12 +55,12 @@ include('./location.php');
       </li>
     </ul>
   </nav>
-  
+
   <!-- BODY-CONTENT -->
   <!-- Product Details -->
   <section class="section product-detail">
     <div class="details product-container">
-    <div class="left image-container">
+      <div class="left image-container">
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
@@ -73,7 +73,8 @@ include('./location.php');
               <img src="../images/1.2.jpg" id="zoom" alt="" />
             </div>
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -277,7 +278,7 @@ include('./location.php');
         </ul>
       </div>
 
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd10.php" class="product-thumb">
@@ -295,7 +296,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd11.php" class="product-thumb">
@@ -313,7 +314,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
 
       <div class="product-item">
         <div class="overlay">
@@ -332,7 +333,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd13.php" class="product-thumb">
@@ -350,7 +351,7 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd14.php" class="product-thumb">
@@ -368,7 +369,62 @@ include('./location.php');
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd18.php" class="product-thumb">
+            <img src="../images/180.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Seamless 1/4 Zip - Dark Grey Marl For Men</span>
+          <a href="pd18.php">Regular fit seamless training 1/4 zip</a>
+          <h4>$109</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd19.php" class="product-thumb">
+            <img src="../images/190.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Velocity 1/4 Zip Top - Charcoal Marl For Men</span>
+          <a href="pd19.php">1/4 zip top</a>
+          <h4>$179.99</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="pd20.php" class="product-thumb">
+            <img src="../images/201.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MP Men's Linear Mark Graphic Training 1/4 Zip - Ice Blue</span>
+          <a href="pd20.php">Graphic training 1/4 zip</a>
+          <h4>$200</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
@@ -393,48 +449,49 @@ include('./location.php');
 
   <!-- JS Scripts -->
   <script src="./js/index.js"></script>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
 
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
 
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
       }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
-    <script src="./js/zoomsl.min.js"></script>
-    <script>
-      $(function() {
-        console.log("hello");
-        $("#zoom").imagezoomsl({
-          zoomrange: [4, 4],
-        });
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
+  <script src="./js/zoomsl.min.js"></script>
+  <script>
+    $(function() {
+      console.log("hello");
+      $("#zoom").imagezoomsl({
+        zoomrange: [4, 4],
       });
+    });
   </script>
 
 </body>
+
 </html>

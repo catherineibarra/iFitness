@@ -9,7 +9,7 @@ include('./location.php');
 <html>
 
 <head>
-  <title> Product Twelve | iFitness </title>
+  <title> Product 13 | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@ include('./location.php');
 
   <!-- IMPORT VECTORS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 </head>
 
 <body>
@@ -55,7 +55,7 @@ include('./location.php');
       </li>
     </ul>
   </nav>
-  
+
   <!-- BODY-CONTENT -->
   <!-- Product Details -->
   <section class="section product-detail">
@@ -64,25 +64,18 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/120.jpg" id="zoom" alt="" />
+              <img src="../images/170.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/121.jpg" id="zoom" alt="" />
+              <img src="../images/171.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/122.png" id="zoom" alt="" />
+              <img src="../images/172.jpg" id="zoom" alt="" />
             </div>
-            <div class="mySlides fade">
-              <img src="../images/123.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/124.jpg" id="zoom" alt="" />
-            </div>
-            <div class="mySlides fade">
-              <img src="../images/125.jpg" id="zoom" alt="" />
-            </div>
+      
           </div>
-          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)"><</a>
+          <a class="prev  fa-solid fa-arrow-left-long" onclick="plusSlides(-1)">
+            << /a>
               <a class="next  fa-solid fa-arrow-right-long" onclick="plusSlides(1)">></a>
         </div>
 
@@ -90,35 +83,37 @@ include('./location.php');
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-          <span class="dot" onclick="currentSlide(6)"></span>
-
         </div>
 
       </div>
       <div class="right">
-        <span>Cardio Equipment</span>
-        <h1>WalkingPad Foldable Treadmill<h1>
-            <div class="price">$1099</div>
+        <span>Seamless Gym Set Sport Suit Workout Sportswear Yoga Set Gym Clothing Tracksuit High Waist</span>
+        <h1>Sport Suit Workout Sportswear<h1>
+            <div class="price">$129.99</div>
 
             <form class="form" action="../add2cart.php" method="get">
               <input type="number" value="1" name="quantity" />
-              <input type="number" value="12" name="product_id" hidden />
+              <input type="number" value="17" name="product_id" hidden />
               <button class="addCart" type="submit" style="cursor: pointer;">Add To Cart</button>
             </form>
 
             <h3>Product Detail</h3>
             <p>
-            Conventional treadmills are huge and occupy unnecessary space. 
-            Our WalkingPad Treadmill incorporates a unique dual folding mechanism, the deck and handle can be easily folded up for compact and simple storage. 
-            It is your perfect exercise buddy that allows you to stay healthy under different scenarios.
-
-Learn from the feedback of our previous customers, 
-we redesign the WalkingPad Foldable Treadmill with the capability to serve your running need. We also reshape it by adding a balancing handle and prolonging the deck for a better running experience.
+              Color: Blue<br>
+              Pattern Type: Plain<br>
+              Details: Cut Out, Pocket<br>
+              Type: Leggings<br>
+              Neckline: Scoop Neck<br>
+              Sleeve Length: Sleeveless<br>
+              Fabric: High Stretch<br>
+              Material: Nylon<br>
+              Composition: 74% Nylon, 26% Spandex<br>
+              Care Instructions: Machine wash or professional dry clean<br>
+              Chest pad: Removable Padding<br>
+              Sheer: No<br>
             </p>
       </div>
-      
+
     </div>
   </section>
 
@@ -327,6 +322,24 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
 
       <div class="product-item">
         <div class="overlay">
+          <a href="pd12.php" class="product-thumb">
+            <img src="../images/120.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Cardio Equipment</span>
+          <a href="pd12.php">WalkingPad Foldable Treadmill</a>
+          <h4>$1099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
           <a href="pd13.php" class="product-thumb">
             <img src="../images/130.jpg" alt="" />
           </a>
@@ -360,7 +373,7 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
-      
+
       <div class="product-item">
         <div class="overlay">
           <a href="pd15.php" class="product-thumb">
@@ -397,24 +410,6 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
         </ul>
       </div>
 
-      <div class="product-item">
-        <div class="overlay">
-          <a href="pd17.php" class="product-thumb">
-            <img src="../images/170.jpg" alt="" />
-          </a>
-        </div>
-        <div class="product-info">
-          <span>Seamless Gym Set Sport Suit Workout Sportswear Yoga Set Gym Clothing Tracksuit High Waist</span>
-          <a href="pd17.php">Sport Suit Workout Sportswear</a>
-          <h4>$129.99</h4>
-        </div>
-        <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
-          <li><i class="bx bx-search"></i></li>
-          <li><i class="bx bx-cart"></i></li>
-        </ul>
-      </div>
-      
       <div class="product-item">
         <div class="overlay">
           <a href="pd18.php" class="product-thumb">
@@ -494,48 +489,49 @@ we redesign the WalkingPad Foldable Treadmill with the capability to serve your 
 
   <!-- JS Scripts -->
   <script src="./js/index.js"></script>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
 
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
 
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
       }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
-    <script src="./js/zoomsl.min.js"></script>
-    <script>
-      $(function() {
-        console.log("hello");
-        $("#zoom").imagezoomsl({
-          zoomrange: [4, 4],
-        });
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" crossorigin="anonymous"></script>
+  <script src="./js/zoomsl.min.js"></script>
+  <script>
+    $(function() {
+      console.log("hello");
+      $("#zoom").imagezoomsl({
+        zoomrange: [4, 4],
       });
+    });
   </script>
 
 </body>
+
 </html>
