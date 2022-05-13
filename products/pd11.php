@@ -64,10 +64,10 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/110.jpg" id="zoom" alt="" />
+              <img src="../images/111.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/111.jpg" id="zoom" alt="" />
+              <img src="../images/110.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
               <img src="../images/112.jpg" id="zoom" alt="" />

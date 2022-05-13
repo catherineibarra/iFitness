@@ -310,7 +310,7 @@ This home gym comes preloaded with a range of attachments including 2 x single h
       <div class="product-item">
         <div class="overlay">
           <a href="pd11.php" class="product-thumb">
-            <img src="../images/110.jpg" alt="" />
+            <img src="../images/111.jpg" alt="" />
           </a>
         </div>
         <div class="product-info">
