@@ -166,7 +166,7 @@ include('access.php');
               </div>
               <div class="detail-box">
                 <div class="type">
-                  <a href="./products/pd15.php"> SHEIN Cut Out Sports Bra and Leggings </a>
+                  <a href="./products/pd15.php">Sports Bra and Leggings </a>
                   <a href="./products/pd15.php" class="price">$169.99</a>
                 </div>
               </div>
@@ -214,7 +214,7 @@ include('access.php');
               </div>
               <div class="detail-box">
                 <div class="type">
-                  <a href="./products/pd16.php">Gym Seamless Long Sleeve Top</a>
+                  <a href="./products/pd16.php">Gym Long Sleeve Top</a>
                   <a href="./products/pd16.php" class="price">$102</a>
                 </div>
               </div>
@@ -285,7 +285,7 @@ include('access.php');
           </li>
         </ul>
         <!--pages-->
-        <a href="shop.php">Page 1</a>
+        <a href="shop.php">Go back to page 1</a>
       </div>
 
     </section>
