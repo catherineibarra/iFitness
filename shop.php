@@ -258,6 +258,28 @@ include('access.php');
             </div>
           </div>
         </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/102.jpg" alt="9">
+              <div class="index-overlay">
+              <form class="form" action="add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" hidden/>
+              <input type="number" value="9" name="product_id" hidden />
+              <button class="add-btn" type="submit">Add To Cart</button>
+            </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd10.php"> Strength Trainer</a>
+                <a href="./products/pd10.php" class="price">$2037.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
       </ul>
     </div>
   </section>
