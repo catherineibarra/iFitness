@@ -285,7 +285,9 @@ include('access.php');
           </li>
         </ul>
         <!--pages-->
-        <a href="shop3.php">-> page 3</a>
+        <a href="shop.php">page 1 | &nbsp</a>
+        <a href="shop2.php">page 2 |  &nbsp</a>
+        <a href="shop3.php">page 3  &nbsp</a> 
       </div>
 
     </section>
