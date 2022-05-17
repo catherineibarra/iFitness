@@ -396,6 +396,12 @@ Spend 30 minutes pretending to row along your local river.<br>
     </div>
   </section>
 
+  <div class="center py-4">
+          <a href = "#">
+              <input type="submit" value="Top" name="submit" class="btn btn-secondary" />
+            </a>
+          </div>
+
   <!-- FOOTER -->
   <footer>
     <ul>

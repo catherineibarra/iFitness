@@ -382,6 +382,12 @@ Portable & Compact: The portable elliptical machine is equipped with 2 wheels an
     </div>
   </section>
 
+  <div class="center py-4">
+          <a href = "#">
+              <input type="submit" value="Top" name="submit" class="btn btn-secondary" />
+            </a>
+          </div>
+
   <!-- FOOTER -->
   <footer>
     <ul>
