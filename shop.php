@@ -55,7 +55,7 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
-  <h1 class="center py-3">Protein Powder</h1>
+  <h1 class="center py-3">Fitness Supplements</h1>
   <section class="section category">
 
     <!-- ROW 1 -->
