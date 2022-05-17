@@ -128,19 +128,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/130.jpg" alt="13">
+              <img src="./images/162.jpg" alt="16">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="13" name="product_id" hidden />
+                  <input type="number" value="16" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
-                <a href="./products/pd13.php" class="price">$24.97</a>
+                <a href="./products/pd16.php">Gym Long Sleeve Top</a>
+                <a href="./products/pd16.php" class="price">$102</a>
               </div>
             </div>
           </div>
@@ -260,19 +260,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/162.jpg" alt="16">
+              <img src="./images/130.jpg" alt="13">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="16" name="product_id" hidden />
+                  <input type="number" value="13" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd16.php">Gym Long Sleeve Top</a>
-                <a href="./products/pd16.php" class="price">$102</a>
+                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
+                <a href="./products/pd13.php" class="price">$24.97</a>
               </div>
             </div>
           </div>
