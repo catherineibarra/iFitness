@@ -64,16 +64,16 @@ include('./location.php');
         <div class="slideshow-container">
           <div class="main">
             <div class="mySlides fade">
-              <img src="../images/180.jpg" id="zoom" alt="" />
+              <img src="../images/181.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/181.jpg" id="zoom" alt="" />
+              <img src="../images/183.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
               <img src="../images/182.jpg" id="zoom" alt="" />
             </div>
             <div class="mySlides fade">
-              <img src="../images/183.jpg" id="zoom" alt="" />
+              <img src="../images/180.jpg" id="zoom" alt="" />
             </div>
 
           </div>
@@ -179,7 +179,7 @@ include('./location.php');
       <div class="product-item">
         <div class="overlay">
           <a href="pd18.php" class="product-thumb">
-            <img src="../images/180.jpg" alt="" />
+            <img src="../images/181.jpg" alt="" />
           </a>
         </div>
         <div class="product-info">

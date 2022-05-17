@@ -123,32 +123,6 @@ include('access.php');
             </div>
           </div>
         </li>
-      </ul>
-    </div>
-
-    <!-- ROW 2 -->
-    <div class="cat-center">
-      <ul class="box-content">
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/4.1.jpg" alt="4">
-              <div class="index-overlay">
-              <form class="form" action="add2cart.php" method="get">
-              <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="4" name="product_id" hidden />
-              <button class="add-btn" type="submit">Add To Cart</button>
-            </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
-                <a href="./products/pd4.php" class="price">$59.99</a>
-              </div>
-            </div>
-          </div>
-        </li>
 
         <li class="home-card">
           <div class="box">
@@ -192,11 +166,33 @@ include('access.php');
           </div>
         </li>
       </ul>
+
     </div>
 
-    <!-- ROW 3 -->
+    <!-- ROW 2 -->
     <div class="cat-center">
       <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/4.1.jpg" alt="4">
+              <div class="index-overlay">
+              <form class="form" action="add2cart.php" method="get">
+              <input type="number" value="1" name="quantity" hidden/>
+              <input type="number" value="4" name="product_id" hidden />
+              <button class="add-btn" type="submit">Add To Cart</button>
+            </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd4.php"> Scream Supps Pinhead Intense Pre Workout </a>
+                <a href="./products/pd4.php" class="price">$59.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
@@ -280,6 +276,13 @@ include('access.php');
             </div>
           </div>
         </li>
+        
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="cat-center">
+      <ul class="box-content">
+        
   </section>
 
 <!--pages section-->

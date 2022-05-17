@@ -124,12 +124,7 @@ include('access.php');
             </div>
           </div>
         </li>
-      </ul>
-    </div>
 
-    <!-- ROW 2 -->
-    <div class="cat-center">
-      <ul class="box-content">
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
@@ -172,8 +167,13 @@ include('access.php');
           </div>
         </li>
 
+      </ul>
+    </div>
 
-        <li class="home-card">
+    <!-- ROW 2 -->
+    <div class="cat-center">
+      <ul class="box-content">
+      <li class="home-card">
           <div class="box">
             <div class="slide-img">
               <img src="./images/260.jpg" alt="26">
@@ -193,12 +193,7 @@ include('access.php');
             </div>
           </div>
         </li>
-      </ul>
-    </div>
 
-    <!-- ROW 3 -->
-    <div class="cat-center">
-      <ul class="box-content">
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
