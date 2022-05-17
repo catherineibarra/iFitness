@@ -57,8 +57,8 @@ include('information.php');
   <!-- BODY-CONTENT -->
   <div class="center">
     <div class="login-form">
-      <h1>Welcome, <?= $_SESSION["name"] ?>!</h1>
-      <h2><i class="fa-solid fa-user-circle"></i>&nbsp;User Profile<h2>
+      <h1 class="py-1">Welcome, <?= $_SESSION["name"] ?>!</h1>
+      <h2 class ="py-1"><i class="fa-solid fa-user-circle"></i>&nbsp;User Profile<h2>
           <p>
           </p>
           <form action="update.php" method="POST">

@@ -55,261 +55,263 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
+  <h1 class="center py-3">Fitness Equipment</h1>
   <section class="section category">
-    <!-- BODY-CONTENT -->
-    <section class="section category">
 
-      <!-- ROW 1 -->
-      <div class="cat-center">
-        <ul class="box-content">
+    <!-- ROW 1 -->
+    <div class="cat-center">
+      <ul class="box-content">
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/111.jpg" alt="11">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="11" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
-                  <a href="./products/pd11.php" class="price">$69.99</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/120.jpg" alt="12">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="12" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
-                  <a href="./products/pd12.php" class="price">$1099</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/102.png" alt="10">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="10" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
-                  <a href="./products/pd10.php" class="price">$2037.00</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- ROW 2 -->
-      <div class="cat-center">
-        <ul class="box-content">
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/130.jpg" alt="13">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="13" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
-                  <a href="./products/pd13.php" class="price">$24.97</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/150.jpg" alt="15">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="15" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd15.php">Sports Suits For Women</a>
-                  <a href="./products/pd15.php" class="price">$169.99</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/170.jpg" alt="17">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="17" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd17.php"> Sport Suit Workout Sportswear</a>
-                  <a href="./products/pd17.php" class="price">$129.99</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- ROW 3 -->
-      <div class="cat-center">
-        <ul class="box-content">
         <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/162.jpg" alt="16">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="16" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd16.php">Gym Long Sleeve Top</a>
-                  <a href="./products/pd16.php" class="price">$102</a>
-                </div>
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/111.jpg" alt="11">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="11" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
+                <a href="./products/pd11.php" class="price">$69.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/180.jpg" alt="18">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="18" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd18.php"> MP Seamless 1/4 Zip - Dark Grey Marl For Men</a>
-                  <a href="./products/pd18.php" class="price">$109</a>
-                </div>
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/120.jpg" alt="12">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="12" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
+                <a href="./products/pd12.php" class="price">$1099</a>
+              </div>
+            </div>
+          </div>
+        </li>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/190.jpg" alt="19">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="19" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd19.php">MP Velocity 1/4 Zip Top - Charcoal Marl For Men </a>
-                  <a href="./products/pd19.php" class="price">$179.99</a>
-                </div>
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/102.png" alt="13">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="13" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
+                <a href="./products/pd10.php" class="price">$2037.00</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/201.jpg" alt="20">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="20" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd20.php">MP Men's Linear Mark Graphic Training 1/4 Zip - Ice Blue</a>
-                  <a href="./products/pd20.php" class="price">$200</a>
-                </div>
+    <!-- ROW 2 -->
+    <div class="cat-center">
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/130.jpg" alt="14">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="14" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
-        </ul>
-        <!--pages-->
-        <a href="shop.php">page 1 | &nbsp</a>
-        <a href="shop2.php">page 2 |  &nbsp</a>
-        <a href="shop3.php">page 3  &nbsp</a> 
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
+                <a href="./products/pd13.php" class="price">$24.97</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/150.jpg" alt="15">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="15" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd15.php">Sports Suits For Women</a>
+                <a href="./products/pd15.php" class="price">$169.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/162.jpg" alt="16">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="16" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd16.php">Gym Long Sleeve Top</a>
+                <a href="./products/pd16.php" class="price">$102</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="cat-center">
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/170.jpg" alt="17">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="17" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd17.php"> Sport Suit Workout Sportswear</a>
+                <a href="./products/pd17.php" class="price">$129.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/180.jpg" alt="18">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="18" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd18.php"> MP Seamless 1/4 Zip - Dark Grey Marl For Men</a>
+                <a href="./products/pd18.php" class="price">$109</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/190.jpg" alt="19">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="19" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd19.php">MP Velocity 1/4 Zip Top - Charcoal Marl For Men </a>
+                <a href="./products/pd19.php" class="price">$179.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/201.jpg" alt="20">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="20" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd20.php">MP Men's Linear Mark Graphic Training 1/4 Zip - Ice Blue</a>
+                <a href="./products/pd20.php" class="price">$200</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!--pages section-->
+  <div class="center py-3">
+    <!--pages-->
+    <a href="shop.php">Page 1 | &nbsp</a>
+    <a href="shop2.php">Page 2 | &nbsp</a>
+    <a href="shop3.php">Page 3 &nbsp</a>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <div class="social">
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
-    </section>
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
-    <!-- FOOTER -->
-    <footer>
-      <ul>
-        <div class="social">
-          <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-
-        <li>&copy; 2022 iFitness. All Rights Reserved.</li>
-
-        <div class="navbar">
-          <li><a href="not-found.html">About Us </a></li>
-          <li><a href="not-found.html">Terms and Policy</a></li>
-        </div>
-      </ul>
-    </footer>
+      <div class="navbar">
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
+      </div>
+    </ul>
+  </footer>
 
 </body>
 

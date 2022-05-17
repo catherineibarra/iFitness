@@ -55,6 +55,7 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
+  <h1 class="center py-3">Protein Powder</h1>
   <section class="section category">
 
     <!-- ROW 1 -->
@@ -262,11 +263,11 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/140.jpg" alt="14">
+              <img src="./images/140.jpg" alt="10">
               <div class="index-overlay">
               <form class="form" action="add2cart.php" method="get">
               <input type="number" value="1" name="quantity" hidden/>
-              <input type="number" value="14" name="product_id" hidden />
+              <input type="number" value="10" name="product_id" hidden />
               <button class="add-btn" type="submit">Add To Cart</button>
             </form>
               </div>
@@ -279,14 +280,16 @@ include('access.php');
             </div>
           </div>
         </li>
-
-      </ul>
-      <!--pages-->
-      <a href="shop.php">page 1 | &nbsp</a>
-      <a href="shop2.php">page 2 |  &nbsp</a>
-      <a href="shop3.php">page 3  &nbsp</a> 
-    </div>
   </section>
+
+<!--pages section-->
+  <div class="center py-3">
+    <!--pages-->
+    <a href="shop.php">Page 1 | &nbsp</a>
+    <a href="shop2.php">Page 2 |  &nbsp</a>
+    <a href="shop3.php">Page 3  &nbsp</a> 
+  </div>
+
 
 
   <!-- FOOTER -->

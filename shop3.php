@@ -55,261 +55,263 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
+  <h1 class="center py-3">Fitness Equipment</h1>
   <section class="section category">
-    <!-- BODY-CONTENT -->
-    <section class="section category">
 
-      <!-- ROW 1 -->
-      <div class="cat-center">
-        <ul class="box-content">
+    <!-- ROW 1 -->
+    <div class="cat-center">
+      <ul class="box-content">
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/210.jpg" alt="21">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="21" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd21.php"> Rockit Dumbbell Rack</a>
-                  <a href="./products/pd21.php" class="price">$702</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/220.jpg" alt="22">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="22" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd22.php">Home Gym Power Tower Fitness Workout Equipment Height Adjustable Chin Pull Up Bar Dip Station Weight Bench</a>
-                  <a href="./products/pd22.php" class="price">$319.97</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/230.jpg" alt="23">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="23" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd23.php">Muliti Gym 3 Station Jx930 158LBS (72KG) Stack Weights JX Fitness Home GYM</a>
-                  <a href="./products/pd23.php" class="price">$1299</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- ROW 2 -->
-      <div class="cat-center">
-        <ul class="box-content">
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/240.jpg" alt="24">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="24" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd24.php">Gym Weight Training Exercise Equipment Strength Machine</a>
-                  <a href="./products/pd24.php" class="price">$369.99</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/250.jpg" alt="25">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="25" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd25.php">Genki Magnetic Cross Trainer Elliptical Trainer Machine Home Gym Equipment with LED Display</a>
-                  <a href="./products/pd25.php" class="price">$39.88</a>
-                </div>
-              </div>
-            </div>
-          </li>
-
-
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/260.jpg" alt="26">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="26" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd26.php">Genki Exercise Bike Spin Stationary Shock Absorbing Home Gym Fitness Equipment Adjustable Magnetic Resistance</a>
-                  <a href="./products/pd26.php" class="price">$379.97</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- ROW 3 -->
-      <div class="cat-center">
-        <ul class="box-content">
         <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/270.jpg" alt="27">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="27" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd27.php">7-In-1 Weight Bench Multi-Function Power Station Fitness Gym Equipment</a>
-                  <a href="./products/pd27.php" class="price">$150.30</a>
-                </div>
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/210.jpg" alt="21">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="21" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd21.php"> Rockit Dumbbell Rack</a>
+                <a href="./products/pd21.php" class="price">$702</a>
+              </div>
+            </div>
+          </div>
+        </li>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/280.jpg" alt="28">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="28" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd28.php">Centra Magnetic Rowing Machine 8 Level Resistance Exercise Fitness Home Gym</a>
-                  <a href="./products/pd28.php" class="price">$420</a>
-                </div>
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/220.jpg" alt="22">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="22" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd22.php">Home Gym Power Tower Fitness Workout Equipment Height Adjustable Chin Pull Up Bar Dip Station Weight Bench</a>
+                <a href="./products/pd22.php" class="price">$319.97</a>
+              </div>
+            </div>
+          </div>
+        </li>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/290.jpg" alt="29">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="29" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd29.php">Push Up Bracket</a>
-                  <a href="./products/pd29.php" class="price">$35</a>
-                </div>
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/230.jpg" alt="23">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="23" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd23.php">Muliti Gym 3 Station Jx930 158LBS (72KG) Stack Weights JX Fitness Home GYM</a>
+                <a href="./products/pd23.php" class="price">$1299</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-          <li class="home-card">
-            <div class="box">
-              <div class="slide-img">
-                <img src="./images/300.jpg" alt="30">
-                <div class="index-overlay">
-                  <form class="form" action="add2cart.php" method="get">
-                    <input type="number" value="1" name="quantity" hidden />
-                    <input type="number" value="30" name="product_id" hidden />
-                    <button class="add-btn" type="submit">Add To Cart</button>
-                  </form>
-                </div>
-              </div>
-              <div class="detail-box">
-                <div class="type">
-                  <a href="./products/pd30.php">Wall Mounted Pull Up Multi Function Home Gym Exercise Fitness Indoor Exercise Equipment Gym House Fitness US STORE</a>
-                  <a href="./products/pd30.php" class="price">$756.99</a>
-                </div>
+    <!-- ROW 2 -->
+    <div class="cat-center">
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/240.jpg" alt="24">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="24" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
               </div>
             </div>
-          </li>
-        </ul>
-        <!--pages-->
-        <a href="shop.php">page 1 | &nbsp</a>
-        <a href="shop2.php">page 2 |  &nbsp</a>
-        <a href="shop3.php">page 3  &nbsp</a>  
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd24.php">Gym Weight Training Exercise Equipment Strength Machine</a>
+                <a href="./products/pd24.php" class="price">$369.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/250.jpg" alt="25">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="25" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd25.php">Genki Magnetic Cross Trainer Elliptical Trainer Machine Home Gym Equipment with LED Display</a>
+                <a href="./products/pd25.php" class="price">$39.88</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/260.jpg" alt="26">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="26" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd26.php">Genki Exercise Bike Spin Stationary Shock Absorbing Home Gym Fitness Equipment Adjustable Magnetic Resistance</a>
+                <a href="./products/pd26.php" class="price">$379.97</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="cat-center">
+      <ul class="box-content">
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/270.jpg" alt="27">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="27" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd27.php">7-In-1 Weight Bench Multi-Function Power Station Fitness Gym Equipment</a>
+                <a href="./products/pd27.php" class="price">$150.30</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/280.jpg" alt="28">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="28" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd28.php">Centra Magnetic Rowing Machine 8 Level Resistance Exercise Fitness Home Gym</a>
+                <a href="./products/pd28.php" class="price">$420</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/290.jpg" alt="29">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="29" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd29.php">Push Up Bracket</a>
+                <a href="./products/pd29.php" class="price">$35</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/300.jpg" alt="30">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="30" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd30.php">Wall Mounted Pull Up Multi Function Home Gym Exercise Fitness Indoor Exercise Equipment Gym House Fitness US STORE</a>
+                <a href="./products/pd30.php" class="price">$756.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+<!--pages section-->
+  <div class="center py-3">
+    <!--pages-->
+    <a href="shop.php">Page 1 | &nbsp</a>
+    <a href="shop2.php">Page 2 | &nbsp</a>
+    <a href="shop3.php">Page 3 &nbsp</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <div class="social">
+        <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
 
-    </section>
+      <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
-    <!-- FOOTER -->
-    <footer>
-      <ul>
-        <div class="social">
-          <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="not-found.html"><i class="fab fa-twitter fa-2x"></i></a>
-        </div>
-
-        <li>&copy; 2022 iFitness. All Rights Reserved.</li>
-
-        <div class="navbar">
-          <li><a href="not-found.html">About Us </a></li>
-          <li><a href="not-found.html">Terms and Policy</a></li>
-        </div>
-      </ul>
-    </footer>
+      <div class="navbar">
+        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="not-found.html">Terms and Policy</a></li>
+      </div>
+    </ul>
+  </footer>
 
 </body>
 
