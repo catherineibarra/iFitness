@@ -274,14 +274,14 @@ include('./location.php');
       
       <div class="product-item">
         <div class="overlay">
-          <a href="pd10.php" class="product-thumb">
-            <img src="../images/102.png" alt="" />
+          <a href="pd14.php" class="product-thumb">
+            <img src="../images/140.jpg" alt="" />
           </a>
         </div>
         <div class="product-info">
-          <span>Strength Trainer</span>
-          <a href="pd10.php">Two Person Station Multi Gym/Station With Smith Machine</a>
-          <h4>$2037</h4>
+          <span>Fat Burner</span>
+          <a href="pd14.php">EHP Labs OxyShred Thermogenic</a>
+          <h4>$79.89</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
