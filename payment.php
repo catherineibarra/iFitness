@@ -36,6 +36,7 @@ include('access.php');
         <li><a href="shop.php">Shop</a></li>
 
         <li><a href="cart.php">My Cart</a></li>
+        <li><a href="order.php">My Order</a></li>
         <?php if ($isLoggedIn) : ?>
           <li><a href="?profile=profile">My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>
@@ -61,7 +62,7 @@ include('access.php');
       <p>
         <b>Please enter your payment details here </b>
       </p>
-      <form action="payment sucess.php" method="POST">
+      <form action="payment_sucess.php" method="POST">
         <div class="form-control">
           <label or="NameOnCard">Name on card</label><br>
           <input type="text" placeholder="First name" name="firstname" id="firstname" pattern="[A-Za-z ]+" required />
@@ -85,7 +86,7 @@ include('access.php');
           <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Master-Card-icon.png" style="width:10%">
         </div>
         <?php 
-        $total = $_POST['totalprice'];
+        $total = $_GET['totalprice'];
         echo "<b>Total:</b> $",$total;
         ?> 
         <p>
@@ -122,6 +123,8 @@ include('access.php');
 
         <div>
           <br>
+          <input type="hidden"  name="total" value='<?php echo  $_GET['totalprice'] ?>' />
+          <input type="hidden"  name="payment" value='payment' />
           <input type="submit" value="Pay now" name="submit" class="btn btn-secondary" />
           <?php echo $total_price ?>
         </div>

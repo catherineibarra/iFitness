@@ -36,6 +36,7 @@ include('access.php');
         <li><a href="shop.php">Shop</a></li>
 
         <li><a href="cart.php">My Cart</a></li>
+        <li><a href="order.php">My Order</a></li>
         <?php if ($isLoggedIn) : ?>
           <li><a href="?profile=profile">My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>
