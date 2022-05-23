@@ -76,7 +76,7 @@ $cart_results = mysqli_query($conn, $cart_query);
           <th>Price</th>
           <th>Quantity</th>
           <th>Total Price</th>
-          <th>Action</th>
+         
         </thead>
         <?php
 
