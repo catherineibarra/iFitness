@@ -72,9 +72,9 @@ $cart_results = mysqli_query($conn, $cart_query);
     ?>
       <table>
         <thead>
-          <th>NUmber</th>
-          <th>first name</th>
-          <th>card number</th>
+          <th>Order Number</th>
+          <th>Name</th>
+          <th>Card number</th>
           <th>address</th>
           <th>Total Price</th>
           <th>Action</th>
