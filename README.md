@@ -6,7 +6,7 @@ Develop an e-commerce website for “iFitness” fitness products that will enab
 * Jameson Yeo
 * Alan Liang
 * Cindy Chen
-* Chenduo Ouyang=
+* Chenduo Ouyang
 
 ## Programming Language
 * PHP
