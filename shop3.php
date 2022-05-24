@@ -7,7 +7,7 @@ include('access.php');
 <html>
 
 <head>
-  <title> Shop | iFitness </title>
+  <title> Shop 3 | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +36,7 @@ include('access.php');
         <li><a href="shop.php">Shop</a></li>
 
         <li><a href="cart.php">My Cart</a></li>
+        <li><a href="order.php">My Order</a></li>
         <?php if ($isLoggedIn) : ?>
           <li><a href="?profile=profile">My Account</a></li>
           <li><a href="?logout=logout">Logout</a></li>
@@ -55,7 +56,7 @@ include('access.php');
   </nav>
 
   <!-- BODY-CONTENT -->
-  <h1 class="center py-3">Fitness Equipment</h1>
+  <h1 class="center py-3">Fitness Equipments & Gym Clothes</h1>
   <section class="section category">
 
     <!-- ROW 1 -->
@@ -65,19 +66,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/210.jpg" alt="21">
+              <img src="./images/111.jpg" alt="11">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="21" name="product_id" hidden />
+                  <input type="number" value="11" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd21.php"> Rockit Dumbbell Rack</a>
-                <a href="./products/pd21.php" class="price">$702</a>
+                <a href="./products/pd11.php"> Fusion Push-up Workout Set</a>
+                <a href="./products/pd11.php" class="price">$69.99</a>
               </div>
             </div>
           </div>
@@ -86,19 +87,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/220.jpg" alt="22">
+              <img src="./images/120.jpg" alt="12">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="22" name="product_id" hidden />
+                  <input type="number" value="12" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd22.php">Home Gym Power Tower Fitness Workout Equipment Height Adjustable Chin Pull Up Bar Dip Station Weight Bench</a>
-                <a href="./products/pd22.php" class="price">$319.97</a>
+                <a href="./products/pd12.php"> WalkingPad Foldable Treadmill</a>
+                <a href="./products/pd12.php" class="price">$1099</a>
               </div>
             </div>
           </div>
@@ -107,23 +108,66 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/230.jpg" alt="23">
+              <img src="./images/102.png" alt="13">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="23" name="product_id" hidden />
+                  <input type="number" value="13" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd23.php">Muliti Gym 3 Station Jx930 158LBS (72KG) Stack Weights JX Fitness Home GYM</a>
-                <a href="./products/pd23.php" class="price">$1299</a>
+                <a href="./products/pd10.php"> Two Person Station Multi Gym/Station With Smith Machine</a>
+                <a href="./products/pd10.php" class="price">$2037.00</a>
               </div>
             </div>
           </div>
         </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/162.jpg" alt="16">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="16" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd16.php">Gym Long Sleeve Top</a>
+                <a href="./products/pd16.php" class="price">$102</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="home-card">
+          <div class="box">
+            <div class="slide-img">
+              <img src="./images/150.jpg" alt="15">
+              <div class="index-overlay">
+                <form class="form" action="add2cart.php" method="get">
+                  <input type="number" value="1" name="quantity" hidden />
+                  <input type="number" value="15" name="product_id" hidden />
+                  <button class="add-btn" type="submit">Add To Cart</button>
+                </form>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <a href="./products/pd15.php">Sports Suits For Women</a>
+                <a href="./products/pd15.php" class="price">$169.99</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
       </ul>
     </div>
 
@@ -133,19 +177,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/240.jpg" alt="24">
+              <img src="./images/170.jpg" alt="17">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="24" name="product_id" hidden />
+                  <input type="number" value="17" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd24.php">Gym Weight Training Exercise Equipment Strength Machine</a>
-                <a href="./products/pd24.php" class="price">$369.99</a>
+                <a href="./products/pd17.php"> Sport Suit Workout Sportswear</a>
+                <a href="./products/pd17.php" class="price">$129.99</a>
               </div>
             </div>
           </div>
@@ -154,67 +198,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/250.jpg" alt="25">
+              <img src="./images/181.jpg" alt="18">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="25" name="product_id" hidden />
+                  <input type="number" value="18" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd25.php">Genki Magnetic Cross Trainer Elliptical Trainer Machine Home Gym Equipment with LED Display</a>
-                <a href="./products/pd25.php" class="price">$39.88</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/260.jpg" alt="26">
-              <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="26" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd26.php">Genki Exercise Bike Spin Stationary Shock Absorbing Home Gym Fitness Equipment Adjustable Magnetic Resistance</a>
-                <a href="./products/pd26.php" class="price">$379.97</a>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <!-- ROW 3 -->
-    <div class="cat-center">
-      <ul class="box-content">
-        <li class="home-card">
-          <div class="box">
-            <div class="slide-img">
-              <img src="./images/270.jpg" alt="27">
-              <div class="index-overlay">
-                <form class="form" action="add2cart.php" method="get">
-                  <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="27" name="product_id" hidden />
-                  <button class="add-btn" type="submit">Add To Cart</button>
-                </form>
-              </div>
-            </div>
-            <div class="detail-box">
-              <div class="type">
-                <a href="./products/pd27.php">7-In-1 Weight Bench Multi-Function Power Station Fitness Gym Equipment</a>
-                <a href="./products/pd27.php" class="price">$150.30</a>
+                <a href="./products/pd18.php"> MP Seamless 1/4 Zip - Dark Grey Marl For Men</a>
+                <a href="./products/pd18.php" class="price">$109</a>
               </div>
             </div>
           </div>
@@ -223,19 +219,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/280.jpg" alt="28">
+              <img src="./images/190.jpg" alt="19">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="28" name="product_id" hidden />
+                  <input type="number" value="19" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd28.php">Centra Magnetic Rowing Machine 8 Level Resistance Exercise Fitness Home Gym</a>
-                <a href="./products/pd28.php" class="price">$420</a>
+                <a href="./products/pd19.php">MP Velocity 1/4 Zip Top - Charcoal Marl For Men </a>
+                <a href="./products/pd19.php" class="price">$179.99</a>
               </div>
             </div>
           </div>
@@ -244,19 +240,19 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/290.jpg" alt="29">
+              <img src="./images/201.jpg" alt="20">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="29" name="product_id" hidden />
+                  <input type="number" value="20" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd29.php">Push Up Bracket</a>
-                <a href="./products/pd29.php" class="price">$35</a>
+                <a href="./products/pd20.php">MP Men's Linear Mark Graphic Training 1/4 Zip - Ice Blue</a>
+                <a href="./products/pd20.php" class="price">$200</a>
               </div>
             </div>
           </div>
@@ -265,34 +261,36 @@ include('access.php');
         <li class="home-card">
           <div class="box">
             <div class="slide-img">
-              <img src="./images/300.jpg" alt="30">
+              <img src="./images/130.jpg" alt="13">
               <div class="index-overlay">
                 <form class="form" action="add2cart.php" method="get">
                   <input type="number" value="1" name="quantity" hidden />
-                  <input type="number" value="30" name="product_id" hidden />
+                  <input type="number" value="13" name="product_id" hidden />
                   <button class="add-btn" type="submit">Add To Cart</button>
                 </form>
               </div>
             </div>
             <div class="detail-box">
               <div class="type">
-                <a href="./products/pd30.php">Wall Mounted Pull Up Multi Function Home Gym Exercise Fitness Indoor Exercise Equipment Gym House Fitness US STORE</a>
-                <a href="./products/pd30.php" class="price">$756.99</a>
+                <a href="./products/pd13.php"> Thigh Toner Workout Equipment For Women</a>
+                <a href="./products/pd13.php" class="price">$24.97</a>
               </div>
             </div>
           </div>
         </li>
+
       </ul>
     </div>
   </section>
 
-<!--pages section-->
+  <!--pages section-->
   <div class="center py-3">
     <!--pages-->
     <a href="shop.php">Page 1 | &nbsp</a>
     <a href="shop2.php">Page 2 | &nbsp</a>
     <a href="shop3.php">Page 3 &nbsp</a>
   </div>
+
 
   <!-- FOOTER -->
   <footer>
