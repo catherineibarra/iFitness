@@ -14,7 +14,7 @@ $cart_results = mysqli_query($conn, $cart_query);
 <html>
 
 <head>
-  <title> My Cart | iFitness </title>
+  <title> My Order | iFitness </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA_Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,7 +64,7 @@ $cart_results = mysqli_query($conn, $cart_query);
 
   <!-- BODY-CONTENT -->
   <h1 class="shopping-cart-header center py-3">
-      SHOPPING Order <i class="fa-solid fa-cart-arrow-down"></i>
+      Order History <i class="fa-solid fa-cart-arrow-down"></i>
         </h1>
   <div class="shopping-cast">
     <?php
@@ -74,8 +74,7 @@ $cart_results = mysqli_query($conn, $cart_query);
         <thead>
           <th>Order Number</th>
           <th>Name</th>
-          <th>Card number</th>
-          <th>address</th>
+          <th>Address</th>
           <th>Total Price</th>
           <th>Action</th>
         </thead>
@@ -89,13 +88,13 @@ $cart_results = mysqli_query($conn, $cart_query);
           <tr>
             <td  width="20%" style="white-space: nowrap;"><?php echo $row['num'] ?></td>
             <td width="20%" style=" font-weight: bold;"><?php echo $row['firstname'] ?></td>
-            <td  width="20%" style="white-space: nowrap;">$<?php echo $row['cardnumber'] ?></td>
-            <td  width="20%" style="white-space: nowrap;"><?php echo $row['Address'] ?>|<?php echo $row['city'] ?>|<?php echo $row['Country'] ?>
+            <td  width="20%" style="white-space: nowrap;"><?php echo $row['Address'] ?> <?php echo $row['city'] ?> <?php echo $row['Country'] ?>
             </td>
             <td  width="20%" style="white-space: nowrap;">$<?php echo $row['total'] ?> </td>
             <td  width="20%" style="white-space: nowrap;">
+            <a target='_blank' href="order_detail.php?mainid=<?php echo $row['id'] ?>">Order Details</a>
             <button class=" remove-btn" onclick="location.href='delete_order.php?id=<?php echo $row['id'] ?>';">Remove</button>
-            <a target='_blank' href="order_detail.php?mainid=<?php echo $row['id'] ?>">detail</a>
+            
             </td>
           </tr>
         <?php

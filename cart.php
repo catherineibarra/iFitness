@@ -63,7 +63,7 @@ $cart_results = mysqli_query($conn, $cart_query);
 
   <!-- BODY-CONTENT -->
   <h1 class="shopping-cart-header center py-3">
-      SHOPPING CART <i class="fa-solid fa-cart-arrow-down"></i>
+      Shopping Cart <i class="fa-solid fa-cart-arrow-down"></i>
         </h1>
   <div class="shopping-cast">
     <?php

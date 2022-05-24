@@ -1102,3 +1102,53 @@ PAGE NOT FOUND STYLE*/
   color: black;
   cursor: pointer;
 }
+
+.faq-center {
+  max-width: 700px;
+  margin: auto;
+}
+
+.faq-h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.accordion {
+  background-color: white;
+  color: #7288a2;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion:hover,
+.accordion:focus {
+  cursor: pointer;
+  color: #03b5d2;
+  background-color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  cursor: pointer;
+  color: #03b5d2;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
