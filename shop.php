@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('access.php');
-include('search.php');
+// include('search.php');
 ?>
 
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
