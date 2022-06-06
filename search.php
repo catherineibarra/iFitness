@@ -1,28 +1,118 @@
-// onkey to call method
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<?php
+session_start();
+include('access.php');
+?>
+
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title> Shop | iFitness </title>
+</head>
+
+<body>
+  <!--header bar-->
+  <nav>
+    <ul>
+      <li class="logo"><img src="./images/logo3.png"></li>
+      <div class="navbar">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="shop.php">Shop</a></li>
+
+        <li><a href="cart.php">My Cart</a></li>
+        <?php if ($isLoggedIn) : ?>
+          <li><a href="?profile=profile">My Account</a></li>
+          <li><a href="?logout=logout">Logout</a></li>
+
+        <?php else : ?>
+          <li><a href="login.php">Login</a></li>
+          <li><a href="register.php">Register</a></li>
+
+        <?php endif; ?>
+
+      </div>
+      <li class="search-icon">
+        <form method="GET" action="search.php">
+          <input type="search" name="search" placeholder="Search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </li>
+    </ul>
+  </nav>
 
 
-//script for myfunction()
-<script>
-function myFunction() {
-  // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  //change to cases to search
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    //chance to input to all same cases
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+<?php
+
+$userSearch = $_GET["search"];
+
+if (empty($userSearch)) {
+  echo "<p>Error: Please enter a keyword to search.</p>";
+} else {
+  require_once('../../conf/sdp.inc.php');
+  $conn = @mysqli_connect(
+  $sql_host,
+  $sql_user,
+  $sql_pass,
+  $sql_db
+  );
+
+  if ($conn) {
+    // DATABASE CONNTECTED
+
+    // check if database table exists
+    $validateQuery = "SELECT * FROM products";
+    $tableExists = mysqli_query($conn, $validateQuery);
+
+    if (!$tableExists) {
+      echo "<p>Error: No records of database</p>";
     } else {
-      li[i].style.display = "none";
+      //database table exists
+      $searchQuery = "SELECT * FROM products WHERE name LIKE '%$userSearch%'";
+      $results = mysqli_query($conn, $searchQuery);
+
+      if (!mysqli_num_rows($results)) {
+        echo "No status could be found that matches $userSearch";
+      } else {
+        echo "<div>";
+        while ($row = mysqli_fetch_array($results)) {
+          echo "Product Name: " . $row["name"],
+        "Price: " . $row["price"],
+        "Image:  " . $row["image"];
+        
+        }
+        echo "</div>";
+      }
     }
+  } else {
+    echo "<p>Databse connection failure</p>";
   }
 }
-</script>
+?>
+
+<footer>
+<ul>
+  <div class="social">
+    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+  </div>
+
+  <li>&copy; 2022 iFitness. All Rights Reserved.</li>
+
+  <div class="navbar">
+    <li><a href="#">About Us </a></li>
+    <li><a href="#">Terms and Policy</a></li>
+  </div>
+</ul>
+</footer>
+
+</body>
+
+</html>
