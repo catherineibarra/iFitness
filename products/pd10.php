@@ -423,7 +423,7 @@ This home gym comes preloaded with a range of attachments including 2 x single h
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="aboutus.php">About Us </a></li>
         <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
