@@ -28,7 +28,7 @@ Develop an e-commerce website for “iFitness” fitness products that will enab
 ![Screen Shot 2022-05-19 at 8 07 07 PM](https://user-images.githubusercontent.com/83699439/169244632-c60457ab-4c0d-4230-9ace-a64e5b655060.png)
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/89554075/172370884-2ed8832b-a4f5-4eb3-85e3-3a05071352eb.png)
+![image](https://user-images.githubusercontent.com/89554075/172371607-38a2d611-f649-4bcb-bf8d-98a551c44872.png)
 ![Screen Shot 2022-05-19 at 8 28 37 PM](https://user-images.githubusercontent.com/83699439/169249038-2b6bb15e-7feb-4508-84bf-d06a5a7581c0.png)
 ![Screen Shot 2022-05-19 at 8 30 06 PM](https://user-images.githubusercontent.com/83699439/169249347-a821f51f-90f3-4e2a-bc93-81b77e372b7e.png)
 
