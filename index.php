@@ -58,7 +58,9 @@ include('access.php');
   <!-- BODY-CONTENT -->
   <section class="index-section">
 
-    <img src="./images/draft1.png" width="100%">
+  <div class="container"> 
+<img src="./images/logo.png" width="20%">
+</div> 
 
     <h1 class="feat-h1"> FEATURED PRODUCTS </h1>
 
