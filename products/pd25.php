@@ -401,7 +401,7 @@ Portable & Compact: The portable elliptical machine is equipped with 2 wheels an
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="not-found.html">About Us </a></li>
+        <li><a href="aboutus.php">About Us </a></li>
         <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
