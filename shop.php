@@ -48,12 +48,10 @@ include('access.php');
 
         <?php endif; ?>
 
-      </div>
+        </div>
       <li class="search-icon">
-      <form method="GET" action="search.php">
-          <input type="search" name="search" placeholder="Search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+        <input type="search" placeholder="Search">
+        <button type="submit"><i class="fa fa-search"></i></button>
       </li>
     </ul>
   </nav>
