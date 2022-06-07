@@ -59,8 +59,19 @@ include('access.php');
   <section class="index-section">
 
   <div class="container"> 
-<img src="./images/logo.png" width="20%">
+
+<video width="1020" height="340" controls="controls">
+   <source src="images/logo1.mp4" type="video/mp4" />
+   <source src="logo1.mp4" type="video/logo1mp4" />
+   <source src="images/logo1.mp4" type="video/mp4" />
+   <object data="images/logo1.mp4" width="1020" height="340">
+   <embed src="images/logo1.mp4" width="1020" height="340" />
+   </object>
+   </video>
+
 </div> 
+
+
 
     <h1 class="feat-h1"> FEATURED PRODUCTS </h1>
 
