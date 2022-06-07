@@ -115,8 +115,8 @@ include('information.php');
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="abousus.php">About Us </a></li>
-        <li><a href="not-found.html">Terms and Policy</a></li>
+        <li><a href="aboutus.php">About Us </a></li>
+        <li><a href="faq.php"> FAQ </a></li>
       </div>
     </ul>
   </footer>

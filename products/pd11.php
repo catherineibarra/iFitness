@@ -411,8 +411,8 @@ For more great Fusion Motion exercise equipment, be sure to check out our store 
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-        <li><a href="aboutus.php">About Us </a></li>
-        <li><a href="not-found.html">Terms and Policy</a></li>
+        <li><a href="../aboutus.php">About Us </a></li>
+        <li><a href="../faq.php"> FAQ </a></li>
       </div>
     </ul>
   </footer>

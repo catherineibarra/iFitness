@@ -132,7 +132,7 @@ include('registerprocess.php');
 
       <div class="navbar">
         <li><a href="aboutus.php">About Us </a></li>
-        <li><a href="not-found.html">Terms and Policy</a></li>
+        <li><a href="faq.php"> FAQ </a></li>
       </div>
     </ul>
   </footer>

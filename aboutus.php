@@ -56,39 +56,49 @@ include('access.php');
 
   <style>
     .aboutus-center {
-  max-width:700px;
-  margin:auto;
-}
-  </style>  <!-- BODY-CONTENT -->
+      max-width: 700px;
+      margin: auto;
+    }
+  </style> <!-- BODY-CONTENT -->
   <div class="aboutus-center">
     <h2 class="faq-h2">About us</h2>
-	<br>
- 	<b><p>iFitness Website</p></b>
+    <br>
+    <b>
+      <p>iFitness Website</p>
+    </b>
     <p>Develop an e-commerce website for "iFitness" fitness products that will enable consumers to purchase the products they desire. The website must incorporate a variey of services, including user registration, search engine, product list, product information, and shopping cart. The website must function properly and be completed by the end of the semster. Through collaboration, team members acquire website building skills.</p>
     <br>
-	<b><p>Team</p></b>
-	<p>- Catherine Ibarra</p>
-	<p>- Jameson Yeo</p>
-	<p>- Alan Liang</p>
-	<p>- Cindy Chen</p>
-	<p>- Chenduo Ouyang</p>
-	<br>
-     <b><p>Programming Language</p></b>
-	<p>- PHP</p>
-	<p>- HTML</p>
-	<p>- CSS</p>
-	<p>- JavaScript</p>
-	<p>- MySQL</p>
-	<br>
-	<b><p>Development Environment</p></b>
-	<p>- phpMyAdmin - we utilize the web-based version of phpMyAdmin to managethe iFitness database. This database is offered by AUT and is accessed using a student account at AUT.</p>
-	<p>- WinSCP and Cyberduck - our website is tested and run both WinSCP (Windows) and Cyberduck (Mac). We may now open the web page in the browser after uploading the website's source code to WinSCP/Cyberduck.</p>
-	<p>- Visual Studio Code - is an incredibly convenient compiler that really aids out development.</p>
-	<p>- GitHub - we utilize GitHub to manager version control with the team. Each member's new code will be submitted toGitHub, and other team members will have access to the current version via the GitHub desktop. Additionally,the team may view the modifications madeto the version by each member.</p>
-
+    <b>
+      <p>Team</p>
+    </b>
+    <p>- Catherine Ibarra</p>
+    <p>- Jameson Yeo</p>
+    <p>- Alan Liang</p>
+    <p>- Cindy Chen</p>
+    <p>- Chenduo Ouyang</p>
+    <br>
+    <b>
+      <p>Programming Language</p>
+    </b>
+    <p>- PHP</p>
+    <p>- HTML</p>
+    <p>- CSS</p>
+    <p>- JavaScript</p>
+    <p>- MySQL</p>
+    <br>
+    <b>
+      <p>Development Environment</p>
+    </b>
+    <p>- phpMyAdmin - we utilize the web-based version of phpMyAdmin to managethe iFitness database. This database is offered by AUT and is accessed using a student account at AUT.</p>
+    <p>- WinSCP and Cyberduck - our website is tested and run both WinSCP (Windows) and Cyberduck (Mac). We may now open the web page in the browser after uploading the website's source code to WinSCP/Cyberduck.</p>
+    <p>- Visual Studio Code - is an incredibly convenient compiler that really aids out development.</p>
+    <p>- GitHub - we utilize GitHub to manager version control with the team. Each member's new code will be submitted toGitHub, and other team members will have access to the current version via the GitHub desktop. Additionally,the team may view the modifications madeto the version by each member.</p>
+    <br>
+    <br>
+  </div>
 
   <!-- FOOTER -->
-  <footer class="nothing">
+  <footer>
     <ul>
       <div class="social">
         <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
@@ -100,8 +110,8 @@ include('access.php');
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
+        <li><a href="aboutus.php">About Us </a></li>
         <li><a href="faq.php"> FAQ </a></li>
-        <li><a href="not-found.html">Terms and Policy</a></li>
       </div>
     </ul>
   </footer>
