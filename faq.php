@@ -129,7 +129,7 @@ include('access.php');
   </script>
 
   <!-- FOOTER -->
-  <footer class="nothing">
+  <footer>
     <ul>
       <div class="social">
         <a href="https://github.com/catherineibarra/iFitness"><i class="fab fa-github fa-2x"></i></a>
@@ -141,7 +141,7 @@ include('access.php');
       <li>&copy; 2022 iFitness. All Rights Reserved.</li>
 
       <div class="navbar">
-      <li><a href="aboutus.php">About Us </a></li>
+        <li><a href="aboutus.php">About Us </a></li>
         <li><a href="faq.php"> FAQ </a></li>
       </div>
     </ul>
