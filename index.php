@@ -164,7 +164,7 @@ include('access.php');
 
       <div class="navbar">
         <li><a href="faq.php"> FAQ </a></li>
-        <li><a href="not-found.html"> About Us </a></li>
+        <li><a href="aboutus.php"> About Us </a></li>
       </div>
     </ul>
   </footer>
